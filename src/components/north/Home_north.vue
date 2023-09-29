@@ -74,17 +74,3 @@ import Header_box_north from '../north/Box_menu_north.vue'
         
   </template>
 
-
-<style scoped>
-.carousel-image-container {
-  position: relative;
-}
-
-.house-icon {
-  position: absolute;
-  top: 10px;  /* กำหนดระยะห่างจากด้านบน */
-  left: 10px; /* กำหนดระยะห่างจากด้านซ้าย */
-  z-index: 2; /* ให้ icon อยู่บนภาพ */
-}
-
-</style>

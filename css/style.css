@@ -1,0 +1,10 @@
+.carousel-image-container {
+    position: relative;
+  }
+  
+  .house-icon {
+    position: absolute;
+    top: 10px;  
+    left: 10px; 
+    z-index: 2; 
+  }
