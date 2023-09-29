@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+
 import homemain from '../views/Home_page.vue'
 import home_north from '../components/north/Home_north.vue'
 import home_north_east from '../components/north_east/Home_north_east.vue'
@@ -8,14 +9,27 @@ import home_south from '../components/south/Home_south.vue'
 
 
 //north
-// product
-import page_product_north from '../components/north/Page_product_n.vue'
+import page_product_north from '../components/north/Page_product_north.vue'
 //place
-import place_01 from '../components/north/Place_n_01.vue'
-import place_02 from '../components/north/Place_n_02.vue'
-import place_03 from '../components/north/Place_n_03.vue'
-import place_04 from '../components/north/Place_n_04.vue'
-import place_05 from '../components/north/Place_n_05.vue'
+import place_01_north from '../components/north/Place_north_01.vue'
+import place_02_north from '../components/north/Place_north_02.vue'
+import place_03_north from '../components/north/Place_north_03.vue'
+import place_04_north from '../components/north/Place_north_04.vue'
+import place_05_north from '../components/north/Place_north_05.vue'
+
+
+
+
+//north_east
+import page_product_north_east from '../components/north_east/Page_product_north_east.vue'
+
+//place
+import place_01_north_east from '../components/north_east/Place_north_east_01.vue'
+import place_02_north_east from '../components/north_east/Place_north_east_02.vue'
+import place_03_north_east from '../components/north_east/Place_north_east_03.vue'
+import place_04_north_east from '../components/north_east/Place_north_east_04.vue'
+import place_05_north_east from '../components/north_east/Place_north_east_05.vue'
+
 
 
 
@@ -23,11 +37,13 @@ import place_05 from '../components/north/Place_n_05.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
+    // homemain
     {
       path: '/',
       name: 'main',
       component: homemain
     },
+    // home แต่ละภาค
     {
       path: '/home_north',
       name: 'home_north',
@@ -53,37 +69,72 @@ const router = createRouter({
       name: 'home_south',
       component: home_south
     },
+
+    // product แต่ละภาค
     {
       path: '/page_product_north',
       name: 'page_product_north',
       component: page_product_north
     },
     {
-      path: '/place_01',
-      name: 'place_01',
-      component: place_01
+      path: '/page_product_north_east',
+      name: 'page_product_north_east',
+      component: page_product_north_east
     },
-    {
-      path: '/place_02',
-      name: 'place_02',
-      component: place_02
-    },
-    {
-      path: '/place_03',
-      name: 'place_03',
-      component: place_03
-    },
-    {
-      path: '/place_04',
-      name: 'place_04',
-      component: place_04
-    },
-    {
-      path: '/place_05',
-      name: 'place_05',
-      component: place_05
-    }
 
+    //place_north
+    {
+      path: '/place_01_north',
+      name: 'place_01_north',
+      component: place_01_north
+    },
+    {
+      path: '/place_02_north',
+      name: 'place_02_north',
+      component: place_02_north
+    },
+    {
+      path: '/place_03_north',
+      name: 'place_03_north',
+      component: place_03_north
+    },
+    {
+      path: '/place_04_north',
+      name: 'place_04_north',
+      component: place_04_north
+    },
+    {
+      path: '/place_05_north',
+      name: 'place_05_north',
+      component: place_05_north
+    },
+
+    // place_north_east
+    {
+      path: '/place_01_north_east',
+      name: 'place_01_north_east',
+      component: place_01_north_east
+    },
+    {
+      path: '/place_02_north_east',
+      name: 'place_02_north_east',
+      component: place_02_north_east
+    },
+    {
+      path: '/place_03_north_east',
+      name: 'place_03_north_east',
+      component: place_03_north_east
+    },
+    {
+      path: '/place_04_north_east',
+      name: 'place_04_north_east',
+      component: place_04_north_east
+    },
+    {
+      path: '/place_05_north_east',
+      name: 'place_05_north_east',
+      component: place_05_north_east
+    }
   ]
 })
 
