@@ -19,7 +19,7 @@
       </div>
 
     <!-- แถบ menu -->
-    <Header_box_north_east></Header_box_north_east>
+    <Header_box_south></Header_box_south>
 
 <!-- แถบ เนื้อหา -->
 
@@ -79,5 +79,5 @@
 </template>
 
 <script setup>
-import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
+import Header_box_south from '../south/Box_menu_south.vue'
 </script>

@@ -19,7 +19,7 @@
       </div>
 
     <!-- แถบ menu -->
-    <Header_box_north_east></Header_box_north_east>
+<Header_box_east></Header_box_east>
 
 <!-- แถบ เนื้อหา -->
 
@@ -42,20 +42,21 @@
   </div>
 
 <!--box รูปขวา-->
-<div class="card mb-3" style="max-width: 1500px;">
-  <div class="row g-0">
-    <div class="col-md-4">
-      <img src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg" class="img-fluid rounded-start" alt="...">
-    </div>
-    <div class="col-md-8">
-      <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-        <button type="button" class="btn btn-primary">Primary</button>
+    <div class="card mb-3" style="max-width: 1500px">
+        <div class="row g-0">
+          
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>  
+                    <button type="button" class="btn btn-primary">Primary</button>   
+                </div>
+        </div>
+        <div class="col-md-4">
+          <img src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg" class="img-fluid rounded-start" alt="...">
       </div>
     </div>
-  </div>
 </div>
 
 <!-- สิ่งของแนะนำขาย -->
@@ -69,7 +70,6 @@
         <div class="card-body">
           <h5 class="card-title">Card title</h5>
           <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <button type="button" class="btn btn-primary">Primary</button>
         </div>
       </div>
     </div>
@@ -79,5 +79,6 @@
 </template>
 
 <script setup>
-import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
+import Header_box_east from '../east/Box_menu_east.vue'
 </script>
+

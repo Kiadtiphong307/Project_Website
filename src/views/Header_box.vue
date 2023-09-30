@@ -14,17 +14,19 @@
       <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
+
               <router-link :to="{ name: 'main' }" class="navbar-brand"> หน้าแรก </router-link>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
+
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <router-link :to="{ name: 'about_page' }" class="nav-link active" aria-current="page" href="#">about</router-link>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <router class="nav-link" href="#">link</router>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
