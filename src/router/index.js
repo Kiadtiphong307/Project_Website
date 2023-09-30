@@ -10,7 +10,6 @@ import home_south from '../components/south/Home_south.vue'
 //about
 import about_page from '../views/About_page.vue'
 
-
 //north
 import page_product_north from '../components/north/Page_product_north.vue'
 //place
@@ -19,7 +18,6 @@ import place_02_north from '../components/north/Place_north_02.vue'
 import place_03_north from '../components/north/Place_north_03.vue'
 import place_04_north from '../components/north/Place_north_04.vue'
 import place_05_north from '../components/north/Place_north_05.vue'
-
 
 //north_east
 import page_product_north_east from '../components/north_east/Page_product_north_east.vue'
@@ -30,9 +28,8 @@ import place_03_north_east from '../components/north_east/Place_north_east_03.vu
 import place_04_north_east from '../components/north_east/Place_north_east_04.vue'
 import place_05_north_east from '../components/north_east/Place_north_east_05.vue'
 
-
 // central
-import page_product_central from'../components/central/Page_product_central.vue'
+import page_product_central from '../components/central/Page_product_central.vue'
 //place
 import place_01_central from '../components/central/Place_central_01.vue'
 import place_02_central from '../components/central/Place_central_02.vue'
@@ -40,9 +37,8 @@ import place_03_central from '../components/central/Place_central_03.vue'
 import place_04_central from '../components/central/Place_central_04.vue'
 import place_05_central from '../components/central/Place_central_05.vue'
 
-
 // east
-import page_product_east from'../components/east/Page_product_east.vue'
+import page_product_east from '../components/east/Page_product_east.vue'
 //place
 import place_01_east from '../components/east/Place_east_01.vue'
 import place_02_east from '../components/east/Place_east_02.vue'
@@ -51,7 +47,7 @@ import place_04_east from '../components/east/Place_east_04.vue'
 import place_05_east from '../components/east/Place_east_05.vue'
 
 // south
-import page_product_south from'../components/south/Page_product_south.vue'
+import page_product_south from '../components/south/Page_product_south.vue'
 
 //place
 import place_01_south from '../components/south/Place_south_01.vue'
@@ -59,9 +55,6 @@ import place_02_south from '../components/south/Place_south_02.vue'
 import place_03_south from '../components/south/Place_south_03.vue'
 import place_04_south from '../components/south/Place_south_04.vue'
 import place_05_south from '../components/south/Place_south_05.vue'
-
-
-
 
 // link home_pag แต่ละทิศ
 const router = createRouter({
@@ -134,8 +127,6 @@ const router = createRouter({
       name: 'page_product_south',
       component: page_product_south
     },
-    
-  
 
     //place_north
     {
@@ -245,7 +236,6 @@ const router = createRouter({
       component: place_05_east
     },
 
-
     //place_south
     {
       path: '/place_01_south',
@@ -271,7 +261,7 @@ const router = createRouter({
       path: '/place_05_south',
       name: 'place_05_south',
       component: place_05_south
-    },
+    }
   ]
 })
 
