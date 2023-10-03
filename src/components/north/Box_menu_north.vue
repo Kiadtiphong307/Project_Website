@@ -15,27 +15,28 @@
       <router-link
         :to="{ name: 'place_01_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >1</router-link
+        >ประตูท่าแพ
+        </router-link
       >
       <router-link
         :to="{ name: 'place_02_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >2</router-link
+        >สวนสนแม่แตง</router-link
       >
       <router-link
         :to="{ name: 'place_03_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >3</router-link
+        >ห้วยกุ๊บกั๊บ</router-link
       >
       <router-link
         :to="{ name: 'place_04_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >4</router-link
+        >วัดเด่นสะหลีศรีเมืองแกน</router-link
       >
       <router-link
         :to="{ name: 'place_05_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >5</router-link
+        >เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</router-link
       >
     </nav>
   </div>

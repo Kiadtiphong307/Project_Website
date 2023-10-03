@@ -9,7 +9,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
       <div class="carousel-item active">
         <div class="carousel-image-container">
           <img
-            src="https://images.wallpaperscraft.com/image/single/girl_maid_anime_1050416_1920x1080.jpg"
+            src="https://i.pinimg.com/736x/1f/d2/85/1fd2858972eae4e02a7f903cefb57fe5.jpg"
             class="d-block w-100"
             alt="..."
           />
@@ -30,8 +30,8 @@ import Header_box_south from '../south/Box_menu_south.vue'
         </div>
 
         <div class="carousel-caption d-none d-md-block">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h5>ภาคใต้</h5>
+          <p>ประตูภาคใต้ ไหว้เสร็จในกรมฯ ชมไร่กาแฟ แลหาดทรายรี ตีกล้วยเล็บมือนาง ขึ้นชื่อเรื่องรังนก</p>
         </div>
       </div>
     </div>
@@ -42,51 +42,167 @@ import Header_box_south from '../south/Box_menu_south.vue'
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1>กิจกรรมที่น่าสนใจ</h1>
+    <h1>สถานที่ท่องเที่ยวที่น่าสนใจของภาคใต้</h1>
     <hr />
     <div class="container_all">
-      <!--box รูปท่างซ้าย-->
+      <!--box1 รูปท่างซ้าย-->
       <div class="card mb-3" style="max-width: 1500px">
         <div class="row g-0">
           <div class="col-md-4">
             <img
-              src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+              src="https://we-offers.com/wp-content/uploads/2021/10/tarzan-adventure-phuket%EF%BB%BF-01-1.jpg"
               class="img-fluid rounded-start"
               alt="..."
             />
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Tarzan Adventure ภูเก็ต</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.
+                ออกกำลังกายกลางเเจ้ง ปีนป่าย ห้อยโหน 'ทาร์ซาน เเอดเวนเจอร์ ภูเก็ต' 
+                (Tarzan Adventure Phuket) ผู้เชี่ยวชาญกิจกรรมซิปไลน์ในภูเก็ต ท้าทายความมันส์กับ 
+                42 ฐาน ซึ่งเเต่ละฐานถูกออกเเบบขึ้นเพื่อสร้างความสนุกสนาน ความตื่นเต้น เร้าใจ 
+                ให้กับผู้เล่นทุกวัยได้อย่างเต็มที่
+                เปิดประสบการณ์ใหม่ๆกับการเล่น ซิปไลน์หลากหลายรูปเเบบไม่เหมือนใคร อาทิเช่น ไต่สะพาน, ปีนตาข่าย, โหนซิปไลน์, 
+                โรยตัว, ไต่เชือก, และสนุกสุดเหวี่ยงกับไฮไลท์ ผ่านด่านอุปสรรคสุดโหด ซุปเปอร์ไคลม์ (Super Climb) ฟลายอิ้ง 
+                สเก็ตบอร์ด (Flying Skateboard) และอืกมากมาย
+                รับอากาศบริสุทธิ์ สัมผัสบรรยากาศป่าโกงกาง ตื่นตากับซีวิวสวยๆบนเเหลมพันวา
+                ปลอดภัย 100% อุปกรณ์มาตราฐานด้วยเทคโนโลยี Coudou Pro มั่นใจตลอดทุกการเคลื่อนไหว
               </p>
               <p class="card-text">
-                <small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small>
+                <small class="text-body-secondary" ><button> <a href="https://we-offers.com/product/tarzan-adventure-phuket/?lang=th">รายละเอียดเพิ่มเติม</a></button></small>
               </p>
             </div>
           </div>
         </div>
       </div>
-      <!--box รูปขวา-->
+      <!--box 2รูปขวา-->
       <div class="card mb-3" style="max-width: 1500px">
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">หมู่เกาะชุมพร</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional
-                content. This content is a little bit longer.
+                เป็นอุทยานแห่งชาติเมื่อปี 2532 แรกเริ่มใช้ชื่ออุทยานแห่งชาติหาดทรายรี
+                 ต่อมาได้รับการประกาศเป็นอุทยานแห่งชาติหมู่เกาะชุมพร เมื่อวันที่ 24 กุมภาพันธ์ 2542 
+                 ครอบคลุมพื้นที่ 198,125 ไร่ ตั้งแต่เกาะจระเข้ในเขตอำเภอปะทิวจดเกาะง่ามใหญ่ เกาะง่ามน้อย
+                  เกาะเสม็ด เกาะมะพร้าว
+                 เกาะมาตรา เกาะทองหลาง เกาะลังกาจิว บริเวณอ่าวทุ่งคาในเขตอำเภอเมือง และหมู่เกาะในเขตอำเภอสวี
+                  อำเภอทุ่งตะโก
               </p>
               <p class="card-text">
-                <small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small>
+                <small class="text-body-secondary"> <a href="https://thai.tourismthailand.org/Attraction/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3"> แสดงข้อมูลเพิ่มเติม</a></small>
               </p>
             </div>
           </div>
           <div class="col-md-4">
             <img
-              src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+              src="https://tatapi.tourismthailand.org/tatfs/Image/custompoi/picture/P03007460_1.jpg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <!--box3 รูปท่างซ้าย-->
+      <div class="card mb-3" style="max-width: 1500px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://www.ticket2attraction.com/media/1283587/surf-97.jpg?width=500&height=500"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">หาดป่าตอง</h5>
+              <p class="card-text">
+                ชายหาดชื่อดังที่ยาวกว่า 3.5 กิโลเมตร หาดที่นักท่องเที่ยวมักนิยมไปเดินเล่นพักผ่อน สนุกสนานกับสีสันยามค่ำคืน
+                 แต่ใครจะรู้เล่าว่าตอนกลางวัน ยามคลื่นลมเป็นใจเราก็สามารถแบกเซิร์ฟไปเจอคลื่นที่หาดป่าตองได้เช่นกัน
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary" ><button> <a href="https://www.ticket2attraction.com/th/blogs/surf-phuket/">รายละเอียดเพิ่มเติม</a></button></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--box 4รูปขวา-->
+      <div class="card mb-3" style="max-width: 1500px">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Rolly Cafe</h5>
+              <p class="card-text">
+                ร้าน Rolly cafe เป็นคาเฟ่สโลบาร์ มีเมล็ดกาแฟให้เลือกหลากหลายที่มา ทั้งของในประเทศและต่างประเทศ
+                 นอกจากกาแฟแล้วยังมีเครื่องดื่มพวกชาต่าง ๆ และมีเค้ก homemade ทำสดใหม่ทุกวัน
+                  เมนูแนะนำคือ iced espresso ใช้เมล็ดเบลนของทางร้าน(เมล็ดต่างประเทศ+เมล็ดไทย)
+                  และ orange cold brew (brazil+ethiopia) สำหรับท่านไหนที่ไม่ทานกาแฟ
+                    แนะนำ Rolly paradise เป็น signature ของร้าน
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"> <a href="https://www.facebook.com/rollyyycafe/"> แสดงข้อมูลเพิ่มเติม</a></small>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-6/378021206_787929146507595_3142067566188781602_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHoKWPork6J8zrmUFXQqKWK8kyfwZq_F3XyTJ_Bmr8XdXcFv6fjt8EoUMgC4t2rxBxUOEXeVkT38pLxG-XPKfzP&_nc_ohc=mjUTFiQUPzEAX-UO15q&_nc_ht=scontent.fbkk8-4.fna&oh=00_AfDq-o89NurSxjUa5ESP0jkUt8KM_npzOvprbgtCavRR6A&oe=652040CA"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+        </div>
+      </div>
+      <!--box5 รูปท่างซ้าย-->
+      <div class="card mb-3" style="max-width: 1500px">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="https://cbtthailand.dasta.or.th/upload-file-api/Resources/RelateAttraction/Images/RAT800198/2.jpeg"
+              class="img-fluid rounded-start"
+              alt="..."
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">พิพิธภัณฑ์หนังตะลุง </h5>
+              <p class="card-text">
+                พิพิธภัณฑ์หนังตะลุงก่อตั้งขึ้นโดย หนังสุชาติ ทรัพย์สิน ศิลปินแห่งชาติ
+                 (สาขาการแสดงพื้นบ้านหนังตะลุง) และนายวาที ทรัพย์สิน ผู้เป็นลูกชาย 
+                 การจัดทำพิพิธภัณฑ์หนังตะลุงเกิดจากแรงบันดาลใจที่นายหนังสุชาติ ทรัพย์สิน
+                  ได้มีโอกาสแสดงหนังตะลุงต่อหน้าพระพักตร์ พระบาทสมเด็จพระเจ้าอยู่หัว
+                  รัชกาลที่ 9 เมื่อปี พ.ศ. 2527 ในคราวนั้นพระบาทสมเด็จพระเจ้าอยู่หัว 
+                  รัชกาลที่ 9 มีรับสั่งว่า “ขอบใจที่รักษาของเก่าไว้ให้ อย่าหวงวิชา ช่วยเผยแพร่ ช่วยถ่ายทอด”
+                 จากพระกระแสรับสั่งในวันนั้น ก่อให้เกิดแรงบันดาลใจของนายหนังสุชาติ 
+                 ทรัพย์สินและครอบครัว ในการจัดทำพิพิธภัณฑ์หนังตะลุง
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary" ><button> <a href="https://communityarchive.sac.or.th/community/SuChartSupsin">รายละเอียดเพิ่มเติม</a></button></small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--box 6รูปขวา-->
+      <div class="card mb-3" style="max-width: 1500px">
+        <div class="row g-0">
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Coming Home Cafe & Seascape</h5>
+              <p class="card-text">
+                #คาเฟ่ฮาลาล ที่บรรยากาศดีมากๆ 
+                ที่นี่เป็นทั้งคาเฟ่และร้านอาหารในหนึ่งเดียว ในส่วนของคาเฟ่ เป็นสไตล์มินิมอลคลีนๆ ถ่ายรูปสวยมาก ช่วงเย็นๆแสงลอดหน้าต่างพอดีเลย 
+              </p>
+              <p class="card-text">
+                <small class="text-body-secondary"> <a href="https://www.facebook.com/Cominghome.phuket"> แสดงข้อมูลเพิ่มเติม</a></small>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <img
+              src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-6/257837445_237948621697263_1581911832597680771_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeEIcDtN9szvAYQ-pLNqWD8SZRjekKrapqllGN6QqtqmqfkdAEeCRegIUZIMtOSt6oz_OtNWrdUWejckVrzRRNYK&_nc_ohc=pyEHl_OYm1sAX9S4Zo5&_nc_ht=scontent.fbkk8-4.fna&oh=00_AfDSz187tIqmlyzMLJzndyg88ZhyIGpNK-XAlkTebqPJlw&oe=651F8922"
               class="img-fluid rounded-start"
               alt="..."
             />

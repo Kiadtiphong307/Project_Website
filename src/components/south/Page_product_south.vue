@@ -1,15 +1,10 @@
-<script setup>
-import Header_box_south from '../south/Box_menu_south.vue'
-</script>
-
 <template>
   <!-- แถบ ภาพ  -->
-
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_cap_jewelry_1054682_1920x1080.jpg"
+          src="https://www.suratthanitourism.com/wp-content/uploads/2019/08/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_06.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -28,10 +23,11 @@ import Header_box_south from '../south/Box_menu_south.vue'
           </svg>
         </router-link>
       </div>
-
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>อุทยานธรรมเขานาในหลวง อ.พนม จ.สุราษฎร์ธานี</h5>
+        <p>อุทยานธรรมชาติที่สวยและงดงามเหมาะแก่การมาเยี่ยมชม
+          ซักครั้ง
+        </p>
       </div>
     </div>
   </div>
@@ -39,13 +35,63 @@ import Header_box_south from '../south/Box_menu_south.vue'
   <!-- แถบ menu -->
   <Header_box_south></Header_box_south>
 
-  <!--กิจกรรมที่น่าสนใจ-->
+  <!-- แถบ เนื้อหา -->
+
+  <!-- box รูปซ้าย -->
   <div class="container">
-    <h1>กิจกรรมที่น่าสนใจ</h1>
+    <div class="card mb-3" style="max-width: 1500px">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <img
+            src="https://s.isanook.com/tr/0/ud/281/1409765/ghf.jpg"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title">อุทยานธรรมเขานาในหลวง อ.พนม จ.สุราษฎร์ธานี</h5>
+            <p class="card-text">
+              อุทยานธรรมเขานาในหลวง เป็นสำนักสงฆ์ที่สร้างขึ้นด้วยพลังศรัทธาของชาวบ้าน 
+              สถานที่แห่งนี้เป็นที่รู้จักจากความวิจิตรของประตูพุทธวดี หรือซุ้มประตูแห่งกาลเวลา 
+              ถือเป็นไฮไลต์อันแสนงดงามยามเมื่อแสงเช้าตกกระทบ ก่อนจะต่อยอดพลังศรัทธา ด้วยการสร้างเจดีย์ร้อยยอดพันองค์ 
+              เจดีย์ลอยฟ้าพุทธศิลาวดี เจดีย์ลอยฟ้าพุทธราชาวดี ทำให้ปัจจุบันสถานที่แห่งนี้เป็นเหมือนสวรรค์บนดิน
+               โดยเฉพาะยามทะเลหมอกที่สวยงามอย่างมาก และเจดีย์แต่ละองค์จะดูคล้ายกับลอยอยู่บนก้อนเมฆ 
+               เป็นภาพอุทยานธรรมลอยฟ้าที่ดูตื่นตา และน่าอัศจรรย์ใจ นักท่องเที่ยวสามารถเดินทางมาชมความมหัศจรรย์ได้ตลอดทั้งปี
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--box รูปขวา-->
+    <div class="card mb-3" style="max-width: 1500px">
+      <div class="row g-0">
+        <div class="col-md-8">
+          <div class="card-body">
+            <p class="card-text">
+              ตามประวัติของพื้นที่บริเวณเขานาในคือ มีกลุ่มชาวบ้านราว 40 คน อพยพจาก อ.ชะอวด จ.นครศรีธรรมราช เข้ามาตั้งรกรากครั้งแรกในปี พ.ศ. 2518 ซึ่งขณะนั้นพื้นที่บริเวณเขานาในอยู่ภายใต้การครอบครองของพรรคคอมมิวนิสต์แห่งประเทศไทย กลุ่มชาวบ้านจึงส่งตัวแทนเข้าเจรจาเพื่อขออยู่อาศัยและบุกเบิกพื้นที่ทำมาหากิน ต่อมาชาวบ้านจากพื้นที่อื่นๆ ทราบข่าวจึงทยอยตามเข้ามาสมทบ ก่อนที่พรรคคอมมิวนิสต์จะยุติบทบาทการสู้รบกับรัฐบาลไทยลงในปี พ.ศ. 2525 
+              ชุมชนจึงได้ขยายตัว มีการก่อตั้งวัด โรงเรียน สถานีอนามัย พัฒนาระบบสาธารณูปโภคขึ้น รวมถึงอุทยานธรรมที่สวยงาม สงบ และร่มรื่นแห่งนี้
+            </p>
+            
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1cUue3D_2rl_1uYCb1eHUdQrp5LspIrMiA&usqp=CAU"
+            class="img-fluid rounded-start"
+            alt="..."
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- สิ่งของแนะนำขาย -->
+    <h1>แนะนำสินค้า</h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col" v-for="index in 10" :key="index">
+      <div class="col" v-for="index in 4" :key="index">
         <div class="card">
           <img
             src="https://media.discordapp.net/attachments/1153766321666932836/1153887346882773063/1.jpg?ex=65178e55&is=65163cd5&hm=3000ed1d1b278ba7d013ff4a926d2caca1902c2b30928485f6b0d1e897429086&=&width=585&height=585"
@@ -58,10 +104,15 @@ import Header_box_south from '../south/Box_menu_south.vue'
               This is a longer card with supporting text below as a natural lead-in to additional
               content. This content is a little bit longer.
             </p>
-            <button type="button" class="btn btn-primary">Primary</button>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365"> ขอบคุณข้อมูลอ้างอิงจาก </a></small></p>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://palanla.com/th/domesticLocation/detail/1560"> ขอบคุณข้อมูลอ้างอิงจาก </a></small></p>
 </template>
+
+<script setup>
+import Header_box_south from '../south/Box_menu_south.vue'
+</script>

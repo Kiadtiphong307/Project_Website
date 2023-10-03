@@ -15,27 +15,27 @@
       <router-link
         :to="{ name: 'place_01_north_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >1</router-link
+        >มอหินขาว </router-link
       >
       <router-link
         :to="{ name: 'place_02_north_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >2</router-link
+        >วนอุทยานภูบ่อบิด </router-link
       >
       <router-link
         :to="{ name: 'place_03_north_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >3</router-link
+        >ผาพญากูปรี </router-link
       >
       <router-link
         :to="{ name: 'place_04_north_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >4</router-link
+        >ชุมชนบ้านปรางค์นคร </router-link
       >
       <router-link
         :to="{ name: 'place_05_north_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >5</router-link
+        >วัดพุทธวนาราม </router-link
       >
     </nav>
   </div>

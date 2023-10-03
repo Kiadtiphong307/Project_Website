@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://mpics.mgronline.com/pics/Images/565000009180202.JPEG"
           class="d-block w-100"
           alt="..."
         />
@@ -24,14 +24,14 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>หอมนสิการ</h5>
+        <p>หอมนสิการ อ.แก่งคอย จ.สระบุรี </p>
       </div>
     </div>
   </div>
 
   <!-- แถบ menu -->
-  <Header_box_north></Header_box_north>
+  <Header_box_central></Header_box_central>
 
   <!-- แถบ เนื้อหา -->
 
@@ -41,20 +41,19 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://mpics.mgronline.com/pics/Images/565000009180205.JPEG"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">หอมนสิการ</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              สถานที่ท่องเที่ยวเชิงวัฒนธรรมรูปแบบใหม่ สร้างขึ้นจากศรัทธา และแรงบันดาลที่มีต่อพุทธศาสนา ภายในตัวอาคารสีขาวบริสุทธิ์ที่ซ่อนตัวอยู่กลางหุบเขา ประกอบด้วยกิจกรรมที่หลากหลาย อาทิ สักการะพระบรมสารีริกธาตุ 18 พระองค์, ชมภาพปักพระบรมโลกนาถ, สัมผัสความงามของหอจัตุรัสอันศักดิ์สิทธิ์
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+           
+      
           </div>
         </div>
       </div>
@@ -65,18 +64,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ยังมีโซนนิทรรศการร่วมสมัยที่บอกเล่าความเป็นมาเป็นไปของพระพุทธเจ้า รวมถึงห้องจัดแสดงงานอาร์ตประเภทต่างๆ ที่แฝงไว้ด้วยปริศนาธรรม ส่วนผู้ที่มาก็จะได้ซึมซับหลักธรรมแบบครบรส ทั้งตาดู หูฟัง สมองคิด และกายปฏิบัติ ถือเป็นธรรมะคอมมูนิตี้แบบครบวงจรอย่างแท้จริง 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+           
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://mpics.mgronline.com/pics/Images/565000009180206.JPEG"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,8 +104,9 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a> </small></p>
 </template>
 
 <script setup>
-import Header_box_north from '../north/Box_menu_north.vue'
+import Header_box_central from '../central/Box_menu_central.vue'
 </script>

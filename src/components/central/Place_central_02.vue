@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://www.unseennewchapters.com/img/phetchaburi-01.838b543e.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,14 +24,14 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>ถ้ำโบ้ </h5>
+        <p>ถ้ำโบ้ อ.เขาย้อย จ.เพชรบุรี </p>
       </div>
     </div>
   </div>
 
   <!-- แถบ menu -->
-  <Header_box_north></Header_box_north>
+  <Header_box_central></Header_box_central>
 
   <!-- แถบ เนื้อหา -->
 
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.unseennewchapters.com/img/phetchaburi-03.2a5dfa85.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">ถ้ำโบ้ </h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              “ถ้ำโบ้” แหล่งท่องเที่ยวที่น่าสนใจ ตั้งอยู่บนเขาอีบิด ทางเข้าถ้ำเป็นโพรงกว้าง ภายในเป็นถ้ำตื้น โถงถ้ำสูงโปร่ง มีหินงอกหินย้อยที่เกิดขึ้นตามธรรมชาติสวยงาม อากาศถ่ายเทเย็นสบาย จากในถ้ำเมื่อมองลอดโพรงออกไปด้านหน้า จะเห็นทิวทัศน์ของ อ.เขาย้อย จ.เพชรบุรี และ อ.ปากท่อ จ.ราชบุรี ในมุมกว้างอย่างสวยงาม ส่วนด้านหลังถ้ำมีลานกว้าง เป็นจุดชมวิวดูทิวต้นตาลที่เป็นสัญลักษณ์ของ จังหวัดเพชรบุรี 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
       </div>
@@ -65,18 +63,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+          
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ยังเป็นจุดชมดวงอาทิตย์ขึ้น และตกที่งดงาม เหมาะกับคนที่อยากได้รูปมุมใหม่ๆ สำหรับนักท่องเที่ยวสายผจญภัยที่อยากพิชิตถ้ำใหม่ใกล้เมืองกรุงเทพนี้ ช่วงเวลาที่เหมาะสมในการเดินชมถ้ำ คือ 05.00 - 17.00 น. (ไม่แนะนำให้เดินทางท่องเที่ยวในช่วงฤดูฝน เนื่องจากทางเดินขึ้นถ้ำมีความลาดชัน และทางเดินภายในถ้ำลื่น อาจเกิดอันตรายหรืออุบัติเหตุได้)
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://f.ptcdn.info/130/073/000/qreblxjeaqierC93qtt-o.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,8 +103,9 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a> </small></p>
 </template>
 
 <script setup>
-import Header_box_north from '../north/Box_menu_north.vue'
+import Header_box_central from '../central/Box_menu_central.vue'
 </script>

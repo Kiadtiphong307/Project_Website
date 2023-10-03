@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://apis.sawasdee.ai/microsite/images/post/ckeditor/image-20230201113511-1.png"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>วัดหงษ์ทอง</h5>
+        <p>วัดหงษ์ทอง อ.บางปะกง จ.ฉะเชิงเทรา </p>
       </div>
     </div>
   </div>
@@ -41,20 +41,20 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://tatapi.tourismthailand.org/tatfs/image/CustomPOI/Picture/P03005929_1.jpeg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">วัดหงษ์ทอง</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              วัดที่สวยงามแห่งหนึ่งในจังหวัดฉะเชิงเทรา ที่ถูกน้ำทะเลกัดเซาะจนพื้นที่ใช้สอยภายในวัดหายไปเกินครึ่ง 
+              ด้วยเหตุนี้ทำให้สิ่งก่อสร้างที่เคยตั้งอยู่ริมทะเล กลายเป็นสิ่งก่อสร้างในทะเลไปโดยปริยาย
+               เราจึงมีโอกาสได้เห็นทั้งโบสถ์กลางน้ำ อาคารในทะเล 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
       </div>
@@ -67,16 +67,16 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              รวมไปถึงพระเอกใหม่ของวัดอย่าง “ซีวอล์ก” หรือสะพานกระจกใส 
+              สะพานแก้วที่ทอดตัวออกไปในท้องทะเล ที่กลายเป็นจุดชมพระอาทิตย์ตกของเมืองแปดริ้ว 
+              และไฮไลต์ที่น่าตื่นใจอย่างมากในช่วงเวลาน้ำขึ้น เพราะถ้ามองผิวเผินจะดูคล้ายกับผู้คนกำลังเดินอยู่บนผิวน้ำ ปัจจุบันพูดได้เต็มปากเลยว่า นี่คือจุดชมพระอาทิตย์ตกทะเลแห่งใหม่ 
+              ที่เต็มไปด้วยความน่าประทับใจของเมืองแปดริ้ว วัดหงษ์ทอง เปิดทุกวัน เวลา 06.00-18.00 น.
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://apis.sawasdee.ai/microsite/images/post/ckeditor/image-20230201113610-4.png"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,6 +107,7 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a></small></p>
 </template>
 
 <script setup>

@@ -9,7 +9,7 @@ import Header_box_north from '../north/Box_menu_north.vue'
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://i.pinimg.com/736x/92/69/3e/92693ead2b7aaf5110a59e3e27cc47db.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -30,8 +30,8 @@ import Header_box_north from '../north/Box_menu_north.vue'
       </div>
 
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>สินค้าภาคเหนือที่น่าสนใจ</h5>
+        <p>สินค้าที่พวกเราคัดสรรค์มาเพื่อคุณ</p>
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ import Header_box_north from '../north/Box_menu_north.vue'
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1>กิจกรรมที่น่าสนใจ</h1>
+    <h1>หมวดหมู่สินค้าOTOPภาคเหนือ</h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">

@@ -15,27 +15,27 @@
       <router-link
         :to="{ name: 'place_01_central' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >1</router-link
+        >หอมนสิการ </router-link
       >
       <router-link
         :to="{ name: 'place_02_central' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >2</router-link
+        >ถ้ำโบ้ </router-link
       >
       <router-link
         :to="{ name: 'place_03_central' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >3</router-link
+        >ภูผาแรด  </router-link
       >
       <router-link
         :to="{ name: 'place_04_central' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >4</router-link
+        >อุโมงค์สามมิติ</router-link
       >
       <router-link
         :to="{ name: 'place_05_central' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >5</router-link
+        >วัดทางสาย </router-link
       >
     </nav>
   </div>

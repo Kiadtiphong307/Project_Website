@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/04/1-768x513.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>วัดทางสาย </h5>
+        <p>วัดทางสาย อ.บางสะพาน จ.ประจวบคีรีขันธ์ </p>
       </div>
     </div>
   </div>
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/04/11-DSC_9601-768x515.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">วัดทางสาย </h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              “พระมหาธาตุเจดีย์ภักดีประกาศ” เป็นเจดีย์ที่ได้รับพระราชทานชื่อจากในหลวงรัชกาลที่ 9 ถือเป็นสถาปัตยกรรมที่น่าเลื่อมใส เนื่องจากเจดีย์แห่งนี้สร้างขึ้นโดยไม่มีการใช้งบจากทางราชการ แต่สร้างขึ้นจากพลังศรัทธาอันยิ่งใหญ่ของมวลชนที่มีต่อพระมหากษัตริย์ เพื่อเป็นการเฉลิมพระเกียรติ และถวายเป็นพระราชกุศลโดยเฉพาะในวโรกาสครองราชย์ครบรอบ 50 ปี ตัวอาคาร 5 ชั้น คือการครองราชย์ครบ 50 ปี ส่วนเจดีย์หมู่ 9 องค์ หมายถึงวัดประจำรัชกาลที่ 9
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+          
           </div>
         </div>
       </div>
@@ -65,20 +63,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/04/13-SON08053-768x512.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              นอกจากความงดงามของที่มาที่ไปแล้ว ด้านบนของเจดีย์ยังเป็นสุดยอดจุดชมวิวดวงอาทิตย์ขึ้น และตกแห่งเมืองประจวบ ซึ่งเราสามารถมองเห็นความสวยงามของชายหาดบ้านกรูดและทิวมะพร้าวได้ไกลสุดสายตา 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
       </div>
@@ -108,6 +104,7 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a> </small></p>
 </template>
 
 <script setup>

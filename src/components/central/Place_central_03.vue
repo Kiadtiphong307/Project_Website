@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03025718_1.jpeg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,14 +24,14 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>ภูผาแรด</h5>
+        <p>ภูผาแรด อ.เมืองราชบุรี จ.ราชบุรี</p>
       </div>
     </div>
   </div>
 
   <!-- แถบ menu -->
-  <Header_box_north></Header_box_north>
+  <Header_box_central></Header_box_central>
 
   <!-- แถบ เนื้อหา -->
 
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.mcot.net/uploads/article/202308/6cad4580c8ef76c3a5c9fc80f0028970.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">ภูผาแรด</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              บริเวณนี้เคยเป็นแหล่งสัมปทานระเบิดหินภายในอุทยานหินเขางู ถูกซ่อนไว้กลางหุบเขามานานหลายปี ลักษณะเป็นผาสูงชันที่มีร่องรอยเว้าแหว่งของหินจากแรงระเบิด เผยให้เห็นความสวยงามของลวดลาย และสีสันของหน้าผาหินแกรนิต ซึ่งเป็นหินที่ถูกเปรียบเปรยว่า แข็งแกร่งดั่ง “แรด” จึงเป็นที่มาของชื่อ “ภูผาแรด” เสน่ห์ของมุมลับแห่งนี้ อยู่ที่ความสวยงามในแต่ละช่วงเวลาของวัน 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+ 
           </div>
         </div>
       </div>
@@ -65,18 +63,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ซึ่งขึ้นอยู่กับทิศทางของแสงแดดที่ส่องลงบริเวณหน้าผาแต่ละฝั่ง และให้จับตาวินาทีที่น้ำนิ่งจนเกิดภาพเงาสะท้อนคล้ายภาพ Abstract บนผิวน้ำ ถือเป็นงานอาร์ตที่ธรรมชาติรังสรรค์ เป็นความมหัศจรรย์บทใหม่ของเมืองราชบุรี สามารถเดินทางท่องเที่ยวได้ตลอดทั้งปี ตั้งแต่เวลา 08.00 - 17.00 น
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+          
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.mcot.net/uploads/article/202308/0ddd2668b0a007355ae6e24290eab631.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,8 +103,9 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a> </small></p>
 </template>
 
 <script setup>
-import Header_box_north from '../north/Box_menu_north.vue'
+import Header_box_central from '../central/box_menu_central.vue'
 </script>

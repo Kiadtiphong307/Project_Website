@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://s359.kapook.com//pagebuilder/1cd4cae7-b77f-4ac5-ac70-0ca529255287.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>วัดมณีวงศ์</h5>
+        <p>วัดมณีวงศ์ อ.เมือง จ.นครนายก </p>
       </div>
     </div>
   </div>
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://s359.kapook.com//pagebuilder/14ec6b35-3cd9-415e-9155-4ecdffd17422.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">วัดมณีวงศ์ </h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              วัดแห่งนี้เกิดขึ้นจากพญานาคที่มาเข้าฝัน ‘หลวงพี่ต่อ’ เจ้าอาวาสวัดมณีวงศ์ และได้พาหลวงพี่ไปชมคลังมหาสมบัติที่เมืองบาดาล เพื่อให้เกิดภาพจำและนำกลับไปสร้างที่วัด
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
       </div>
@@ -65,18 +63,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              จนเกิดเป็นความอลังการของงานประติมากรรมพญานาคกว่า 1,000 ตน ที่อาศัยเวียนวนอยู่ในถ้ำขนาดใหญ่ โดยจำลองบรรยากาศความยิ่งใหญ่มาจากเมืองบาดาล สู่ความงดงามที่ถูกถ่ายทอดผ่านงานปั้นชั้นครู รับรองว่าถูกใจลูกหลานพญานาคสายมูอย่างแน่นอน โดยเปิดให้เข้าชมทุกวัน ตั้งแต่เวลา 07.00-17.00 น.
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://s359.kapook.com/r/600/auto/pagebuilder/e112209a-ad9a-4e39-bfa7-9b9e2475f31e.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,6 +103,7 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a></small></p>
 </template>
 
 <script setup>
