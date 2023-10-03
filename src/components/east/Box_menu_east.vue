@@ -15,27 +15,27 @@
       <router-link
         :to="{ name: 'place_01_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >1</router-link
+        >เกาะสีชัง</router-link
       >
       <router-link
         :to="{ name: 'place_02_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >2</router-link
+        >วัดมณีวงศ์ </router-link
       >
       <router-link
         :to="{ name: 'place_03_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >3</router-link
+        >วัดหงษ์ทอง </router-link
       >
       <router-link
         :to="{ name: 'place_04_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >4</router-link
+        >วัดถ้ำเขาประทุน</router-link
       >
       <router-link
         :to="{ name: 'place_05_east' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >5</router-link
+        >ถ้ำน้ำเขาศิวะ </router-link
       >
     </nav>
   </div>

@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://img.salehere.co.th/p/1200x0/2022/02/07/q36ylfuquu2v.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>วัดเด่นสะหลีศรีเมืองแกน</h5>
+        <p>เป็นวัดที่มีความงดงามอลังการ เหมาะแก่การไหว้พระขอพร</p>
       </div>
     </div>
   </div>
@@ -41,20 +41,21 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://img.salehere.co.th/p/1200x0/2022/02/07/i5jteglqgc26.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">วัดเด่นสะหลีศรีเมืองแกน</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              วัดเด่นสะหลีศรีเมืองแกน หรือ วัดบ้านเด่น 
+              เป็นวัดที่มีความงดงามอลังการ วิหารต่างๆ ของวัดแห่งนี้ส่วนใหญ่เป็นไม้สัก 
+              ออกแบบทรงล้านนา ตามราวบันไดของวิหารจะมีรูปปั้นสัตว์ในวรรณคดีให้ได้ชมมากมายเลย เช่น นกยุง นาค ช้าง เป็นต้น 
+              นอกจากนี้บริเวณรอบๆ วัดยังมีปีนักษัตรประจำปีเกิด
+               และพระธาตุจำลองที่สร้างอยู่ภายในตัววัดให้นักท่องเที่ยวได้มาทำบุญกัน 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
           </div>
         </div>
       </div>
@@ -65,18 +66,19 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              วัดเด่นสะหรีศรีเมืองแกน เป็นชื่อที่มีความคล้องจองและชวนให้สงสัยทุกครั้งที่ได้ยิน 
+              หลาย ๆ คนอาจจะสงสัยว่าชื่อนี้มีความหมายว่าอะไรกันใช่ไหมล่ะคะ ต้องบอกก่อนว่า
+               เมื่อนานมาแล้วครูบาเทืองได้มาที่วัดแห่งนี้ซึ่งตั้งอยู่ในเมืองแกน และได้มีต้นโพธิ์เกิดขึ้น
+               ชาวบ้านเรียกต้นโพธิ์ต้นนั้นกันว่า เก๊าสะหลี และวัดแห่งนี้ได้ตั้งอยู่บนเนิน
+                ทำให้พื้นที่วัดนั้นเด่นกว่าที่อื่น ๆ
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://img.salehere.co.th/p/1200x0/2022/02/07/2eiijjktipv6.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -108,6 +110,8 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://salehere.co.th/articles/wat-ban-den-chiang-mai"> อ้างอิงมาจาก </a></small></p>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://travel.trueid.net/detail/kW22p6w5JexW"> อ้างอิงมาจาก </a></small></p>
 </template>
 
 <script setup>

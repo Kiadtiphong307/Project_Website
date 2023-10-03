@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://img-prod.api-onscene.com/cdn-cgi/image/format=auto,width=1600/https://sls-prod.api-onscene.com/partner_files/trueidintrend/1874/S__76718085.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>วนอุทยานภูบ่อบิด</h5>
+        <p>วนอุทยานภูบ่อบิด อ.เมือง จ.เลย </p>
       </div>
     </div>
   </div>
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="http://i-san.tourismthailand.org/wp-content/uploads/2018/12/9283229714e07ffa9e510de121a8e72013b91357-715x475.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">วนอุทยานภูบ่อบิด</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ภูบักบิด หรือ ภูบ่บิด เป็นภูเขาเล็กๆ อยู่ห่างจากจังหวัดเลย 1 กิโลเมตร ด้วยระยะทางที่ใกล้จากตัวเมือง จึงนับเป็น ‘หอชมทะเลหมอกใจกลางเมือง’ หนึ่งเดียวในประเทศไทย แถมยังเป็นขวัญใจของนักวิ่ง ในการเวียนมาฝึกซ้อมยามเช้ากันอยู่บ่อยๆ 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
       </div>
@@ -65,18 +63,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+         
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ด้วยระยะทางเดินสู่จุดยอดที่พอเรียกเหงื่อได้กำลังดี เมื่อแลกกับวิวสวยๆ ที่ปลายทางแล้ว การพิชิตยอดภูบ่อบิดเพื่ออากาศบริสุทธิ์ พร้อมชมดวงอาทิตย์ท่ามกลางทะเลหมอกยามเช้า จัดว่าเป็นอะไรที่คุ้มค่าแก่การเดินทางมาสัมผัสหมอกกลางเมือง ณ ที่แห่งนี้
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+           
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://s.isanook.com/tr/0/ud/286/1434209/t2.jpg?ip/resize/w728/q80/jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -108,6 +104,7 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"><a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158">ขอบคุณข้อมูลจาก</a></small></p>
 </template>
 
 <script setup>

@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://www.unseennewchapters.com/img/kanchanaburi-01.c0e8b9a9.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,14 +24,14 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>อุโมงค์สามมิติ</h5>
+        <p>อุโมงค์สามมิติ อ.ทองผาภูมิ จ.กาญจนบุรี </p>
       </div>
     </div>
   </div>
 
   <!-- แถบ menu -->
-  <Header_box_north></Header_box_north>
+  <Header_box_central></Header_box_central>
 
   <!-- แถบ เนื้อหา -->
 
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://files.thailandtourismdirectory.go.th/assets/upload/2021/8/17//d87cffda-db4c-46a0-93a6-bde26f866c38.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">อุโมงค์สามมิติ</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              อุโมงค์แห่งนี้ เป็นเหมืองแร่เก่า มีความยาว 2,300 เมตร เป็นพื้นที่ท่องเที่ยวโดยชุมชน แหล่งเรียนรู้ทางธรณีวิทยา และระบบนิเวศ บริเวณรอบๆ เหมืองปกคลุมด้วยผืนป่าสีเขียว พบเห็นพืชสมุนไพรเทียนตาตั๊กแตนเป็นหย่อมๆ ส่วนภายในอุโมงค์เริ่มมีหินงอกหินย้อยเปล่งประกายระยิบระยับ ธารน้ำน้อยๆ ไหลสู่น้ำตกผาแดง ยังคงมีหลักฐานจากอดีตเป็นเครื่องจักร 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+           
           </div>
         </div>
       </div>
@@ -65,18 +63,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+        
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ท่อลมขนาดใหญ่ให้พบเห็น ส่วนไฮไลต์อยู่ที่ประสบการณ์ลอดอุโมงค์ภายใต้ความมืดแต่กลับมีอากาศเย็นสบาย เมื่อมีแสงไฟสาดส่องไปยังไอหมอกที่ปกคลุมบริเวณปากอุโมงค์ จะดูคล้ายกับประตูกาลเวลาราวกับฉากในภาพยนตร์ และเมื่อได้ผ่านทะลุออกไป จะให้ความรู้สึกราวกับว่าได้ทะลุผ่านจากมิติหนึ่งไปสู่อีกมิติ จึงเป็นที่มาของชื่อ “อุโมงค์สามมิติ” ที่ผู้คนต่างเรียกขาน
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+       
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.unseennewchapters.com/img/kanchanaburi-02.71da4740.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,8 +103,9 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1">แสดงข้อมูลเพิ่มเติม</a> </small></p>
 </template>
 
 <script setup>
-import Header_box_north from '../north/Box_menu_north.vue'
+import Header_box_central from '../central/Box_menu_central.vue'
 </script>

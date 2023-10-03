@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/12/2-SON00547.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>สวนสนแม่แตง</h5>
+        <p>สถานที่ที่ร่มรื่นเหมาะกับวันพักผ่อน</p>
       </div>
     </div>
   </div>
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/12/1-SON00554.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">สวนสนแม่แตง</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              สวนสนแม่แตง หรือสวนผลิตเมล็ดพันธ์สองใบ ตั้งอยู่ในเขตพื้นที่รับผิดชอบของสถานีวนวัฒนาวิจัยอินทรขิล จังหวัดเชียงใหม่ ซึ่งเป็นสถานีงานวิจัยด้านป่าไม้ บรรยากาศรอบๆ ของสวนสนแห่งนี้ดูร่มรื่นสบายตา จึงเหมาะแก่การมาถ่ายภาพ หรือจะมาพักผ่อนหย่อนใจก็ได้ค่ะ 
+              ภายในจะมีจุดถ่ายภาพให้กับนักท่องเที่ยว บริเวณกว้างขว้างมากๆ เลือกมุมถ่ายภาพได้ตามใจกันเลย
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
           </div>
         </div>
       </div>
@@ -65,18 +63,19 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              สวนผลิตเมล็ดพันธ์สนสองใบหรือ  สวนสนแม่แตง
+                ตั้งอยู่ติดถนนหมายเลข 107  เส้นทางแม่แตงมุ่งหน้าสู่อำเภอเชียงดาวและฝา
+                 เป็นเส้นทางผ่านไปยังสองอำเภอนี้สามารถแวะเที่ยวก่อนไปต่อยังจุดอื่นได้  ลักษณะเป็นสวนสนคาริเบียน 
+                 ในเนื้อที่ 27 ไร่ 
+               ซึ่งเป็นงานวิจัยการพัฒนาและฟื้นฟูทดลองปลูกสนคาริเบีย  ภายในสวนสวยอากาศร่มรื่นเย็นสบายตลอดทั้งวัน
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://img.wongnai.com/p/1920x0/2018/09/11/87d33f9b8d34413ba023c77b1f6c3691.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -108,6 +107,9 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.paiduaykan.com/travel/%E0%B8%AA%E0%B8%A7%E0%B8%99%E0%B8%AA%E0%B8%99%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B9%81%E0%B8%95%E0%B8%87"> อ้างอิงมาจาก</a></small></p>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://travel.trueid.net/detail/kW22p6w5JexW"> อ้างอิงมาจาก</a></small></p>
+  
 </template>
 
 <script setup>

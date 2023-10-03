@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t39.30808-6/337139794_258683253162164_6998203363735071517_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeGG8J9EO7gix7iB9Pda9pNq4yNTjt0mEvfjI1OO3SYS90msMzV8H6RoUEiAcbIaug2ftocNQBlv0q8391eIoIPF&_nc_ohc=b9aB97rPQ7cAX-f7exK&_nc_oc=AQmf1faljl50GLzeX-ZqLKR0T1gHuEgjUbiY2sglByEiZtz2RocM956VyKECRd6R8JA&_nc_ht=scontent.fbkk13-2.fna&oh=00_AfDO3WHRWQvakUJJwBvvcwtrBSrH-4UOgZJn7nEeOpEvnQ&oe=652095E2"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>ชุมชนบ้านปรางค์นคร </h5>
+        <p>ชุมชนบ้านปรางค์นคร อ.คง จ.นครราชสีมา </p>
       </div>
     </div>
   </div>
@@ -41,20 +41,18 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://scontent.fbkk13-2.fna.fbcdn.net/v/t39.30808-6/271182730_3437326856494125_2827378806103116201_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeF6Sn-m_ge01F709AIl84TTdxMTy3cNF5x3ExPLdw0XnF4u_NWITpcqPgsICWKWm8IXbyimzqUxAPuysjl_uwBz&_nc_ohc=CZpgoJMpy0AAX_AgJqp&_nc_ht=scontent.fbkk13-2.fna&oh=00_AfDi_DMqLmyR8Vx1SLN_mhhqxFwR7rNEXzIKe9zWNUXniA&oe=65218583"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">ชุมชนบ้านปรางค์นคร </h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              สัมผัสมนต์เสน่ห์ วิถีของชุมชนเชิงวัฒนธรรมเก่าแก่ กับบรรดาชาวบ้านที่พร้อมหยิบยื่นมิตรภาพอันแสนอบอุ่น โดยหมู่บ้านแห่งนี้เป็นชุมชนท่องเที่ยว OTOP ที่มีของดีน่าสนใจอยู่หลายอย่าง เช่น บ้านเรือนไทยโคราช อายุกว่า 100 ปี ที่ปัจจุบันยังมีคนพักอาศัยอยู่จริง 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+   
           </div>
         </div>
       </div>
@@ -65,18 +63,16 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              นอกจากนี้ ยังมี สะพานข้ามบารายสวรรค์ สะพานไม้ไผ่ที่เกิดจากความสามัคคีของชาวบ้าน และที่เป็นไฮไลต์ห้ามพลาด คือ กิจกรรมรับพลังจักรวาลที่ “ปราสาทบ้านปรางค์” โบราณสถานศักดิ์สิทธิ์ ศูนย์รวมใจประจำหมู่บ้าน ส่วนกิจกรรมพายเรืออีโปงกับชิมอาหารพื้นถิ่นก็ถือว่าน่าสนใจ จัดเป็นของดีสุดคลาสสิกแดนอีสาน ที่รักษาคุณค่าวัฒนธรรม ความเชื่อ ที่ไม่จำเป็นต้องจัดฉาก หรือปรุงแต่งใดๆ 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+        
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.otoptravel.net/wp-content/uploads/2022/05/45105882_2212080682339742_4720658568611627008_n.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -108,6 +104,7 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"><a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158">ขอบคุณข้อมูลจาก</a></small></p>
 </template>
 
 <script setup>

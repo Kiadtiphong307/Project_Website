@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://i.pinimg.com/736x/e8/95/9a/e8959a063b375c093b1b5f21e2797435.jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</h5>
+        <p>อุทยานแห่งชาติที่ควรมาเยือนซักครั้ง</p>
       </div>
     </div>
   </div>
@@ -41,20 +41,17 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://i.pinimg.com/564x/e5/98/6e/e5986ead821600e86c01eac7079d1bf6.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              เขื่อนแม่งัด ตั้งอยู่ในเขตอุทยานแห่งชาติศรีลานนา จังหวัดเชียงใหม่ และอยู่ไม่ไกลจาก วัดบ้านเด่น มากนัก ซึ่งวิวทิวทัศน์ของเขื่อนล้อมรอบไปด้วยภูเขาที่เขียวขจี
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
           </div>
         </div>
       </div>
@@ -65,20 +62,21 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.chillpainai.com/src/wewakeup/scoop/img_scoop/scoop/kang/travel2/5meangud/mtf.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ความสำคัญของเขื่อนแม่งัด คือ การทำหน้าที่ส่งน้ำหล่อเลี้ยงพื้นที่เพาะปลูกในที่ราบเชิงเขาทั้งสองฝั่งของลำน้ำแม่งัด 
+              อีกทั้งยังช่วยบรรเทาอุทกภัยในเขตลุ่มน้ำปิง โดยเฉพาะบรรเทาน้ำหลากเข้าท่วมตัวเมืองเชียงใหม่ 
+              รวมทั้งยังเป็นแหล่งเพาะพันธุ์สัตว์น้ำ นอกจากเป็นเขื่อนที่ใช้เพื่อประโยชน์ในด้านการชลประทานแล้ว 
+              ด้วยวิวของเขื่อนที่งดงาม รายล้อมด้วยภูเขาเขียวขจี เขื่อนแม่งัดจึงกลายเป็นสถานที่ท่องเที่ยวพักผ่อนหย่อนใจยอดฮิต 
+              อีกแห่งหนึ่งที่เหมาะสำหรับคนรักธรรมชาติ และต้องการพักผ่อนแบบสงบ ท่ามกลางสายน้ำ
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+         
           </div>
         </div>
       </div>
@@ -108,6 +106,8 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.paiduaykan.com/travel/%E0%B9%80%E0%B8%82%E0%B8%B7%E0%B9%88%E0%B8%AD%E0%B8%99%E0%B9%81%E0%B8%A1%E0%B9%88%E0%B8%87%E0%B8%B1%E0%B8%94"> ขอบคุณข้อมูลจาก</a></small></p>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://travel.trueid.net/detail/kW22p6w5JexW"> ขอบคุณข้อมูลจาก</a></small></p>
 </template>
 
 <script setup>

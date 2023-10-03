@@ -4,7 +4,7 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://images.wallpaperscraft.com/image/single/girl_neko_ears_1054650_1920x1080.jpg"
+          src="https://s.isanook.com/tr/0/ud/287/1437671/line_album_11566_230511_25.jpg?ip/resize/w728/q80/jpg"
           class="d-block w-100"
           alt="..."
         />
@@ -24,8 +24,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5>หินพับผ้า</h5>
+        <p>หินพับผ้า อ.ขนอม จ.นครศรีธรรมราช</p>
       </div>
     </div>
   </div>
@@ -41,20 +41,20 @@
       <div class="row g-0">
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://us-fbcloud.net/wb/data/1404/1404632-img.vhyt8p.1beii.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
+            <h5 class="card-title">หินพับผ้า</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              ผาหินรูปร่างแปลกตาที่พบเห็นได้บริเวณกลางทะเลขนอม 
+              เป็นปรากฏการณ์ทางธรณีวิทยาที่มีอยู่เพียงน้อยแห่งบนโลกใบนี้ มีลักษณะเป็นแผ่นหินซ้อนเรียงกันเป็นชั้นๆ
+               ซึ่งแต่ละจุดจะดูสวยงามแตกต่างกันตามแต่จะจินตนาการ โดยชาวต่างชาติเรียกปรากฏการณ์นี้ว่า ‘Pancake Rock’
+                ส่วนคนไทยรู้จักกันในชื่อ ‘หินพับผ้า’ 
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
           </div>
         </div>
       </div>
@@ -65,18 +65,17 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              This is a wider card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
+              เพราะดูคล้ายกับผ้าที่พับซ้อนกันเป็นชั้นๆ เป็นความมหัศจรรย์ของธรรมชาติเมืองคอน
+               ซึ่งนักท่องเที่ยวสามารถเช่าเรือจากชุมชนแหลมประทับ เพื่อมาเที่ยวชมพิพิธภัณฑ์ธรรมชาติแห่งนี้ได้ตลอดวัน
+               สามารถเดินทางมาชมชั้นหินได้ตลอดทั้งปี ทั้งนี้ขึ้นอยู่กับ ลม ฟ้า และอากาศ แต่ช่วงที่แนะนำ คือ เดือนมกราคม-เมษายน
             </p>
-            <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
-            <button type="button" class="btn btn-primary">Primary</button>
+           
           </div>
         </div>
         <div class="col-md-4">
           <img
-            src="https://images.wallpaperscraft.com/image/single/silhouette_starry_sky_pillars_134464_1920x1080.jpg"
+            src="https://www.unseennewchapters.com/img/nakhonsithammarat-detail-banner-m.1dc559e7.jpg"
             class="img-fluid rounded-start"
             alt="..."
           />
@@ -107,6 +106,7 @@
       </div>
     </div>
   </div>
+  <p class="card-text"><small class="text-body-secondary"> <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365"> แสดงข้อมูลเพิ่มเติม</a></small></p>
 </template>
 
 <script setup>
