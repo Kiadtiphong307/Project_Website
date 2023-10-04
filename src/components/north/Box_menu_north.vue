@@ -16,8 +16,7 @@
         :to="{ name: 'place_01_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
         >ประตูท่าแพ
-        </router-link
-      >
+      </router-link>
       <router-link
         :to="{ name: 'place_02_north' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"

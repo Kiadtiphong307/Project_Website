@@ -50,9 +50,10 @@
           <div class="card-body">
             <h5 class="card-title">.ห้วยกุ๊บกั๊บ</h5>
             <p class="card-text">
-              ห้วยกุ๊บกั๊บ แหล่งท่องเที่ยวธรรมชาติที่ตั้งอยู่ในอำเภอแม่แตง 
-              หมู่บ้านเล็กๆ แห่งนี้จะพาคุณเข้าถึงการใช้ชีวิตที่เรียบง่าย เข้าถึงธรรมชาติ และแน่นอนว่าจุดถ่ายภาพของที่นี่ สวยทุกมุมเขาเลย
-               ยิ่งถ้าโชคดีเราอาจได้พบกับทะเลหมอกในตอนเช้า
+              ห้วยกุ๊บกั๊บ แหล่งท่องเที่ยวธรรมชาติที่ตั้งอยู่ในอำเภอแม่แตง หมู่บ้านเล็กๆ
+              แห่งนี้จะพาคุณเข้าถึงการใช้ชีวิตที่เรียบง่าย เข้าถึงธรรมชาติ
+              และแน่นอนว่าจุดถ่ายภาพของที่นี่ สวยทุกมุมเขาเลย
+              ยิ่งถ้าโชคดีเราอาจได้พบกับทะเลหมอกในตอนเช้า
             </p>
             <p class="card-text"><small class="text-body-secondary">แสดงข้อมูลเพิ่มเติม</small></p>
             <button type="button" class="btn btn-primary">Primary</button>
@@ -68,10 +69,11 @@
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
             <p class="card-text">
-              ที่มาของชื่อ ห้วยกุ๊บกั๊บ มาจากสมัยก่อนหมู่บ้านนี้ตั้งอยู่ที่ลำธารท้ายหมู่บ้าน ซึ่งเส้นทางเข้าหมู่บ้านนั้นลำบากและกันดารมาก
-               รถเข้าไม่ถึง ต้องเดินทางด้วยการขี่ม้าเข้าไป และเสียงฝีเท้าของม้าที่ดัง "กุ๊บกั๊บ" ก็กลายมาเป็นชื่อเรียกของหมู่บ้านนี้ไปโดยปริยาย
+              ที่มาของชื่อ ห้วยกุ๊บกั๊บ มาจากสมัยก่อนหมู่บ้านนี้ตั้งอยู่ที่ลำธารท้ายหมู่บ้าน
+              ซึ่งเส้นทางเข้าหมู่บ้านนั้นลำบากและกันดารมาก รถเข้าไม่ถึง
+              ต้องเดินทางด้วยการขี่ม้าเข้าไป และเสียงฝีเท้าของม้าที่ดัง "กุ๊บกั๊บ"
+              ก็กลายมาเป็นชื่อเรียกของหมู่บ้านนี้ไปโดยปริยาย
             </p>
-            
           </div>
         </div>
         <div class="col-md-4">
@@ -107,8 +109,16 @@
       </div>
     </div>
   </div>
-  <p class="card-text"><small class="text-body-secondary"> <a href="https://travel.kapook.com/view248468.html"> อ้างอิงมาจาก</a></small></p>
-  <p class="card-text"><small class="text-body-secondary"> <a href="https://travel.trueid.net/detail/kW22p6w5JexW"> อ้างอิงมาจาก</a></small></p>
+  <p class="card-text">
+    <small class="text-body-secondary">
+      <a href="https://travel.kapook.com/view248468.html"> อ้างอิงมาจาก</a></small
+    >
+  </p>
+  <p class="card-text">
+    <small class="text-body-secondary">
+      <a href="https://travel.trueid.net/detail/kW22p6w5JexW"> อ้างอิงมาจาก</a></small
+    >
+  </p>
 </template>
 
 <script setup>

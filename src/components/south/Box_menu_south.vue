@@ -15,8 +15,8 @@
       <router-link
         :to="{ name: 'place_01_south' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >อุทยานธรรมเขานาในหลวง </router-link
-      >
+        >อุทยานธรรมเขานาในหลวง
+      </router-link>
       <router-link
         :to="{ name: 'place_02_south' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
@@ -25,18 +25,18 @@
       <router-link
         :to="{ name: 'place_03_south' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >รอยพระพุทธบาทในทะเล </router-link
-      >
+        >รอยพระพุทธบาทในทะเล
+      </router-link>
       <router-link
         :to="{ name: 'place_04_south' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >หินพับผ้า </router-link
-      >
+        >หินพับผ้า
+      </router-link>
       <router-link
         :to="{ name: 'place_05_south' }"
         class="btn btn-primary nav-item nav-link link-body-emphasis active"
-        >เกาะตะรุเตา </router-link
-      >
+        >เกาะตะรุเตา
+      </router-link>
     </nav>
   </div>
 </template>

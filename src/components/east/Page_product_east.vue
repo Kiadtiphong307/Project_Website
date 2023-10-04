@@ -1,5 +1,10 @@
 <script setup>
 import Header_box_east from '../east/Box_menu_east.vue'
+import { ref } from 'vue';
+import { Otop_eastStore } from '/Project_Website/src/stores/All_product';
+
+const otop_eastStore = Otop_eastStore();
+const otop_east_all = ref(otop_eastStore.Otop_east_list);
 </script>
 
 <template>
@@ -45,20 +50,19 @@ import Header_box_east from '../east/Box_menu_east.vue'
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col" v-for="index in 10" :key="index">
+      <div class="col" v-for="(i,index) in otop_east_all" :key="index">
         <div class="card">
           <img
-            src="https://media.discordapp.net/attachments/1153766321666932836/1153887346882773063/1.jpg?ex=65178e55&is=65163cd5&hm=3000ed1d1b278ba7d013ff4a926d2caca1902c2b30928485f6b0d1e897429086&=&width=585&height=585"
+            :src="i.img"
             class="card-img-top"
             alt="..."
           />
           <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
-            </p>
-            <button type="button" class="btn btn-primary">Primary</button>
+            <h5 class="card-title"><strong>{{ i.name }}</strong></h5>
+            <p class="card-text"><strong>ประเภท: {{ i.category }}</strong></p>
+            <p class="card-text"><strong>ราคา:{{ i.price }} บาท</strong></p>
+            <p class="card-text">{{ i.text }} </p>
+            <button type="button" class="btn btn-primary">ลงตะกร้า</button>
           </div>
         </div>
       </div>

@@ -34,9 +34,11 @@ import Header_box_central from '../central/Box_menu_central.vue'
 
               <div class="carousel-caption d-none d-md-block">
                 <h5>ภายในมีองค์พระประธานปางนาคปรกแกะสลักจากไม้สักทองทั้งองค์</h5>
-                <p>กรุงเทพมหานคร อมรรัตนโกสินทร์     มหินทรายุธยา มหาดิลก
-                    ภพนพรัตน์ ราชธานี บุรีรมย์        อุดมราชนิเวศน์ มหาสถาน
-                    อมรพิมานอวตารสถิต สักกะทัตติยะ       วิษณุกรรมประสิทธิ์ (กรุงเทพมหานคร)</p>
+                <p>
+                  กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลก ภพนพรัตน์ ราชธานี บุรีรมย์
+                  อุดมราชนิเวศน์ มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยะ วิษณุกรรมประสิทธิ์
+                  (กรุงเทพมหานคร)
+                </p>
               </div>
             </div>
           </div>
@@ -65,12 +67,19 @@ import Header_box_central from '../central/Box_menu_central.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Billybillies Cafe and Workshop Studio </h5>
+              <h5 class="card-title">Billybillies Cafe and Workshop Studio</h5>
               <p class="card-text">
-                ร้าน "Billybillies" คาเฟ่ติดริมถนนใหญ่ปลายทางเดินลง BTS สถานีแบริง ร้านโทนสีขาวและน้ำตาล ให้ความรู้สึกถึงบรรยากาศแบบอังกฤษย้อนยุค กลิ่นอายความอบอุ่นและเพลย์ลิสต์ดี ๆ ในวันหยุดทางร้านจะมีกิจกรรม Workshop ดี ๆ ทั้งทำเคสมือถือ ทำเทียนหอม และอื่น ๆ อีกมากมายให้เข้าร่วมกันด้วย
+                ร้าน "Billybillies" คาเฟ่ติดริมถนนใหญ่ปลายทางเดินลง BTS สถานีแบริง
+                ร้านโทนสีขาวและน้ำตาล ให้ความรู้สึกถึงบรรยากาศแบบอังกฤษย้อนยุค
+                กลิ่นอายความอบอุ่นและเพลย์ลิสต์ดี ๆ ในวันหยุดทางร้านจะมีกิจกรรม Workshop ดี ๆ
+                ทั้งทำเคสมือถือ ทำเทียนหอม และอื่น ๆ อีกมากมายให้เข้าร่วมกันด้วย
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -81,12 +90,21 @@ import Header_box_central from '../central/Box_menu_central.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">NAHIM Cafe x Handcraft  </h5>
+              <h5 class="card-title">NAHIM Cafe x Handcraft</h5>
               <p class="card-text">
-                เมนูเด็ดทางร้านคือ “วาฟเฟิลบราวนี” ร้อน ๆ เสิร์ฟพร้อมไอศกรีมเย็น ๆ ไม่หวานเกิน กับครีมสดที่ไม่เลี่ยนเลย หวานละมุนหอมละไม บรรยากาศในร้านเรียกว่าถ่ายรูปสวยทุกมุม มีตุ๊กตาน่ารัก ๆ ให้หยิบมาถ่ายรูปได้ งานคราฟท์ก็น่ารัก ได้ยางรัดผมตัวอัลปาก้ามาครอบครอง ราคาก็ไม่แพง นั่งชิลได้สบาย ๆ คนมาตลอด แต่ไม่แน่นมาก ไม่วุ่นวาย ใครว่าง ๆ มาเรียนทำโดนัทน่ารัก ๆ ที่นี่ได้ มีการสอนแต่งหน้าคุกกี้น่ารัก ๆ ด้วย 
+                เมนูเด็ดทางร้านคือ “วาฟเฟิลบราวนี” ร้อน ๆ เสิร์ฟพร้อมไอศกรีมเย็น ๆ ไม่หวานเกิน
+                กับครีมสดที่ไม่เลี่ยนเลย หวานละมุนหอมละไม บรรยากาศในร้านเรียกว่าถ่ายรูปสวยทุกมุม
+                มีตุ๊กตาน่ารัก ๆ ให้หยิบมาถ่ายรูปได้ งานคราฟท์ก็น่ารัก
+                ได้ยางรัดผมตัวอัลปาก้ามาครอบครอง ราคาก็ไม่แพง นั่งชิลได้สบาย ๆ คนมาตลอด
+                แต่ไม่แน่นมาก ไม่วุ่นวาย ใครว่าง ๆ มาเรียนทำโดนัทน่ารัก ๆ ที่นี่ได้
+                มีการสอนแต่งหน้าคุกกี้น่ารัก ๆ ด้วย
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -99,8 +117,8 @@ import Header_box_central from '../central/Box_menu_central.vue'
           </div>
         </div>
       </div>
-       <!--box3 รูปท่างซ้าย-->
-       <div class="card mb-3" style="max-width: 1500px">
+      <!--box3 รูปท่างซ้าย-->
+      <div class="card mb-3" style="max-width: 1500px">
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -111,12 +129,20 @@ import Header_box_central from '../central/Box_menu_central.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Sane Cafe and Workshop </h5>
+              <h5 class="card-title">Sane Cafe and Workshop</h5>
               <p class="card-text">
-                คาเฟ่ขนมไทย "เสน่ห์" รอบนี้เค้าย้ายร้านมาอยู่ถนนอิสรภาพแล้วนะคะ สามารถเข้าได้ทั้งจากทางถนนอิสรภาพ หรือถนนเพชรเกษมก็ได้ค่ะมีที่จอดรถเยอะค่ะ “ขนมเหนียวดังโงะ” เป็นขนมเหนียวแบบไทย ๆ เสิร์ฟในรูปแบบดังโงะญี่ปุ่น อร่อยค่ะ ชอบมาก “ขนมเปียกปูนกะทิสด” รสชาติหวานกำลังดีเลยค่ะ ใครสนใจทำขนมไทย ที่ร้านมีสอนทำขนมไทยด้วยนะคะ 
+                คาเฟ่ขนมไทย "เสน่ห์" รอบนี้เค้าย้ายร้านมาอยู่ถนนอิสรภาพแล้วนะคะ
+                สามารถเข้าได้ทั้งจากทางถนนอิสรภาพ หรือถนนเพชรเกษมก็ได้ค่ะมีที่จอดรถเยอะค่ะ
+                “ขนมเหนียวดังโงะ” เป็นขนมเหนียวแบบไทย ๆ เสิร์ฟในรูปแบบดังโงะญี่ปุ่น อร่อยค่ะ ชอบมาก
+                “ขนมเปียกปูนกะทิสด” รสชาติหวานกำลังดีเลยค่ะ ใครสนใจทำขนมไทย
+                ที่ร้านมีสอนทำขนมไทยด้วยนะคะ
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -127,12 +153,17 @@ import Header_box_central from '../central/Box_menu_central.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">The KAFE' by Mha art & craft  </h5>
+              <h5 class="card-title">The KAFE' by Mha art & craft</h5>
               <p class="card-text">
-                คาเฟ่เท่ ๆ ที่เต็มไปด้วยกาแฟคุณภาพ พร้อมทั้งมี Workshop การทำเครื่องหนังให้เอาไปใช้กันได้ยาว ๆ ทั้งกระเป๋า และเครื่องหนังอื่น ๆ เพียบ 
+                คาเฟ่เท่ ๆ ที่เต็มไปด้วยกาแฟคุณภาพ พร้อมทั้งมี Workshop
+                การทำเครื่องหนังให้เอาไปใช้กันได้ยาว ๆ ทั้งกระเป๋า และเครื่องหนังอื่น ๆ เพียบ
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -145,8 +176,8 @@ import Header_box_central from '../central/Box_menu_central.vue'
           </div>
         </div>
       </div>
-       <!--box5 รูปท่างซ้าย-->
-       <div class="card mb-3" style="max-width: 1500px">
+      <!--box5 รูปท่างซ้าย-->
+      <div class="card mb-3" style="max-width: 1500px">
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -157,12 +188,17 @@ import Header_box_central from '../central/Box_menu_central.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">April Trees Cafe  </h5>
+              <h5 class="card-title">April Trees Cafe</h5>
               <p class="card-text">
-                คาเฟ่จากคุณเต็งหนึ่ง ที่มีการเปิดสอนทำเค้กสุดน่ารักทุกเดือน แถมยังมีคาเฟ่ให้ได้นั่งพักผ่อนเพลิน ๆ เค้กก็เป็นเอกลักษณ์มาก 
+                คาเฟ่จากคุณเต็งหนึ่ง ที่มีการเปิดสอนทำเค้กสุดน่ารักทุกเดือน
+                แถมยังมีคาเฟ่ให้ได้นั่งพักผ่อนเพลิน ๆ เค้กก็เป็นเอกลักษณ์มาก
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="hhttps://www.wongnai.com/news/cafe-workshop?ref=ct"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="hhttps://www.wongnai.com/news/cafe-workshop?ref=ct">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -173,12 +209,21 @@ import Header_box_central from '../central/Box_menu_central.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">A clay cafe  </h5>
+              <h5 class="card-title">A clay cafe</h5>
               <p class="card-text">
-                คาเฟ่น่ารัก ๆ ที่เต็มไปด้วยงานปั้นเซรามิคหลากหลายรูปแบบ ซึ่งเป็นทั้งภาชนะ ของตกแต่ง และของกระจุกจิกให้ซื้อกลับ แถมยังมี workshop สอนปั้นเซรามิคสำหรับผู้ที่สนใจด้วยค่ะ เมนูมีทั้งอาหาร ของหวาน เครื่องดื่ม โดยอาหารจะมีไม่มากไม่ถึง 10 เมนู เป็นเมนูจานเดียวง่าย ๆ อย่างข้าวหมูตุ๋น พาสต้า ขนมปังหน้าผักโขมอบชีส ส่วนของหวานค่อนข้างเยอะมีทั้งเบเกอรี ขนมเปี๊ยะ ขนมไทยอย่างขนมต้ม และไอศกรีมโฮมเมดหลายรส 
+                คาเฟ่น่ารัก ๆ ที่เต็มไปด้วยงานปั้นเซรามิคหลากหลายรูปแบบ ซึ่งเป็นทั้งภาชนะ ของตกแต่ง
+                และของกระจุกจิกให้ซื้อกลับ แถมยังมี workshop สอนปั้นเซรามิคสำหรับผู้ที่สนใจด้วยค่ะ
+                เมนูมีทั้งอาหาร ของหวาน เครื่องดื่ม โดยอาหารจะมีไม่มากไม่ถึง 10 เมนู
+                เป็นเมนูจานเดียวง่าย ๆ อย่างข้าวหมูตุ๋น พาสต้า ขนมปังหน้าผักโขมอบชีส
+                ส่วนของหวานค่อนข้างเยอะมีทั้งเบเกอรี ขนมเปี๊ยะ ขนมไทยอย่างขนมต้ม
+                และไอศกรีมโฮมเมดหลายรส
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -193,5 +238,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
       </div>
     </div>
   </div>
-  <small class="text-body-secondary"> <a href="https://www.wongnai.com/news/cafe-workshop"> แสดงข้อมูลเพิ่มเติม</a></small>
+  <small class="text-body-secondary">
+    <a href="https://www.wongnai.com/news/cafe-workshop"> แสดงข้อมูลเพิ่มเติม</a></small
+  >
 </template>

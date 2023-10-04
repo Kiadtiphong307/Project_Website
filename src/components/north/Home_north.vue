@@ -31,7 +31,7 @@ import Header_box_north from '../north/Box_menu_north.vue'
 
         <div class="carousel-caption d-none d-md-block">
           <h5>ภาคเหนือ</h5>
-          <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์ </p>
+          <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
         </div>
       </div>
     </div>
@@ -42,8 +42,7 @@ import Header_box_north from '../north/Box_menu_north.vue'
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1>สถานที่ท่องเที่ยวที่น่าสนใจของภาคเหนือ
-    </h1>
+    <h1>สถานที่ท่องเที่ยวที่น่าสนใจของภาคเหนือ</h1>
     <hr />
     <div class="container_all">
       <!--box1 รูปท่างซ้าย-->
@@ -58,13 +57,23 @@ import Header_box_north from '../north/Box_menu_north.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">ร่มบ่อสร้าง หมู่บ้านหัตถกรรมร่มบ่อสร้าง ต้นกำเนิดร่มสาน พร้อมเพ้นท์ร่มคันเดียวในโลก   จังหวัดเชียงใหม่</h5>
+              <h5 class="card-title">
+                ร่มบ่อสร้าง หมู่บ้านหัตถกรรมร่มบ่อสร้าง ต้นกำเนิดร่มสาน พร้อมเพ้นท์ร่มคันเดียวในโลก
+                จังหวัดเชียงใหม่
+              </h5>
               <p class="card-text">
-                "เทศกาลร่มบ่อสร้าง" ที่สร้างชื่อเสียงให้กับจังหวัดเชียงใหม่ และนักท่องเที่ยว ทั้งชาวไทยและชาวต่างประเทศได้รู้จักกันในนามของหมู่บ้านที่มีงานผลิตร่ม 
-                และยังเปิดให้นักท่องเที่ยวและนักเดินทางสามารถสร้างสรรค์ร่มของตัวเองได้ 
+                "เทศกาลร่มบ่อสร้าง" ที่สร้างชื่อเสียงให้กับจังหวัดเชียงใหม่ และนักท่องเที่ยว
+                ทั้งชาวไทยและชาวต่างประเทศได้รู้จักกันในนามของหมู่บ้านที่มีงานผลิตร่ม
+                และยังเปิดให้นักท่องเที่ยวและนักเดินทางสามารถสร้างสรรค์ร่มของตัวเองได้
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.museumthailand.com/th/3829/storytelling/%E0%B8%A3%E0%B9%88%E0%B8%A1%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87/"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a
+                    href="https://www.museumthailand.com/th/3829/storytelling/%E0%B8%A3%E0%B9%88%E0%B8%A1%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87/"
+                  >
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -75,15 +84,22 @@ import Header_box_north from '../north/Box_menu_north.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">พิพิธภัณฑ์เซรามิคธนบดี ต้นกำเนิดชามตราไก่ พร้อมเพ้นท์ชามใบเดียวในโลก   จังหวัดลำปาง</h5>
+              <h5 class="card-title">
+                พิพิธภัณฑ์เซรามิคธนบดี ต้นกำเนิดชามตราไก่ พร้อมเพ้นท์ชามใบเดียวในโลก จังหวัดลำปาง
+              </h5>
               <p class="card-text">
-                สำหรับการเข้าชมพิพิธภัณฑ์เซรามิคธนบดี ตั๋วเข้าชมสามารถเป็นส่วนลดในการซื้อของและเครื่องดื่มได้ด้วยค่ะ
-                 มีการจัดแบ่งเป็นรอบๆ ได้เดินชมทั่วโรงงานเลยค่ะ
-                 โดยหนึ่งรอบใช้เวลา 30 นาที มีวิทยากรบรรยายแนะนำ ประวัติความเป็นมาและต้นกำเนิดของชามไก่ให้เราได้ฟังกันอีกด้วย
-                 พร้อมทั้งมี workshop การเพ้นท์ชามตราไก่ใบเดียวในโลกอีกด้วยเจ้า
+                สำหรับการเข้าชมพิพิธภัณฑ์เซรามิคธนบดี
+                ตั๋วเข้าชมสามารถเป็นส่วนลดในการซื้อของและเครื่องดื่มได้ด้วยค่ะ มีการจัดแบ่งเป็นรอบๆ
+                ได้เดินชมทั่วโรงงานเลยค่ะ โดยหนึ่งรอบใช้เวลา 30 นาที มีวิทยากรบรรยายแนะนำ
+                ประวัติความเป็นมาและต้นกำเนิดของชามไก่ให้เราได้ฟังกันอีกด้วย พร้อมทั้งมี workshop
+                การเพ้นท์ชามตราไก่ใบเดียวในโลกอีกด้วยเจ้า
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://travel.trueid.net/detail/jBmnEnAj479N"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://travel.trueid.net/detail/jBmnEnAj479N">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -96,7 +112,7 @@ import Header_box_north from '../north/Box_menu_north.vue'
           </div>
         </div>
       </div>
-            <!--box3 รูปท่างซ้าย-->
+      <!--box3 รูปท่างซ้าย-->
       <div class="card mb-3" style="max-width: 1500px">
         <div class="row g-0">
           <div class="col-md-4">
@@ -110,10 +126,17 @@ import Header_box_north from '../north/Box_menu_north.vue'
             <div class="card-body">
               <h5 class="card-title">NatureTalk</h5>
               <p class="card-text">
-                คาเฟ่บ้านดินขาวมีกิจกรรมที่น่าใจมากมายไม่ว่าจะเป็นการผสมสีจากธรรมชาติ หรือ การเรียนปั้นดินเผาและลงสี อันเดียวของโลก 
+                คาเฟ่บ้านดินขาวมีกิจกรรมที่น่าใจมากมายไม่ว่าจะเป็นการผสมสีจากธรรมชาติ หรือ
+                การเรียนปั้นดินเผาและลงสี อันเดียวของโลก
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.museumthailand.com/th/3829/storytelling/%E0%B8%A3%E0%B9%88%E0%B8%A1%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87/"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a
+                    href="https://www.museumthailand.com/th/3829/storytelling/%E0%B8%A3%E0%B9%88%E0%B8%A1%E0%B8%9A%E0%B9%88%E0%B8%AD%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87/"
+                  >
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -126,11 +149,16 @@ import Header_box_north from '../north/Box_menu_north.vue'
             <div class="card-body">
               <h5 class="card-title">ZOHNG - PAINT in the Garden</h5>
               <p class="card-text">
-                มีให้เลือกเยอะมากถึง 10 กิจกรรม เช่น การจัดดอกไม้สำหรับของขวัญวันพิเศษเพื่อให้คนพิเศษ
-                 จัดสรรได้เองตามความรู้สึก การทำน้ำหอมแฮนด์เมด ไม่ซ้ำใคร เพ้นท์ลวดลายตกแต่งตามใจชอบ ไม่มีพื้นฐานก็ทำได้
+                มีให้เลือกเยอะมากถึง 10 กิจกรรม เช่น
+                การจัดดอกไม้สำหรับของขวัญวันพิเศษเพื่อให้คนพิเศษ จัดสรรได้เองตามความรู้สึก
+                การทำน้ำหอมแฮนด์เมด ไม่ซ้ำใคร เพ้นท์ลวดลายตกแต่งตามใจชอบ ไม่มีพื้นฐานก็ทำได้
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.facebook.com/profile.php?id=100065022761841"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.facebook.com/profile.php?id=100065022761841">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
+                >
               </p>
             </div>
           </div>
@@ -143,8 +171,8 @@ import Header_box_north from '../north/Box_menu_north.vue'
           </div>
         </div>
       </div>
-            <!--box5 รูปท่างซ้าย-->
-            <div class="card mb-3" style="max-width: 1500px">
+      <!--box5 รูปท่างซ้าย-->
+      <div class="card mb-3" style="max-width: 1500px">
         <div class="row g-0">
           <div class="col-md-4">
             <img
@@ -157,10 +185,13 @@ import Header_box_north from '../north/Box_menu_north.vue'
             <div class="card-body">
               <h5 class="card-title">Chiangmai Arts & Crafts Workshop</h5>
               <p class="card-text">
-                 จัดสวนเล็กๆในโหลแล้วทำให้มีพื้นที่สีเขียวสบายตา ไม่ต้องดูแลเยอะแค่เพียงรดน้ำอาทิตย์ล่ะ 1-2 ครั้ง 
+                จัดสวนเล็กๆในโหลแล้วทำให้มีพื้นที่สีเขียวสบายตา
+                ไม่ต้องดูแลเยอะแค่เพียงรดน้ำอาทิตย์ล่ะ 1-2 ครั้ง
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"> <a href="https://www.facebook.com/CMAWC"> แสดงข้อมูลเพิ่มเติม</a></small>
+                <small class="text-body-secondary">
+                  <a href="https://www.facebook.com/CMAWC"> แสดงข้อมูลเพิ่มเติม</a></small
+                >
               </p>
             </div>
           </div>
@@ -173,7 +204,8 @@ import Header_box_north from '../north/Box_menu_north.vue'
             <div class="card-body">
               <h5 class="card-title">Chapter 2wo</h5>
               <p class="card-text">
-                คาเฟ่แนวญี่ปุ่นที่มีบริกรสุดน่ารักที่ไม่ว่าใครเห็นก็ต้องหลงรัก  รวมไปถึงการสอนทำกาแฟ และลีลาการทำอาร์ตลาเต้ของบาริสต้าก็หาตัวจับยากทีเดียว 
+                คาเฟ่แนวญี่ปุ่นที่มีบริกรสุดน่ารักที่ไม่ว่าใครเห็นก็ต้องหลงรัก รวมไปถึงการสอนทำกาแฟ
+                และลีลาการทำอาร์ตลาเต้ของบาริสต้าก็หาตัวจับยากทีเดียว
               </p>
               <p class="card-text">
                 <small class="text-body-secondary"> <a href=""> แสดงข้อมูลเพิ่มเติม</a></small>
@@ -193,9 +225,8 @@ import Header_box_north from '../north/Box_menu_north.vue'
   </div>
 </template>
 
-
 <style>
-.d-block w-100{
+.d-block w-100 {
   max-width: 500px;
 }
 </style>

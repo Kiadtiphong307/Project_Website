@@ -3,11 +3,7 @@
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
-        <img
-          src="https://inwfile.com/s-k/afcjkc.jpg"
-          class="d-block w-100"
-          alt="..."
-        />
+        <img src="https://inwfile.com/s-k/afcjkc.jpg" class="d-block w-100" alt="..." />
         <router-link :to="{ name: 'main' }">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +21,7 @@
       </div>
       <div class="carousel-caption d-none d-md-block">
         <h5>วัดพุทธวนาราม</h5>
-        <p>วัดพุทธวนาราม (วัดป่าวังน้ำเย็น) อ.เมือง จ.มหาสารคาม </p>
+        <p>วัดพุทธวนาราม (วัดป่าวังน้ำเย็น) อ.เมือง จ.มหาสารคาม</p>
       </div>
     </div>
   </div>
@@ -50,9 +46,9 @@
           <div class="card-body">
             <h5 class="card-title">วัดพุทธวนาราม</h5>
             <p class="card-text">
-              พระอุโบสถ ที่สร้างจากไม้ตะเคียนที่ใหญ่ที่สุดในโลก โดยเสาไม้ตะเคียนทองขนาดใหญ่ ใช้เสาไม้ตะเคียนทองมากถึง 32 ต้น ขนาด 4 คนโอบ พระอุโบสถหลังนี้มีความสูงกว่า 20 เมตร 
+              พระอุโบสถ ที่สร้างจากไม้ตะเคียนที่ใหญ่ที่สุดในโลก โดยเสาไม้ตะเคียนทองขนาดใหญ่
+              ใช้เสาไม้ตะเคียนทองมากถึง 32 ต้น ขนาด 4 คนโอบ พระอุโบสถหลังนี้มีความสูงกว่า 20 เมตร
             </p>
-            
           </div>
         </div>
       </div>
@@ -70,11 +66,12 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-         
             <p class="card-text">
-              เมตร ภายในมีองค์พระประธานปางนาคปรกแกะสลักจากไม้สักทองทั้งองค์ ปัจจุบันวัดแห่งนี้นอกจากเป็นที่ศรัทธาของพุทธศาสนิกชน ยังมีชื่อเสียงมากขึ้นด้านการท่องเที่ยว กลายเป็นจุดหมายห้ามพลาดของจังหวัดที่นักท่องเที่ยวทั่วไปสามารถแวะเวียนเยี่ยมชมสักการะสิ่งศักดิ์สิทธิ์ได้ 
+              เมตร ภายในมีองค์พระประธานปางนาคปรกแกะสลักจากไม้สักทองทั้งองค์
+              ปัจจุบันวัดแห่งนี้นอกจากเป็นที่ศรัทธาของพุทธศาสนิกชน
+              ยังมีชื่อเสียงมากขึ้นด้านการท่องเที่ยว
+              กลายเป็นจุดหมายห้ามพลาดของจังหวัดที่นักท่องเที่ยวทั่วไปสามารถแวะเวียนเยี่ยมชมสักการะสิ่งศักดิ์สิทธิ์ได้
             </p>
-           
           </div>
         </div>
       </div>
@@ -104,7 +101,13 @@
       </div>
     </div>
   </div>
-  <p class="card-text"><small class="text-body-secondary"><a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158">ขอบคุณข้อมูลจาก</a></small></p>
+  <p class="card-text">
+    <small class="text-body-secondary"
+      ><a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158"
+        >ขอบคุณข้อมูลจาก</a
+      ></small
+    >
+  </p>
 </template>
 
 <script setup>
