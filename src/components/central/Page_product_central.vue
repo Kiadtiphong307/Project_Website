@@ -1,7 +1,7 @@
 <script setup>
 import Header_box_central from '../central/Box_menu_central.vue'
 import { ref } from 'vue';
-import { Otop_centralStore } from '/Project_Website/src/stores/All_product';
+import { Otop_centralStore } from '../../stores/All_product';
 
 const otop_centralStore = Otop_centralStore();
 const otop_central_all = ref(otop_centralStore.Otop_central_list);
