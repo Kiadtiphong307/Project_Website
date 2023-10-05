@@ -1,7 +1,7 @@
 <script setup>
 import Header_box_east from '../east/Box_menu_east.vue'
 import { ref } from 'vue';
-import { Otop_eastStore } from '/Project_Website/src/stores/All_product';
+import { Otop_eastStore } from '../../stores/All_product';
 
 const otop_eastStore = Otop_eastStore();
 const otop_east_all = ref(otop_eastStore.Otop_east_list);

@@ -1,7 +1,7 @@
 <script setup>
-import Header_box_south from '../south/Box_menu_south.vue'
+import Header_box_south from '../south/Box_menu_south.vue';
 import { ref } from 'vue';
-import { Otop_southStore } from '/Project_Website/src/stores/All_product';
+import { Otop_southStore } from '../../stores/All_product'; 
 
 const otop_southStore = Otop_southStore();
 const otop_south_all = ref(otop_southStore.Otop_south_list);
