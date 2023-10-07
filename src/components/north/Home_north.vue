@@ -1,45 +1,32 @@
 <script setup>
-import Header_box_north from '../north/Box_menu_north.vue'
+import Header_box_north from '../north/box_menu_north.vue'
 </script>
 
 <template>
   <!-- แถบ ภาพ  -->
-  <div id="carouselExampleCaptions" class="carousel slide">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <div class="carousel-image-container">
-          <img
-            src="https://i.pinimg.com/564x/fa/16/37/fa1637b9d60e2cc853a90108b77139c8.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
-          <router-link :to="{ name: 'main' }">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="32"
-              height="32"
-              fill="currentColor"
-              class="bi bi-house house-icon"
-              viewBox="0 0 16 16"
-            >
-              <path
-                d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
-              />
-            </svg>
-          </router-link>
-        </div>
+  <div class="imgTitle">
+    <router-link :to="{ name: 'main' }">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="32"
+        height="32"
+        fill="currentColor"
+        class="bi bi-house house-icon"
+        viewBox="0 0 16 16"
+      >
+        <path
+          d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+        />
+      </svg>
+    </router-link>
 
-        <div class="carousel-caption d-none d-md-block">
-          <h5>ภาคเหนือ</h5>
-          <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
-        </div>
-      </div>
+    <div class="textTitle">
+      <h2>ภาคเหนือ</h2>
+      <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
     </div>
   </div>
-
   <!-- แถบ menu -->
   <Header_box_north></Header_box_north>
-
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
     <h1>สถานที่ท่องเที่ยวที่น่าสนใจของภาคเหนือ</h1>
@@ -47,12 +34,11 @@ import Header_box_north from '../north/Box_menu_north.vue'
     <div class="container_all">
       <!--box1 รูปท่างซ้าย-->
       <div class="card mb-3" style="max-width: 1500px">
-        <div class="row g-0">
+        <div class="">
           <div class="col-md-4">
             <img
               src="https://i.pinimg.com/564x/71/00/07/710007ceba5959aa2ecce3fc50bd8bda.jpg"
-              class="img-fluid rounded-start"
-              alt="..."
+              class="imgBow"
             />
           </div>
           <div class="col-md-8">
@@ -226,7 +212,23 @@ import Header_box_north from '../north/Box_menu_north.vue'
 </template>
 
 <style>
-.d-block w-100 {
-  max-width: 500px;
+.imgTitle {
+  max-width: 100%;
+  background-position: left bottom;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  background-image: url(https://i.pinimg.com/564x/fa/16/37/fa1637b9d60e2cc853a90108b77139c8.jpg);
+}
+.textTitle {
+  color: white;
+  text-align: center;
+  font-size: x-large;
+}
+.imgBow{
+  height: 300px;
+  width: 250px;
+  margin: 10px;
+  
 }
 </style>

@@ -6,110 +6,111 @@ import header_bar from '../views/Header_box.vue'
   <header_bar></header_bar>
   <div class="container">
     <main>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
+      <div class="Colrou">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <!--การใส่ภาพ-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="https://tatapi.tourismthailand.org/tatfs/IMAGE/Event/Picture/E0002303.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>ประเพณีรับบัว</h5>
+                <p>Some representative placeholder content for the first slide.</p>
+                <div class="mb-3">
+                  <!--กรอ e-mail และ คำอธิบาย-->
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="http://www.dhammathai.org/day/pic/takbatthewo1.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://img.kapook.com/u/panadda/%E0%B8%95%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%82%E0%B8%A2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%89%E0%B8%B2%E0%B8%A2.jpg"
+                class="d-block w-100"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <div class="mb-3">
+                  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                    placeholder="name@example.com"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ปุ่ม เลื่อนภาพไป-กลับ-->
           <button
+            class="carousel-control-prev"
             type="button"
             data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
           <button
+            class="carousel-control-next"
             type="button"
             data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
-        <!--การใส่ภาพ-->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://tatapi.tourismthailand.org/tatfs/IMAGE/Event/Picture/E0002303.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>ประเพณีรับบัว</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-              <div class="mb-3">
-                <!--กรอ e-mail และ คำอธิบาย-->
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="http://www.dhammathai.org/day/pic/takbatthewo1.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://img.kapook.com/u/panadda/%E0%B8%95%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%82%E0%B8%A2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%89%E0%B8%B2%E0%B8%A2.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ปุ่ม เลื่อนภาพไป-กลับ-->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
-        >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
       </div>
-
       <!--กิจกรรมที่น่าสนใจ-->
       <hr />
       <h1>ปฎิทินประเพณีทั้ง 4 ภาคในเดือนตุลาคม</h1>
@@ -336,4 +337,8 @@ import header_bar from '../views/Header_box.vue'
   </div>
 </template>
 
-<script scope></script>
+<style scope>
+.Colrou{
+  padding: 50px;
+}
+</style>
