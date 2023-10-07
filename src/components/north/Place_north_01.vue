@@ -88,19 +88,24 @@
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col" v-for="index in 4" :key="index">
-        <div class="card">
-          <img
-            src="https://media.discordapp.net/attachments/1153766321666932836/1153887346882773063/1.jpg?ex=65178e55&is=65163cd5&hm=3000ed1d1b278ba7d013ff4a926d2caca1902c2b30928485f6b0d1e897429086&=&width=585&height=585"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              This is a longer card with supporting text below as a natural lead-in to additional
-              content. This content is a little bit longer.
-            </p>
+      <div
+        class="card mb-3"
+        style="max-width: 800px"
+        v-for="(i, index) in item_advice_north_01_all"
+        :key="index"
+      >
+        <div class="row g-0">
+          <div class="col-md-4">
+            <div class="card">
+              <img :src="i.img" class="img-fluid rounded-start" alt="..." />
+            </div>
+          </div>
+
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ i.name }}</h5>
+              <p class="card-text">{{ i.category }}</p>
+            </div>
           </div>
         </div>
       </div>
@@ -115,4 +120,10 @@
 
 <script setup>
 import Header_box_north from '../north/Box_menu_north.vue'
+
+import { ref } from 'vue'
+import { item_advice_north_01Store } from '../north/index_north'
+
+const item_advice_north_01 = item_advice_north_01Store()
+const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list_01)
 </script>

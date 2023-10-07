@@ -1,12 +1,10 @@
 <script setup>
 import Header_box_north from '../north/Box_menu_north.vue'
-import { ref } from 'vue';
-import { Otop_northStore } from '../../stores/All_product';
+import { ref } from 'vue'
+import { Otop_northStore } from '../../stores/All_product'
 
-const otop_northStore = Otop_northStore();
-const otop_north_all = ref(otop_northStore.Otop_north_list);
-
-
+const otop_northStore = Otop_northStore()
+const otop_north_all = ref(otop_northStore.Otop_north_list)
 </script>
 
 <template>
@@ -52,18 +50,20 @@ const otop_north_all = ref(otop_northStore.Otop_north_list);
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col" v-for="(i,index) in otop_north_all" :key="index">
+      <div class="col" v-for="(i, index) in otop_north_all" :key="index">
         <div class="card">
-          <img
-            :src="i.img"
-            class="card-img-top"
-            alt="..."
-          />
+          <img :src="i.img" class="card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title"><strong>{{ i.name }}</strong></h5>
-            <p class="card-text"><strong>ประเภท: {{ i.category }}</strong></p>
-            <p class="card-text"><strong>ราคา:{{ i.price }} บาท</strong></p>
-            <p class="card-text">{{ i.text }} </p>
+            <h5 class="card-title">
+              <strong>{{ i.name }}</strong>
+            </h5>
+            <p class="card-text">
+              <strong>ประเภท: {{ i.category }}</strong>
+            </p>
+            <p class="card-text">
+              <strong>ราคา:{{ i.price }} บาท</strong>
+            </p>
+            <p class="card-text">{{ i.text }}</p>
             <button type="button" class="btn btn-primary">ลงตะกร้า</button>
           </div>
         </div>

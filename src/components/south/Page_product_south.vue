@@ -1,12 +1,11 @@
 <script setup>
-import Header_box_south from '../south/Box_menu_south.vue';
-import { ref } from 'vue';
-import { Otop_southStore } from '../../stores/All_product'; 
+import Header_box_south from '../south/Box_menu_south.vue'
+import { ref } from 'vue'
+import { Otop_southStore } from '../../stores/All_product'
 
-const otop_southStore = Otop_southStore();
-const otop_south_all = ref(otop_southStore.Otop_south_list);
+const otop_southStore = Otop_southStore()
+const otop_south_all = ref(otop_southStore.Otop_south_list)
 </script>
-
 
 <template>
   <!-- แถบ ภาพ  -->
@@ -107,20 +106,22 @@ const otop_south_all = ref(otop_southStore.Otop_south_list);
     <div class="container">
       <h1>กิจกรรมที่น่าสนใจ</h1>
       <hr />
-  
+
       <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col" v-for="(i,index) in otop_south_all" :key="index">
+        <div class="col" v-for="(i, index) in otop_south_all" :key="index">
           <div class="card">
-            <img
-              :src="i.img"
-              class="card-img-top"
-              alt="..."
-            />
+            <img :src="i.img" class="card-img-top" alt="..." />
             <div class="card-body">
-              <h5 class="card-title"><strong>{{ i.name }}</strong></h5>
-              <p class="card-text"><strong>ประเภท: {{ i.category }}</strong></p>
-              <p class="card-text"><strong>ราคา:{{ i.price }} บาท</strong></p>
-              <p class="card-text">{{ i.text }} </p>
+              <h5 class="card-title">
+                <strong>{{ i.name }}</strong>
+              </h5>
+              <p class="card-text">
+                <strong>ประเภท: {{ i.category }}</strong>
+              </p>
+              <p class="card-text">
+                <strong>ราคา:{{ i.price }} บาท</strong>
+              </p>
+              <p class="card-text">{{ i.text }}</p>
               <button type="button" class="btn btn-primary">ลงตะกร้า</button>
             </div>
           </div>
@@ -143,4 +144,3 @@ const otop_south_all = ref(otop_southStore.Otop_south_list);
     >
   </p>
 </template>
-
