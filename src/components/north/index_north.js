@@ -7,7 +7,7 @@ export const item_advice_north_01Store = defineStore('item_advice_north_01', () 
     {
       name: 'หมวกกันควาร้อน',
       category: 'ของใช้และเสื้อผ้า',
-      img: 'https://img.th.my-best.com/contents/f8b0e3dd690b72d9bacaf49005389044.png?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=b0c37306f82db8a451cbba7c90ed9ba8'
+      img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462252/item/goods_32_462252.jpg?width=750'
     },
     {
       name: 'ครีมกันแดด',
@@ -22,7 +22,7 @@ export const item_advice_north_01Store = defineStore('item_advice_north_01', () 
     {
       name: 'กล้องถ่ายรูป',
       category: 'อุปกรณ์การถ่ายภาพ',
-      img: 'https://cdn1.productnation.co/sites/6/5c377bbcf04be.jpeg'
+      img: 'https://fotofile.co.th/wp-content/uploads/2023/09/Sony-a7C-II-Kit-28-60mm-Lens-Black-1-300x300.webp'
     }
   ])
 
@@ -34,7 +34,7 @@ export const item_advice_north_02Store = defineStore('item_advice_north_02', () 
     {
       name: 'หมวกกันควาร้อน',
       category: 'ของใช้และเสื้อผ้า',
-      img: 'https://img.th.my-best.com/contents/f8b0e3dd690b72d9bacaf49005389044.png?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=b0c37306f82db8a451cbba7c90ed9ba8'
+      img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462252/item/goods_32_462252.jpg?width=750'
     },
     {
       name: 'ครีมกันแดด',
@@ -49,7 +49,7 @@ export const item_advice_north_02Store = defineStore('item_advice_north_02', () 
     {
       name: 'กล้องถ่ายรูป',
       category: 'อุปกรณ์การถ่ายภาพ',
-      img: 'https://cdn1.productnation.co/sites/6/5c377bbcf04be.jpeg'
+      img: 'https://fotofile.co.th/wp-content/uploads/2023/09/Sony-a7C-II-Kit-28-60mm-Lens-Black-1-300x300.webp'
     }
   ])
 
@@ -61,7 +61,7 @@ export const item_advice_north_03Store = defineStore('item_advice_north_03', () 
     {
       name: 'หมวกกันควาร้อน',
       category: 'ของใช้และเสื้อผ้า',
-      img: 'https://img.th.my-best.com/contents/f8b0e3dd690b72d9bacaf49005389044.png?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=b0c37306f82db8a451cbba7c90ed9ba8'
+      img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462252/item/goods_32_462252.jpg?width=750'
     },
     {
       name: 'ครีมกันแดด',
@@ -111,7 +111,7 @@ export const item_advice_north_05Store = defineStore('item_advice_north_05', () 
     {
       name: 'หมวกกันควาร้อน',
       category: 'ของใช้และเสื้อผ้า',
-      img: 'https://img.th.my-best.com/contents/f8b0e3dd690b72d9bacaf49005389044.png?ixlib=rails-4.3.1&q=70&lossless=0&w=1200&h=900&fit=crop&s=b0c37306f82db8a451cbba7c90ed9ba8'
+      img: 'https://image.uniqlo.com/UQ/ST3/AsianCommon/imagesgoods/462252/item/goods_32_462252.jpg?width=750'
     },
     {
       name: 'ครีมกันแดด',
@@ -126,7 +126,7 @@ export const item_advice_north_05Store = defineStore('item_advice_north_05', () 
     {
       name: 'กล้องถ่ายรูป',
       category: 'อุปกรณ์การถ่ายภาพ',
-      img: 'https://cdn1.productnation.co/sites/6/5c377bbcf04be.jpeg'
+      img: 'https://fotofile.co.th/wp-content/uploads/2023/09/Sony-a7C-II-Kit-28-60mm-Lens-Black-1-300x300.webp'
     }
   ])
 
