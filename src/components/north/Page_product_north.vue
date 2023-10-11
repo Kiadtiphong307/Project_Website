@@ -25,10 +25,6 @@ const otop_north_all = ref(otop_northStore.Otop_north_list)
         />
       </svg>
     </router-link>
-    <div class="textTitle">
-      <h2>สินค้าภาคเหนือที่น่าสนใจ</h2>
-      <p>สินค้าที่พวกเราคัดสรรค์มาเพื่อคุณ</p>
-    </div>
   </div>
 
   <!-- แถบ menu -->
@@ -59,11 +55,8 @@ const otop_north_all = ref(otop_northStore.Otop_north_list)
 <style scoped>
 .imgTitle {
   max-width: 100%;
-  background-position: left bottom;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/386884550_1010644360059325_3585953009812151010_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF_EHvLFZgL1EEX4pjcFBDgPQkN1Ydo5NY9CQ3Vh2jk1ltOug9cuRLnD-aD76G9ZjJUyOJ7Rf8_0nMsBetEm-bN&_nc_ohc=Uf3IQq2dEMUAX8t5Pxi&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdRC2TwGfyKp7K7boYucCjye8qFQNNaA4olZCvXSlcnotw&oe=654DCD5A);
+  padding-block: 200px  ;
+  background-image: url(https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/370115621_325402190084535_8319732787131415325_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEUytADEwA7QlZrds7ExVkhIRd8lfXA1RshF3yV9cDVG0hC4qQf3qgcwTlQ74w9RBvVcEx7_OECF1RgqYXN8wII&_nc_ohc=a00ZjP4_piUAX8bHiLI&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=f&oh=03_AdSTSXHcFxHK9GGCbYgie4ciSGE380majC_XIN4Kfp-8Pw&oe=654E16C5);
 }
 .container_otop {
   display: grid;
