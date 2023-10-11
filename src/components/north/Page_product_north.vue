@@ -63,7 +63,7 @@ const otop_north_all = ref(otop_northStore.Otop_north_list)
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 100px;
-  background-image: url(https://i.pinimg.com/736x/92/69/3e/92693ead2b7aaf5110a59e3e27cc47db.jpg);
+  background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/386884550_1010644360059325_3585953009812151010_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF_EHvLFZgL1EEX4pjcFBDgPQkN1Ydo5NY9CQ3Vh2jk1ltOug9cuRLnD-aD76G9ZjJUyOJ7Rf8_0nMsBetEm-bN&_nc_ohc=Uf3IQq2dEMUAX8t5Pxi&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdRC2TwGfyKp7K7boYucCjye8qFQNNaA4olZCvXSlcnotw&oe=654DCD5A);
 }
 .container_otop {
   display: grid;

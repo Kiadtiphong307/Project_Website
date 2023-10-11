@@ -4,7 +4,7 @@ import Header_box_north from '../north/box_menu_north.vue'
 
 <template>
   <!-- แถบ ภาพ  -->
-  <div class="imgTitle">
+  <div class="imgTitleN">
     <router-link :to="{ name: 'main' }">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -169,13 +169,13 @@ import Header_box_north from '../north/box_menu_north.vue'
   align-items: stretch;
   row-gap: 1px;
 }
-.imgTitle {
+.imgTitleN {
   max-width: 100%;
   background-position: left bottom;
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 100px;
-  background-image: url(https://i.pinimg.com/564x/fa/16/37/fa1637b9d60e2cc853a90108b77139c8.jpg);
+  background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
 }
 .textTitle {
   color: white;

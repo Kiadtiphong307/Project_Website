@@ -149,6 +149,8 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
   grid-template-columns: 1fr 1fr;
   justify-items: stretch;
   align-items: stretch;
+  row-gap: 2px;
+  column-gap: 2px;
   max-width: 1000px;
   margin-inline: 200px;
   margin-block: 10px;
