@@ -56,7 +56,7 @@ const otop_north_all = ref(otop_northStore.Otop_north_list)
 .imgTitle {
   max-width: 100%;
   padding-block: 200px  ;
-  background-image: url(https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/370115621_325402190084535_8319732787131415325_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEUytADEwA7QlZrds7ExVkhIRd8lfXA1RshF3yV9cDVG0hC4qQf3qgcwTlQ74w9RBvVcEx7_OECF1RgqYXN8wII&_nc_ohc=a00ZjP4_piUAX8bHiLI&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=f&oh=03_AdSTSXHcFxHK9GGCbYgie4ciSGE380majC_XIN4Kfp-8Pw&oe=654E16C5);
+  background-image: url(https://scontent.xx.fbcdn.net/v/t1.15752-9/370238141_1380124635963637_1233118382069501642_n.png?stp=dst-png_p403x403&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFyc_p_AwX3GBsNHXU6qJR4N2PDAZX4D_Y3Y8MBlfgP9gA7B2JJKaXytlHHqxsuP4uX9GnJqFvVeT8Nl5JbaSB8&_nc_ohc=UAWE9mVxK5EAX-J-_dB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_e2o=f&oh=03_AdQOPsR2U-BKsew0GF1Sbz-TRm7n_ezM08vIkjyZ-oSqYA&oe=654E376D);
 }
 .container_otop {
   display: grid;
