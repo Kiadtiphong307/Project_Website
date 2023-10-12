@@ -7,6 +7,7 @@
           src="https://www.hellosummer.60เส้นทางความสุข.com/wp-content/uploads/2020/02/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%AA%E0%B8%B5%E0%B8%8A%E0%B8%B1%E0%B8%87-Banner.jpg"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>เกาะสีชัง</h5>
-        <p>เกาะสีชัง อ.เกาะสีชัง จ.ชลบุรี</p>
+        <h5 class="display-3">เกาะสีชัง</h5>
+        <p class="h4">เกาะสีชัง อ.เกาะสีชัง จ.ชลบุรี</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">เกาะสีชัง</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>เกาะสีชัง</strong></h5>
+            <p class="h5">
               บุคคลที่มีหัวใจอนุรักษ์ เกาะสีชังถือเป็นจุดหมายที่น่าสนใจ
               ด้วยความอันซีนของจุดชมวิวที่มีให้เลือกสร้างซีนโรแมนติกได้ถึง 5 พื้นที่ เช่น
               ปลายแหลมถ้ำพัง, เสาธงอัษฎางค์, สะพานอัษฎางค์, ช่องอิสริยาภรณ์ และทะเลแหวกท้ายเกาะ
@@ -65,7 +66,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               นอกจากนี้ ตัวเกาะยังมีคอนเซปต์น่ารักในการจัดการกับสิ่งแวดล้อม
               ทั้งการนำขยะบนเกาะไปทำปุ๋ย การปลูกปะการังอ่อน การเปิดธนาคารปูและสัตว์น้ำหายาก
               เพื่อเป็นการอนุรักษ์ทรัพยากรทางทะเลรอบๆ เกาะให้มีความยั่งยืน ใครรู้ตัวว่าเป็นสาย ECO
@@ -84,7 +85,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -102,6 +103,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -110,11 +112,17 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_east from '../east/Box_menu_east.vue'
 

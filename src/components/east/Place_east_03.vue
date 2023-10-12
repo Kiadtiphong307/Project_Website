@@ -7,6 +7,7 @@
           src="https://apis.sawasdee.ai/microsite/images/post/ckeditor/image-20230201113511-1.png"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>วัดหงษ์ทอง</h5>
-        <p>วัดหงษ์ทอง อ.บางปะกง จ.ฉะเชิงเทรา</p>
+        <h5 class="display-3">วัดหงษ์ทอง</h5>
+        <p class="h4">วัดหงษ์ทอง อ.บางปะกง จ.ฉะเชิงเทรา</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">วัดหงษ์ทอง</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>วัดหงษ์ทอง</strong></h5>
+            <p class="h5">
               วัดที่สวยงามแห่งหนึ่งในจังหวัดฉะเชิงเทรา
               ที่ถูกน้ำทะเลกัดเซาะจนพื้นที่ใช้สอยภายในวัดหายไปเกินครึ่ง
               ด้วยเหตุนี้ทำให้สิ่งก่อสร้างที่เคยตั้งอยู่ริมทะเล
@@ -66,7 +67,7 @@
         <div class="col-md-8">
           <div class="card-body">
             <h5 class="card-title">Card title</h5>
-            <p class="card-text">
+            <p class="h5">
               รวมไปถึงพระเอกใหม่ของวัดอย่าง “ซีวอล์ก” หรือสะพานกระจกใส
               สะพานแก้วที่ทอดตัวออกไปในท้องทะเล ที่กลายเป็นจุดชมพระอาทิตย์ตกของเมืองแปดริ้ว
               และไฮไลต์ที่น่าตื่นใจอย่างมากในช่วงเวลาน้ำขึ้น
@@ -87,7 +88,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -105,6 +106,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark" >LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -113,11 +115,17 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_east from '../east/Box_menu_east.vue'
 
