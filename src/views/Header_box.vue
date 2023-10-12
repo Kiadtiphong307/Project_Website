@@ -1,90 +1,94 @@
 <template>
   <!--แถบ header-->
-  <nav class="navbar bg-primary" data-bs-theme="dark">
-    <nav class="navbar bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="" alt="Bootstrap" width="30" height="24" />
-        </a>
-      </div>
-    </nav>
-  </nav>
-
+  <div class="headNav">
+    <a href="#">
+      <img src="" alt="iocon_logo" width="30" height="24" />
+    </a>
+  </div>
   <!--แถบ menu-->
-  <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="dark">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <router-link :to="{ name: 'main' }" class="navbar-brand"> หน้าแรก </router-link>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <router-link
-                :to="{ name: 'about_page' }"
-                class="nav-link active"
-                aria-current="page"
-                href="#"
-                >about</router-link
-              >
-            </li>
-            <li class="nav-item">
-              <router class="nav-link" href="#">link</router>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                ภูมิภาคที่สนใจ
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <RouterLink :to="{ name: 'home_north' }" class="dropdown-item" href="#"
-                    >ภาคเหนือ</RouterLink
-                  >
-                </li>
-                <li>
-                  <RouterLink :to="{ name: 'home_north_east' }" class="dropdown-item" href="#"
-                    >ภาคตะวันออกเฉียงเหนือ</RouterLink
-                  >
-                </li>
-                <li>
-                  <RouterLink :to="{ name: 'home_central' }" class="dropdown-item" href="#"
-                    >ภาคกลาง</RouterLink
-                  >
-                </li>
-                <li>
-                  <RouterLink :to="{ name: 'home_east' }" class="dropdown-item"
-                    >ภาคตะวันออก</RouterLink
-                  >
-                </li>
-                <li>
-                  <RouterLink :to="{ name: 'home_south' }" class="dropdown-item" href="#"
-                    >ภาคใต้</RouterLink
-                  >
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-        </div>
+  <nav class="BodyNav">
+    <router-link :to="{ name: 'main' }" class="btnNav"> หน้าแรก </router-link>
+    <div class="btnNav">
+      <a
+        class="nav-link dropdown-toggle"
+        href="#"
+        role="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        ภูมิภาคที่สนใจ
+      </a>
+      <ul class="dropdown-menu">
+        <li>
+          <RouterLink :to="{ name: 'home_north' }" class="btnDrop" href="#"
+            >ภาคเหนือ</RouterLink
+          >
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'home_north_east' }" class="btnDrop" href="#"
+            >ภาคตะวันออกเฉียงเหนือ</RouterLink
+          >
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'home_central' }" class="btnDrop" href="#"
+            >ภาคกลาง</RouterLink
+          >
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'home_east' }" class="btnDrop">ภาคตะวันออก</RouterLink>
+        </li>
+        <li>
+          <RouterLink :to="{ name: 'home_south' }" class="btnDrop" href="#"
+            >ภาคใต้</RouterLink
+          >
+        </li>
+      </ul>
+    </div>
+    <div class="btnGrop">
+      <div>
+        <router-link :to="{ name: 'about_page' }" class="btnNav" href="#">about</router-link>
       </div>
-    </nav>
+      <div class="btnNav">
+        <router class="nav-link" href="#">link</router>
+      </div>
+    </div>
   </nav>
 </template>
+
+<style scoped>
+.headNav {
+  background-color: rgb(0, 95, 112);
+  padding: 30px;
+  text-decoration: none;
+}
+.BodyNav {
+  background-color: rgb(14, 171, 182);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.btnGrop {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.btnNav {
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.dropdown-menu{
+  background-color: rgba(6, 164, 175, 0.726);
+}
+.btnDrop{
+  padding: 10px;
+  color: white;
+  display: inline-block;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+</style>

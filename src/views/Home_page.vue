@@ -6,127 +6,97 @@ import header_bar from '../views/Header_box.vue'
   <header_bar></header_bar>
   <div class="container">
     <main>
-      <div id="carouselExampleCaptions" class="carousel slide">
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#carouselExampleCaptions"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <!--การใส่ภาพ-->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              src="https://tatapi.tourismthailand.org/tatfs/IMAGE/Event/Picture/E0002303.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <h5>ประเพณีรับบัว</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-              <div class="mb-3">
-                <!--กรอ e-mail และ คำอธิบาย-->
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="http://www.dhammathai.org/day/pic/takbatthewo1.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img
-              src="https://img.kapook.com/u/panadda/%E0%B8%95%E0%B8%B1%E0%B8%81%E0%B8%9A%E0%B8%B2%E0%B8%95%E0%B8%A3%E0%B8%82%E0%B9%89%E0%B8%B2%E0%B8%A7%E0%B8%95%E0%B9%89%E0%B8%A1%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B9%82%E0%B8%A2%E0%B8%99%E0%B8%A7%E0%B8%B1%E0%B8%94%E0%B8%9E%E0%B8%A3%E0%B8%B0%E0%B8%9E%E0%B8%B8%E0%B8%97%E0%B8%98%E0%B8%89%E0%B8%B2%E0%B8%A2.jpg"
-              class="d-block w-100"
-              alt="..."
-            />
-            <div class="carousel-caption d-none d-md-block">
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="exampleFormControlInput1"
-                  placeholder="name@example.com"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- ปุ่ม เลื่อนภาพไป-กลับ-->
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="prev"
+      <div class="Colrou">
+        <div
+          id="carouselExampleCaptions"
+          class="carousel slide"
+          style="padding-inline: 100px; height: 480px"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#carouselExampleCaptions"
-          data-bs-slide="next"
-        >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <!--การใส่ภาพ-->
+          <div
+            class="carousel-inner"
+            style="
+              border-radius: 20px;
+              height: 480px;
+              box-shadow: 0px 0px 14px 11px rgba(0, 0, 0, 0.25);
+            "
+          >
+            <div class="carousel-item active">
+              <img
+                src="https://tatapi.tourismthailand.org/tatfs/IMAGE/Event/Picture/E0002303.jpg"
+                class="carouImg"
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="http://www.dhammathai.org/day/pic/takbatthewo1.jpg" class="carouImg" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="https://tiewpakklang.com/wp-content/uploads/2019/10/42980388_2023323691066848_6531582420313964544_o-1.jpg"
+                class="carouImg"
+              />
+            </div>
+          </div>
+          <!-- ปุ่ม เลื่อนภาพไป-กลับ-->
 
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
       <!--กิจกรรมที่น่าสนใจ-->
+      <h1 style="font-weight: 400; text-align: center">ปฎิทินประเพณีทั้ง 4 ภาคในเดือนตุลาคม</h1>
       <hr />
-      <h1>ปฎิทินประเพณีทั้ง 4 ภาคในเดือนตุลาคม</h1>
       <div class="container_all">
         <!--box1 รูปท่างซ้าย-->
-        <div class="card mb-3" style="max-width: 1500px">
+        <div class="card mb-3" style="max-width: 1500px; padding: 20px">
           <div class="row g-0">
             <div class="col-md-4">
               <img
                 src="https://static.thairath.co.th/media/dFQROr7oWzulq5Fa5yHAr4nUtZmjbx56onQ4vKN1l4CehATcCGUrMWpSwF6Ery2adyM.webp"
                 class="img-fluid rounded-start"
-                alt="..."
               />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="CartTitle">
                   งานตักบาตรเทโว วัดสังกัสรัตนคีรี เขาสะแกกรัง จังหวัดอุทัยธานี (ภาคกลาง)
                 </h5>
                 <p class="card-text">
@@ -139,7 +109,7 @@ import header_bar from '../views/Header_box.vue'
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="https://travel.trueid.net/detail/6o1az9lGe6ro"
+                    ><a href="https://travel.trueid.net/detail/6o1az9lGe6ro" class="offLink"
                       >แสดงข้อมูลเพิ่มเติม</a
                     ></small
                   >
@@ -149,11 +119,11 @@ import header_bar from '../views/Header_box.vue'
           </div>
         </div>
         <!--box2 รูปขวา-->
-        <div class="card mb-3" style="max-width: 1500px">
+        <div class="card mb-3" style="max-width: 1500px; padding: 20px">
           <div class="row g-0">
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">ประเพณีรับบัว จังหวัดสมุทรปราการ (ภาคกลาง)</h5>
+                <h5 class="CartTitle">ประเพณีรับบัว จังหวัดสมุทรปราการ (ภาคกลาง)</h5>
                 <p class="card-text">
                   ประเพณีรับบัว เป็นประเพณีเก่าแก่ที่สืบทอดกันมาตั้งแต่โบราณของชาวอำเภอบางพลี
                   จังหวัดสมุทรปราการ ซึ่งจะจัดขึ้นทุกวันขึ้น 14 ค่ำ เดือน 11 โดยจะมีการอัญเชิญหลวง
@@ -164,7 +134,7 @@ import header_bar from '../views/Header_box.vue'
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary">
-                    <a href="https://travel.trueid.net/detail/pdNJ8D8wD3vd"
+                    <a href="https://travel.trueid.net/detail/pdNJ8D8wD3vd" class="offLink"
                       >แสดงข้อมูลเพิ่มเติม</a
                     ></small
                   >
@@ -175,24 +145,22 @@ import header_bar from '../views/Header_box.vue'
               <img
                 src="https://tatapi.tourismthailand.org/tatfs/IMAGE/Event/Picture/E0002303.jpg"
                 class="img-fluid rounded-start"
-                alt="..."
               />
             </div>
           </div>
         </div>
         <!-- box3 -->
-        <div class="card mb-3" style="max-width: 1500px">
+        <div class="card mb-3" style="max-width: 1500px; padding: 20px">
           <div class="row g-0">
             <div class="col-md-4">
               <img
                 src="https://img.kapook.com/u/2020/Tanapol/travel/rokyon/saraburievent4.jpg"
                 class="img-fluid rounded-start"
-                alt="..."
               />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">
+                <h5 class="CartTitle">
                   ประเพณีตักบาตรข้าวต้มลูกโยน วัดพระพุทธฉาย จังหวัดสระบุรี (ภาคกลาง)
                 </h5>
                 <p class="card-text">
@@ -203,7 +171,9 @@ import header_bar from '../views/Header_box.vue'
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="http://www.dhammathai.org/day/takbatthewo_saraburi.php"
+                    ><a
+                      href="http://www.dhammathai.org/day/takbatthewo_saraburi.php"
+                      class="offLink"
                       >แสดงข้อมูลเพิ่มเติม</a
                     ></small
                   >
@@ -213,11 +183,11 @@ import header_bar from '../views/Header_box.vue'
           </div>
         </div>
         <!--box 4-->
-        <div class="card mb-3" style="max-width: 1500px">
+        <div class="card mb-3" style="max-width: 1500px; padding: 20px">
           <div class="row g-0">
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">ประเพณีแห่ปราสาทผึ้ง จังหวัดสกลนคร (ภาคอีสาน)</h5>
+                <h5 class="CartTitle">ประเพณีแห่ปราสาทผึ้ง จังหวัดสกลนคร (ภาคอีสาน)</h5>
                 <p class="card-text">
                   งานประเพณีแห่ปราสาทผึ้งนั้น ถือเป็นงานใหญ่ประจำปีของจังหวัดสกลนคร
                   จะจัดขึ้นในช่วงเดือน 11 หรือช่วงออกพรรษา โดยเป็นความเชื่อของชาวอีสาน
@@ -234,7 +204,7 @@ import header_bar from '../views/Header_box.vue'
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary">
-                    <a href="https://travel.kapook.com/view260473.html"
+                    <a href="https://travel.kapook.com/view260473.html" class="offLink"
                       >แสดงข้อมูลเพิ่มเติม</a
                     ></small
                   >
@@ -245,24 +215,22 @@ import header_bar from '../views/Header_box.vue'
               <img
                 src="https://s359.kapook.com//pagebuilder/e5f0e4bf-a673-4c15-b410-ac2c04ddcb73.jpg"
                 class="img-fluid rounded-start"
-                alt="..."
               />
             </div>
           </div>
         </div>
         <!-- box5 -->
-        <div class="card mb-3" style="max-width: 1500px">
+        <div class="card mb-3" style="max-width: 1500px; padding: 20px">
           <div class="row g-0">
             <div class="col-md-4">
               <img
                 src="https://www.isangate.com/new/images/thumbnails/images/art-culture/candle/lai_rue_fire_01-fill-650x354.jpg"
                 class="img-fluid rounded-start"
-                alt="..."
               />
             </div>
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">ประเพณีไหลเรือไฟ จังหวัดนครพนม (ภาคีสาน)</h5>
+                <h5 class="CartTitle">ประเพณีไหลเรือไฟ จังหวัดนครพนม (ภาคีสาน)</h5>
                 <p class="card-text">
                   ประเพณีไหลเรือไฟ เป็นประเพณีที่ชาวนครพนมภาคภูมิใจ
                   เพราะบรรพบุรุษได้ยึดถือกันมานานตั้งแต่โบราณ
@@ -272,7 +240,7 @@ import header_bar from '../views/Header_box.vue'
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary"
-                    ><a href="http://www2.nakhonphanom.go.th/charm/detail/29"
+                    ><a href="http://www2.nakhonphanom.go.th/charm/detail/29" class="offLink"
                       >แสดงข้อมูลเพิ่มเติม</a
                     ></small
                   >
@@ -282,11 +250,11 @@ import header_bar from '../views/Header_box.vue'
           </div>
         </div>
         <!--box 6-->
-        <div class="card mb-3" style="max-width: 1500px">
+        <div class="card mb-3" style="max-width: 1500px; padding: 20px">
           <div class="row g-0">
             <div class="col-md-8">
               <div class="card-body">
-                <h5 class="card-title">เทศกาลบั้งไฟพญานาค จังหวัดหนองคาย (ภาคอีสาน)</h5>
+                <h5 class="CartTitle">เทศกาลบั้งไฟพญานาค จังหวัดหนองคาย (ภาคอีสาน)</h5>
                 <p class="card-text">
                   “บั้งไฟพญานาค” เป็นปรากฏการณ์ของการเกิดลูกไฟสีแดงอมชมพูพวยพุ่งขึ้นจากลำน้ำโขง
                   ซึ่งจะเกิดขึ้นเฉพาะช่วงจังหวัดหนองคาย จะเริ่มปรากฏจากเหนือผิวน้ำตั้งแต่ระดับ – 30
@@ -294,28 +262,10 @@ import header_bar from '../views/Header_box.vue'
                   แล้วดับหายวับไปในอากาศและไม่มีลักษณะโค้งตกลงมาเหมือนดอกไม้ไฟ โดยลูกไฟไม่มีกลิ่น
                   ไม่มีควัน ไม่มีเสียง ขนาดของลูกไฟมีขนาดตั้งแต่เท่าหัวแม่มือ
                   กระทั่งขนาดเท่าฟองไข่ไก่
-                  จะเริ่มปรากฏให้เห็นตั้งแต่เวลาหลังพระอาทิตย์ตกดินจนถึงประมาณ 23.00 น.
-                  “ตำนานการเกิดบั้งไฟพญานาค” ตามพุทธประวัติกล่าวว่าเมื่อพระพุทธเจ้าได้ตรัสรู้
-                  พระองค์ได้เสด็จเผยแพร่ศาสนาไปทั่วชมพูทวีป พญานาคีบังเกิดความเลื่อมใสและศรัทธายิ่ง
-                  จึงจำแลงกายเป็นบุรุษขอบวชเป็นสาวก ค่ำคืนหนึ่งพญานาคีเผลอหลับใหลคืนร่างเดิม
-                  พระพุทธเจ้าทรงทราบเรื่องจึงขอให้ลาสิกขา เนื่องจากเป็นเดรัจฉานจะบวชเป็นภิกษุมิได้
-                  พญานาคียอมตามคำขอแต่ขอว่ากุลบุตรทั้งปวงที่จะบวชให้เรียกขานว่า “นาค”
-                  เพื่อเป็นศักดิ์ศรีของพญานาคก่อนค่อยเข้าโบสถ์
-                  จากนั้นเป็นต้นมาจึงเรียกขานกุลบุตรทั้งหลายที่จะบวชว่า “พ่อนาค”
-                  ต่อมาเมื่อครั้งพระพุทธเจ้าได้เสด็จจากสวรรค์ชั้นดาวดึงส์
-                  หลังจากเสด็จไปโปรดพุทธมารดาเป็นเวลา 3 เดือน เมื่อกลับสู่โลกมนุษย์
-                  เหล่าบรรดาพญานาคี นาคเทวี พร้อมทั้งเหล่าบริวารจัดทำเครื่องบูชา และพ่นบั้งไฟถวาย
-                  ซึ่งชาวบ้านเรียกว่า “บั้งไฟพญานาค” “บั้งไฟพญานาค”
-                  จึงเป็นปรากฏการณ์น่าพิศวงที่รอการพิสูจน์จากผู้คนทั่งโลก
-                  ซึ่งจะมีปรากฏการณ์ในช่วงวันออกพรรษาวันขึ้น 15 ค่ำ เดือน 11 ของทุกปี และคาดว่าจะมี
-                  “บั้งไฟพญานาค” ปรากฏในวันนี้ ซึ่งผู้สนใจสามารถเดินทางไปชมปรากฏการณ์บั้งไฟพญานาค
-                  ได้บริเวณริมฝั่งแม่น้ำโขงในเขตพื้นที่หลายอำเภอของจังหวัดหนองคาย เช่น อำเภอสังคม
-                  อำเภอศรีเชียงใหม่ อำเภอเมือง อำเภอโพนพิสัย อำเภอรัตนวาปี และจังหวัดบึงกาฬ
-                  อำเภอปากคาด อำเภอเมือง และอำเภอบึงโขงหลง ฯลฯ
                 </p>
                 <p class="card-text">
                   <small class="text-body-secondary">
-                    <a href="https://www.phonphisai.go.th/index/?page=article3679"
+                    <a href="https://www.phonphisai.go.th/index/?page=article3679" class="offLink"
                       >แสดงข้อมูลเพิ่มเติม</a
                     ></small
                   >
@@ -324,9 +274,8 @@ import header_bar from '../views/Header_box.vue'
             </div>
             <div class="col-md-4">
               <img
-                src="https://tatapi.tourismthailand.org/tatfs/IMAGE/Event/Picture/E0002303.jpg"
+                src="https://image.makewebeasy.net/makeweb/m_1920x0/D4lr6Y9nB/attachfile/%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B8%9A%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B8%9E%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%84_%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%97%E0%B8%A8%E0%B8%81%E0%B8%B2%E0%B8%A5%E0%B8%AD%E0%B8%AD%E0%B8%81%E0%B8%9E%E0%B8%A3%E0%B8%A3%E0%B8%A9%E0%B8%B2_%E0%B8%97%E0%B8%B1%E0%B8%A7%E0%B8%A3%E0%B9%8C%E0%B8%9A%E0%B8%B1%E0%B9%89%E0%B8%87%E0%B9%84%E0%B8%9F%E0%B8%9E%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B8%84.jpg?v=202305101549"
                 class="img-fluid rounded-start"
-                alt="..."
               />
             </div>
           </div>
@@ -336,4 +285,22 @@ import header_bar from '../views/Header_box.vue'
   </div>
 </template>
 
-<script scope></script>
+<style scope>
+.Colrou {
+  padding-inline: 50px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.carouImg {
+  max-width: 1000px;
+}
+.CartTitle {
+  font-weight: 600;
+}
+.offLink {
+  text-decoration: none;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+</style>
