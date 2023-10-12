@@ -7,6 +7,7 @@
           src="https://www.khaosod.co.th/wpapp/uploads/2021/03/col01p1-14.jpg"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>วัดถ้ำเขาประทุน</h5>
-        <p>Some representative placeholder content for the first slide.</p>
+        <h5 class="display-3">วัดถ้ำเขาประทุน</h5>
+        <p class="h4">Some representative placeholder content for the first slide.</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">วัดถ้ำเขาประทุน</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>วัดถ้ำเขาประทุน</strong></h5>
+            <p class="h5">
               วัดถ้ำเขาประทุน เป็นวัดที่มีภูมิประเทศเป็นหุบเขา หน้าผา และยอดเขาสูง
               มีถ้ำเล็กที่เต็มไปด้วยหินงอกหินย้อยอยู่ภายใน ด้านหน้าของวัดมี ‘ถ้ำพญานาคราช’
               เป็นถ้ำรับแขก และมีลำแสงจากช่องเขารูปทรงพญานาคที่มองแล้วชวนให้รู้สึกอัศจรรย์ใจ
@@ -67,7 +68,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               พร้อม ‘โพรงพญานาค’ ซึ่งเป็นจุดที่คนเฒ่าคนแก่เล่าว่า เคยพบเห็นพญานาคเลื้อยผ่านเข้าออก
               โดยรวมถือเป็นวัดที่เต็มไปด้วยพลังศรัทธาแห่งพญานาค เป็นรสชาติใหม่ เมืองระยอง
               ที่อยากให้ผู้คนมาลิ้มลองด้วยตัวเอง นักท่องเที่ยวสามารถท่องเที่ยวได้ตลอดทั้งปี
@@ -86,7 +87,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -104,6 +105,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark" >LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -112,11 +114,17 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_east from '../east/Box_menu_east.vue'
 

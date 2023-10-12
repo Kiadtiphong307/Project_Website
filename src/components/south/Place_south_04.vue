@@ -7,6 +7,7 @@
           src="https://s.isanook.com/tr/0/ud/287/1437671/line_album_11566_230511_25.jpg?ip/resize/w728/q80/jpg"
           class="d-block w-100"
           alt="..."
+          height="550"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>หินพับผ้า</h5>
-        <p>หินพับผ้า อ.ขนอม จ.นครศรีธรรมราช</p>
+        <h5 class="display-3">หินพับผ้า</h5>
+        <p class="h4">หินพับผ้า อ.ขนอม จ.นครศรีธรรมราช</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">หินพับผ้า</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>หินพับผ้า</strong></h5>
+            <p class="h5">
               ผาหินรูปร่างแปลกตาที่พบเห็นได้บริเวณกลางทะเลขนอม
               เป็นปรากฏการณ์ทางธรณีวิทยาที่มีอยู่เพียงน้อยแห่งบนโลกใบนี้
               มีลักษณะเป็นแผ่นหินซ้อนเรียงกันเป็นชั้นๆ
@@ -66,7 +67,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               เพราะดูคล้ายกับผ้าที่พับซ้อนกันเป็นชั้นๆ เป็นความมหัศจรรย์ของธรรมชาติเมืองคอน
               ซึ่งนักท่องเที่ยวสามารถเช่าเรือจากชุมชนแหลมประทับ
               เพื่อมาเที่ยวชมพิพิธภัณฑ์ธรรมชาติแห่งนี้ได้ตลอดวัน
@@ -86,7 +87,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -104,6 +105,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark" style="border-radius: 30px">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -112,11 +114,17 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_south from '../south/Box_menu_south.vue'
 

@@ -13,9 +13,10 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://www.suratthanitourism.com/wp-content/uploads/2019/08/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B8%98%E0%B8%A3%E0%B8%A3%E0%B8%A1%E0%B9%80%E0%B8%82%E0%B8%B2%E0%B8%99%E0%B8%B2%E0%B9%83%E0%B8%99%E0%B8%AB%E0%B8%A5%E0%B8%A7%E0%B8%87_06.jpg"
+          src="https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/387555130_1036514387774840_6452738890701898177_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeErG2XjBWX_qjPUYMYRoYm8dvZI-MebaJF29kj4x5tokTMbpHOf0M2SoLVtH8lTPUOW64zVuXpxHA1z_f3lgTZz&_nc_ohc=AqofRQxSxK4AX_JO7QV&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdRj5MP70TlwzsUSL0iBNZZiZRVDLYEDNcmExFcQzdDWYA&oe=654EB29B"
           class="d-block w-100"
           alt="..."
+          height="550"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -32,10 +33,6 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
           </svg>
         </router-link>
       </div>
-      <div class="carousel-caption d-none d-md-block">
-        <h5>อุทยานธรรมเขานาในหลวง อ.พนม จ.สุราษฎร์ธานี</h5>
-        <p>อุทยานธรรมชาติที่สวยและงดงามเหมาะแก่การมาเยี่ยมชม ซักครั้ง</p>
-      </div>
     </div>
   </div>
 
@@ -46,83 +43,25 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
 
   <!-- box รูปซ้าย -->
   <div class="container">
-    <div class="card mb-3" style="max-width: 1500px">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <img
-            src="https://s.isanook.com/tr/0/ud/281/1409765/ghf.jpg"
-            class="img-fluid rounded-start"
-            alt="..."
-          />
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">อุทยานธรรมเขานาในหลวง อ.พนม จ.สุราษฎร์ธานี</h5>
-            <p class="card-text">
-              อุทยานธรรมเขานาในหลวง เป็นสำนักสงฆ์ที่สร้างขึ้นด้วยพลังศรัทธาของชาวบ้าน
-              สถานที่แห่งนี้เป็นที่รู้จักจากความวิจิตรของประตูพุทธวดี หรือซุ้มประตูแห่งกาลเวลา
-              ถือเป็นไฮไลต์อันแสนงดงามยามเมื่อแสงเช้าตกกระทบ ก่อนจะต่อยอดพลังศรัทธา
-              ด้วยการสร้างเจดีย์ร้อยยอดพันองค์ เจดีย์ลอยฟ้าพุทธศิลาวดี เจดีย์ลอยฟ้าพุทธราชาวดี
-              ทำให้ปัจจุบันสถานที่แห่งนี้เป็นเหมือนสวรรค์บนดิน โดยเฉพาะยามทะเลหมอกที่สวยงามอย่างมาก
-              และเจดีย์แต่ละองค์จะดูคล้ายกับลอยอยู่บนก้อนเมฆ เป็นภาพอุทยานธรรมลอยฟ้าที่ดูตื่นตา
-              และน่าอัศจรรย์ใจ นักท่องเที่ยวสามารถเดินทางมาชมความมหัศจรรย์ได้ตลอดทั้งปี
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!--box รูปขวา-->
-    <div class="card mb-3" style="max-width: 1500px">
-      <div class="row g-0">
-        <div class="col-md-8">
-          <div class="card-body">
-            <p class="card-text">
-              ตามประวัติของพื้นที่บริเวณเขานาในคือ มีกลุ่มชาวบ้านราว 40 คน อพยพจาก อ.ชะอวด
-              จ.นครศรีธรรมราช เข้ามาตั้งรกรากครั้งแรกในปี พ.ศ. 2518
-              ซึ่งขณะนั้นพื้นที่บริเวณเขานาในอยู่ภายใต้การครอบครองของพรรคคอมมิวนิสต์แห่งประเทศไทย
-              กลุ่มชาวบ้านจึงส่งตัวแทนเข้าเจรจาเพื่อขออยู่อาศัยและบุกเบิกพื้นที่ทำมาหากิน
-              ต่อมาชาวบ้านจากพื้นที่อื่นๆ ทราบข่าวจึงทยอยตามเข้ามาสมทบ
-              ก่อนที่พรรคคอมมิวนิสต์จะยุติบทบาทการสู้รบกับรัฐบาลไทยลงในปี พ.ศ. 2525
-              ชุมชนจึงได้ขยายตัว มีการก่อตั้งวัด โรงเรียน สถานีอนามัย พัฒนาระบบสาธารณูปโภคขึ้น
-              รวมถึงอุทยานธรรมที่สวยงาม สงบ และร่มรื่นแห่งนี้
-            </p>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <img
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1cUue3D_2rl_1uYCb1eHUdQrp5LspIrMiA&usqp=CAU"
-            class="img-fluid rounded-start"
-            alt="..."
-          />
-        </div>
-      </div>
-    </div>
-
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="container">
-      <h1>กิจกรรมที่น่าสนใจ</h1>
-      <hr />
-
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col" v-for="(i, index) in otop_south_all" :key="index">
-          <div class="card">
-            <img :src="i.img" class="card-img-top" alt="..." />
+          <div class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+            <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
             <div class="card-body">
-              <h5 class="card-title">
-                <strong>{{ i.name }}</strong>
-              </h5>
+              <h5 class="card-text mb-auto"><strong class="h3">{{ i.name }}</strong></h5>
               <p class="card-text">
                 <strong>ประเภท: {{ i.category }}</strong>
               </p>
               <p class="card-text">
-                <strong>ราคา:{{ i.price }} บาท</strong>
+                <strong>ราคา: {{ i.price }} บาท</strong>
               </p>
               <p class="card-text">{{ i.text }}</p>
-              <button type="button" class="btn btn-primary">ลงตะกร้า</button>
+              <button type="button" class="btn btn-dark" style="border-radius: 30px">ลงตะกร้า</button>
             </div>
           </div>
         </div>
@@ -131,16 +70,23 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365">
+      <a class="btn btn-outline-secondary" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365">
         ขอบคุณข้อมูลอ้างอิงจาก
       </a></small
     >
   </p>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://palanla.com/th/domesticLocation/detail/1560">
+      <a class="btn btn-outline-secondary" href="https://palanla.com/th/domesticLocation/detail/1560">
         ขอบคุณข้อมูลอ้างอิงจาก
       </a></small
     >
   </p>
 </template>
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 480px;
+  border-bottom: 2px solid;
+}
+</style>

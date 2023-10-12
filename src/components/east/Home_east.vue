@@ -13,9 +13,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
               <div class="carousel-image-container">
                 <img
                   src="https://s359.kapook.com//pagebuilder/037951b6-33c7-4130-a250-44ee7ee41a5e.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                />
+                  class="d-block w-100" alt="..." height="450"/>
                 <router-link :to="{ name: 'main' }">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -33,8 +31,8 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </div>
 
               <div class="carousel-caption d-none d-md-block">
-                <h5>ภาคตะวันออก</h5>
-                <p>
+                <h5 class="display-3">ภาคตะวันออก</h5>
+                <p class="h4">
                   นํ้าตกลือเลื่อง เมืองผลไม้ พริกไทยพันธุ์ดี อัญมณีมากเหลือ เสื่อจันทบูร
                   สมบูรณ์ธรรมชาติ สมเด็จพระเจ้าตากสินกู้ชาติ รวมญาติที่จันทบุรี
                   (คำขวัญประจำจังหวัดจังหวัดจันทบุรี)
@@ -52,7 +50,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1>คาเฟ่ที่ไม่ควรพลาด!!</h1>
+    <h1 class="textcenter"><strong>คาเฟ่ที่ไม่ควรพลาด!!</strong></h1>
     <hr />
     <div class="container_all">
       <!--box1 รูปท่างซ้าย-->
@@ -67,15 +65,15 @@ import Header_box_east from '../east/Box_menu_east.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Hom's House บ้านของหอม ขนมไทย</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Hom's House บ้านของหอม ขนมไทย</strong></h5>
+              <p class="cardtext">
                 วันนี้ข้าจักพาพวกเจ้ามากินขนมไทย ที่ Hom's House บ้านของหอมขนมไทย เรือนหลังน้อยๆ
                 ย่านบางแสน เป็นทั้งคาเฟ่ และร้านดอกไม้
                 กับเมนูขนมไทยที่เห็นก็รับรู้ได้เลยว่าประณีตแค่ไหน
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href=" https://www.facebook.com/ourhomshouse">แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/ourhomshouse">แสดงข้อมูลเพิ่มเติม</a></small
                 >
               </p>
             </div>
@@ -87,8 +85,8 @@ import Header_box_east from '../east/Box_menu_east.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Moon Diner</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Moon Diner</strong></h5>
+              <p class="cardtext">
                 พาสายปาร์ตี้มาย้อนวันวานไปกับ MOON DINER บาร์เปิดใหม่ สีสันจัดจ้าน
                 เหมือนโผล่ไปสัมผัสอีกมิติในยุค 50s เฟอร์นิเจอร์ในร้านเป็นสไตล์อเมริกันวินเทจ~
                 เก็บทุกรายละเอียด โซฟา เคาน์เตอร์ เหมือนในหนังเลย พร้อมอาหาร และเครื่องดื่มอีกเพียบ
@@ -96,7 +94,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href=" https://www.facebook.com/MOON-DINER">แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/MOON-DINER">แสดงข้อมูลเพิ่มเติม</a></small
                 >
               </p>
             </div>
@@ -122,8 +120,8 @@ import Header_box_east from '../east/Box_menu_east.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">To Die For Coffee</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>To Die For Coffee</strong></h5>
+              <p class="cardtext">
                 ไปเที่ยวทะเลกันดีกว่าา~ ชิคๆ คูลๆ แถวบางแสนเนอะ To Die For Coffee - Bangsaen
                 ตั้งอยู่ในโรงแรม Wheeler Bed & Bike - Bangsaen เท่ทั้งตัวร้านกาแฟ และตัวโรงแรมเลย
                 แถมบาริสต้ายังโอปป้าไปอีกก ดี๊ดีย์~ มาพร้อมกับ Key Message ว่า “ตายไม่ได้
@@ -131,7 +129,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href=" https://www.facebook.com/ToDieForCoffee">แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/ToDieForCoffee">แสดงข้อมูลเพิ่มเติม</a></small
                 >
               </p>
             </div>
@@ -143,8 +141,8 @@ import Header_box_east from '../east/Box_menu_east.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Babycha</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Babycha</strong></h5>
+              <p class="cardtext">
                 ร้านชานมไข่มุกน้องใหม่ Babycha นี่ร้านชาไข่มุกงายยย ไม่ใช่สตูดิโอ~
                 สูตรพิเศษจากคุณแม็ก Aussanai Arunkiri เพื่อเอาใจคนรักชาไข่มุกอย่างเต็มที่
                 มาพร้อมกับชาหลากหลายรสชาติ และท็อปปิ้งอีกเพียบ บริการตัวเองได้เลยน้าา ตักไข่มุกเอง
@@ -152,7 +150,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href="https://www.facebook.com/Babycha"> แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href="https://www.facebook.com/Babycha"> แสดงข้อมูลเพิ่มเติม</a></small
                 >
               </p>
             </div>
@@ -178,15 +176,15 @@ import Header_box_east from '../east/Box_menu_east.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Cakery Patisseries Boutique Café</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Cakery Patisseries Boutique Café</strong></h5>
+              <p class="cardtext">
                 คาเฟ่ท่ามกลางธรรมชาติอย่าง Cakery Patisseries Boutique Cafe’ คิดว่าอยู่ในเทพนิยาย
                 รู้สึกเหมือนตัวเองเป็นเจ้าหญิงเลยจ๊าาาา~ ตัวร้านตกแต่งน่าร๊ากกก มีดอกไม้อยู่ทุกๆ มุม
                 สีสันพาสเทลมาก น่ารักไปจนถึงเมนูเครื่องดื่ม และขนม
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href="https://www.facebook.com/CakeryPatisseriesBoutiqueCafe"
+                  <a class="btn btn-dark" href="https://www.facebook.com/CakeryPatisseriesBoutiqueCafe"
                     >แสดงข้อมูลเพิ่มเติม</a
                   ></small
                 >
@@ -200,8 +198,8 @@ import Header_box_east from '../east/Box_menu_east.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">3 of H</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>3 of H</strong></h5>
+              <p class="cardtext">
                 3 of H คาเฟ่สายชิลแบบสโลว์ไลฟ์ ท่ามกลางแหล่งชุมชน อะ แต่มีที่จอดรถเด้ออ!! เช้าๆ
                 แบบนี้กาแฟสักแก้วมะ? ของกินเล่นกินจริงเยอะแยะเลย ที่สำคัญราคามิตรภาพสุดๆ
                 หรือจะเอาโน้ตบุ้คมานั่งทำงานก็ได้ ปลั้กเพียบ เจ้าของร้านใจดี
@@ -209,7 +207,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href=" https://www.facebook.com/3-of-H"> แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/3-of-H"> แสดงข้อมูลเพิ่มเติม</a></small
                 >
               </p>
             </div>
@@ -225,5 +223,23 @@ import Header_box_east from '../east/Box_menu_east.vue'
       </div>
     </div>
   </div>
-  <a href="https://food.trueid.net/detail/rOJdP09gGWXj">ขอบคุณข้อมูล</a>
+  <div class="d-grid gap-2 col-6 mx-auto">
+  <a class="btn btn-outline-secondary" href="https://food.trueid.net/detail/rOJdP09gGWXj">ขอบคุณข้อมูล</a>
+</div>
 </template>
+<style scoped>
+.h4{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.display-3{
+  font-family: "Gill Sans", sans-serif;
+}
+.textcenter{
+  text-align: center;
+  margin-inline: 400px;
+  border-bottom: 2px solid;
+}
+.cardtext{
+  font-size: 17px;
+}
+</style>

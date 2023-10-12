@@ -7,6 +7,7 @@
           src="https://www.unseennewchapters.com/img/phetchaburi-01.838b543e.jpg"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>ถ้ำโบ้</h5>
-        <p>ถ้ำโบ้ อ.เขาย้อย จ.เพชรบุรี</p>
+        <h5 class="display-3">ถ้ำโบ้</h5>
+        <p class="h4">ถ้ำโบ้ อ.เขาย้อย จ.เพชรบุรี</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">ถ้ำโบ้</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>ถ้ำโบ้</strong></h5>
+            <p class="h5">
               “ถ้ำโบ้” แหล่งท่องเที่ยวที่น่าสนใจ ตั้งอยู่บนเขาอีบิด ทางเข้าถ้ำเป็นโพรงกว้าง
               ภายในเป็นถ้ำตื้น โถงถ้ำสูงโปร่ง มีหินงอกหินย้อยที่เกิดขึ้นตามธรรมชาติสวยงาม
               อากาศถ่ายเทเย็นสบาย จากในถ้ำเมื่อมองลอดโพรงออกไปด้านหน้า จะเห็นทิวทัศน์ของ อ.เขาย้อย
@@ -66,7 +67,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               ยังเป็นจุดชมดวงอาทิตย์ขึ้น และตกที่งดงาม เหมาะกับคนที่อยากได้รูปมุมใหม่ๆ
               สำหรับนักท่องเที่ยวสายผจญภัยที่อยากพิชิตถ้ำใหม่ใกล้เมืองกรุงเทพนี้
               ช่วงเวลาที่เหมาะสมในการเดินชมถ้ำ คือ 05.00 - 17.00 น.
@@ -86,7 +87,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -104,6 +105,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -112,11 +114,17 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_central from '../central/Box_menu_central.vue'
 

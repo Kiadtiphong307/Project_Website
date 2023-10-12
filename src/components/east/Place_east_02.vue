@@ -7,6 +7,7 @@
           src="https://s359.kapook.com//pagebuilder/1cd4cae7-b77f-4ac5-ac70-0ca529255287.jpg"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>วัดมณีวงศ์</h5>
-        <p>วัดมณีวงศ์ อ.เมือง จ.นครนายก</p>
+        <h5 class="display-3">วัดมณีวงศ์</h5>
+        <p class="h4">วัดมณีวงศ์ อ.เมือง จ.นครนายก</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">วัดมณีวงศ์</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>วัดมณีวงศ์</strong></h5>
+            <p class="h5">
               วัดแห่งนี้เกิดขึ้นจากพญานาคที่มาเข้าฝัน ‘หลวงพี่ต่อ’ เจ้าอาวาสวัดมณีวงศ์
               และได้พาหลวงพี่ไปชมคลังมหาสมบัติที่เมืองบาดาล เพื่อให้เกิดภาพจำและนำกลับไปสร้างที่วัด
             </p>
@@ -63,7 +64,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               จนเกิดเป็นความอลังการของงานประติมากรรมพญานาคกว่า 1,000 ตน
               ที่อาศัยเวียนวนอยู่ในถ้ำขนาดใหญ่ โดยจำลองบรรยากาศความยิ่งใหญ่มาจากเมืองบาดาล
               สู่ความงดงามที่ถูกถ่ายทอดผ่านงานปั้นชั้นครู
@@ -83,7 +84,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -101,6 +102,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -109,11 +111,17 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter{
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_east from '../east/Box_menu_east.vue'
 
