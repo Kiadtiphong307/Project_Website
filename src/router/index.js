@@ -9,7 +9,7 @@ import home_south from '../components/south/Home_south.vue'
 
 //Cart and oder
 import CartList from '../components/shop/Cart_list.vue'
-import Orderlist from '../components/shop/Oder_list.vue'
+import Orderlist from '../components/shop/Order_list.vue'
 
 //about
 import about_page from '../views/About_page.vue'

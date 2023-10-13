@@ -1,7 +1,7 @@
 <script setup>
 import { cart } from '../shop/Cart_count';
-import { computed } from 'vue';
-import { addOrder } from '../shop/Oder_count';
+import { addOrder } from '../shop/Order_count';
+import { computed, ref } from 'vue';
 
 const totalPrice = (item) => computed(() => item.price * item.quantity);
 
@@ -20,13 +20,64 @@ const removeFromCart = (itemToRemove) => {
   }
 };
 
+const shippingAddress = ref({
+  fullName: '',
+  phoneNumber: '',
+  province: '',
+  district: '',
+  subDistrict: '',
+  address: '',
+  zip: ''
+});
+
+const clearShippingAddress = () => {
+  shippingAddress.value = {
+    fullName: '',
+    phoneNumber: '',
+    province: '',
+    district: '',
+    subDistrict: '',
+    address: '',
+    zip: ''
+  };
+};
+
 const confirmOrder = () => {
-  addOrder(cart.value);
-  cart.value = [];
+  if (totalItemsInCart.value > 0 && isShippingAddressComplete()) {
+    const orderData = { items: cart.value, shippingAddress: { ...shippingAddress.value } };
+    addOrder(orderData);
+    cart.value = [];
+  } else {
+    console.log("ไม่สามารถยืนยันการสั่งซื้อได้ โปรดตรวจสอบว่าคุณมีสินค้าในตะกร้าสินค้าและกรอกข้อมูลที่อยู่จัดส่งทั้งหมด");
+  }
+};
+
+const isShippingAddressComplete = () => {
+  const { fullName, phoneNumber, province, district, subDistrict, address, zip } = shippingAddress.value;
+  return fullName && phoneNumber && province && district && subDistrict && address && zip;
+};
+
+
+
+const confirmOrderHandler = () => {
+  if (totalItemsInCart.value > 0 && isShippingAddressComplete()) {
+    confirmOrder();
+    clearShippingAddress();
+    alert('สั่งซื้อสำเร็จ');
+  } else {
+    if (totalItemsInCart.value === 0) {
+      alert('กรุณาเพิ่มสินค้าลงในตะกร้าก่อนทำการสั่งซื้อ');
+    } else if (!isShippingAddressComplete()) {
+      alert('กรุณากรอกข้อมูลที่อยู่การจัดส่งให้ครบถ้วน');
+    }
+  }
 };
 </script>
 
+
+
 <template>
+<div class="container">
 <div>
     <router-link :to="{ name: 'main' }">
         <svg
@@ -104,11 +155,58 @@ const confirmOrder = () => {
         </div>
       </div>
   </div>
+</section>  
+
+<section class="h-100" style="background-color: #eee;">
+  <div>
+    <form @submit.prevent="confirmOrder">
+      <h1 class="fw-normal mb-0 text-black">ที่อยู่การจัดส่ง</h1>
+      <hr>
+
+      <div class="mb-3">
+        <label for="fullName" class="form-label">ชื่อ-สกุล</label>
+        <input v-model="shippingAddress.fullName" type="text" class="form-control" id="fullName" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="phoneNumber" class="form-label">เบอร์โทรศัทพ์</label>
+        <input v-model="shippingAddress.phoneNumber" type="text" class="form-control" id="phoneNumber" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="province" class="form-label">จังหวัด</label>
+        <input v-model="shippingAddress.province" type="text" class="form-control" id="province" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="district" class="form-label">อำเภอ</label>
+        <input v-model="shippingAddress.district" type="text" class="form-control" id="district" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="subDistrict" class="form-label">ตำบล</label>
+        <input v-model="shippingAddress.subDistrict" type="text" class="form-control" id="subDistrict" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="address" class="form-label">ที่อยู่</label>
+        <input v-model="shippingAddress.address" type="text" class="form-control" id="address" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="zip" class="form-label">รหัสไปรษณีย์</label>
+        <input v-model="shippingAddress.zip" type="text" class="form-control" id="zip" required>
+      </div>
+    
+    </form>
+  </div>
+
 </section>
+
 <div class="d-flex justify-content-end">
-  <button @click="confirmOrder" type="button" class="btn btn-primary btn-lg">สั่งซื้อ</button>
+  <button @click="confirmOrderHandler" type="button" class="btn btn-primary btn-lg">สั่งซื้อ</button>
 </div>
 
-
+</div>
 
 </template>
