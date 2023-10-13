@@ -78,7 +78,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
         </div>
         <div class="re_text">
           <h4>{{ i.name }}</h4>
-          <p >{{ i.category }}</p>
+          <p>{{ i.category }}</p>
         </div>
       </div>
     </div>

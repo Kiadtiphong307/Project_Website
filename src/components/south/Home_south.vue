@@ -12,6 +12,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
             src="https://i.pinimg.com/736x/1f/d2/85/1fd2858972eae4e02a7f903cefb57fe5.jpg"
             class="d-block w-100"
             alt="..."
+            height="550"
           />
           <router-link :to="{ name: 'main' }">
             <svg
@@ -30,8 +31,8 @@ import Header_box_south from '../south/Box_menu_south.vue'
         </div>
 
         <div class="carousel-caption d-none d-md-block">
-          <h5>ภาคใต้</h5>
-          <p>
+          <h5 class="display-3">ภาคใต้</h5>
+          <p class="h4">
             ประตูภาคใต้ ไหว้เสร็จในกรมฯ ชมไร่กาแฟ แลหาดทรายรี ตีกล้วยเล็บมือนาง ขึ้นชื่อเรื่องรังนก
           </p>
         </div>
@@ -44,7 +45,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1>สถานที่ท่องเที่ยวที่น่าสนใจของภาคใต้</h1>
+    <h1 class="textcenter"><strong>สถานที่ท่องเที่ยวที่น่าสนใจของภาคใต้</strong></h1>
     <hr />
     <div class="container_all">
       <!--box1 รูปท่างซ้าย-->
@@ -59,8 +60,8 @@ import Header_box_south from '../south/Box_menu_south.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Tarzan Adventure ภูเก็ต</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Tarzan Adventure ภูเก็ต</strong></h5>
+              <p class="cardtext">
                 ออกกำลังกายกลางเเจ้ง ปีนป่าย ห้อยโหน 'ทาร์ซาน เเอดเวนเจอร์ ภูเก็ต' (Tarzan Adventure
                 Phuket) ผู้เชี่ยวชาญกิจกรรมซิปไลน์ในภูเก็ต ท้าทายความมันส์กับ 42 ฐาน
                 ซึ่งเเต่ละฐานถูกออกเเบบขึ้นเพื่อสร้างความสนุกสนาน ความตื่นเต้น เร้าใจ
@@ -72,13 +73,13 @@ import Header_box_south from '../south/Box_menu_south.vue'
                 อุปกรณ์มาตราฐานด้วยเทคโนโลยี Coudou Pro มั่นใจตลอดทุกการเคลื่อนไหว
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"
-                  ><button>
-                    <a href="https://we-offers.com/product/tarzan-adventure-phuket/?lang=th"
-                      >รายละเอียดเพิ่มเติม</a
-                    >
-                  </button></small
-                >
+                <small class="text-body-secondary">
+                  <a
+                    class="btn btn-dark"
+                    href="https://we-offers.com/product/tarzan-adventure-phuket/?lang=th"
+                    >รายละเอียดเพิ่มเติม</a
+                  >
+                </small>
               </p>
             </div>
           </div>
@@ -89,8 +90,8 @@ import Header_box_south from '../south/Box_menu_south.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">หมู่เกาะชุมพร</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>หมู่เกาะชุมพร</strong></h5>
+              <p class="cardtext">
                 เป็นอุทยานแห่งชาติเมื่อปี 2532 แรกเริ่มใช้ชื่ออุทยานแห่งชาติหาดทรายรี
                 ต่อมาได้รับการประกาศเป็นอุทยานแห่งชาติหมู่เกาะชุมพร เมื่อวันที่ 24 กุมภาพันธ์ 2542
                 ครอบคลุมพื้นที่ 198,125 ไร่ ตั้งแต่เกาะจระเข้ในเขตอำเภอปะทิวจดเกาะง่ามใหญ่
@@ -100,6 +101,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
               <p class="card-text">
                 <small class="text-body-secondary">
                   <a
+                    class="btn btn-dark"
                     href="https://thai.tourismthailand.org/Attraction/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3"
                   >
                     แสดงข้อมูลเพิ่มเติม</a
@@ -129,20 +131,20 @@ import Header_box_south from '../south/Box_menu_south.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">หาดป่าตอง</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>หาดป่าตอง</strong></h5>
+              <p class="cardtext">
                 ชายหาดชื่อดังที่ยาวกว่า 3.5 กิโลเมตร หาดที่นักท่องเที่ยวมักนิยมไปเดินเล่นพักผ่อน
                 สนุกสนานกับสีสันยามค่ำคืน แต่ใครจะรู้เล่าว่าตอนกลางวัน
                 ยามคลื่นลมเป็นใจเราก็สามารถแบกเซิร์ฟไปเจอคลื่นที่หาดป่าตองได้เช่นกัน
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"
-                  ><button>
-                    <a href="https://www.ticket2attraction.com/th/blogs/surf-phuket/"
-                      >รายละเอียดเพิ่มเติม</a
-                    >
-                  </button></small
-                >
+                <small class="text-body-secondary">
+                  <a
+                    class="btn btn-dark"
+                    href="https://www.ticket2attraction.com/th/blogs/surf-phuket/"
+                    >รายละเอียดเพิ่มเติม</a
+                  >
+                </small>
               </p>
             </div>
           </div>
@@ -153,8 +155,8 @@ import Header_box_south from '../south/Box_menu_south.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Rolly Cafe</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Rolly Cafe</strong></h5>
+              <p class="cardtext">
                 ร้าน Rolly cafe เป็นคาเฟ่สโลบาร์ มีเมล็ดกาแฟให้เลือกหลากหลายที่มา
                 ทั้งของในประเทศและต่างประเทศ นอกจากกาแฟแล้วยังมีเครื่องดื่มพวกชาต่าง ๆ และมีเค้ก
                 homemade ทำสดใหม่ทุกวัน เมนูแนะนำคือ iced espresso
@@ -164,7 +166,9 @@ import Header_box_south from '../south/Box_menu_south.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href="https://www.facebook.com/rollyyycafe/"> แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href="https://www.facebook.com/rollyyycafe/">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -190,8 +194,8 @@ import Header_box_south from '../south/Box_menu_south.vue'
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">พิพิธภัณฑ์หนังตะลุง</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>พิพิธภัณฑ์หนังตะลุง</strong></h5>
+              <p class="cardtext">
                 พิพิธภัณฑ์หนังตะลุงก่อตั้งขึ้นโดย หนังสุชาติ ทรัพย์สิน ศิลปินแห่งชาติ
                 (สาขาการแสดงพื้นบ้านหนังตะลุง) และนายวาที ทรัพย์สิน ผู้เป็นลูกชาย
                 การจัดทำพิพิธภัณฑ์หนังตะลุงเกิดจากแรงบันดาลใจที่นายหนังสุชาติ ทรัพย์สิน
@@ -202,13 +206,13 @@ import Header_box_south from '../south/Box_menu_south.vue'
                 ทรัพย์สินและครอบครัว ในการจัดทำพิพิธภัณฑ์หนังตะลุง
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"
-                  ><button>
-                    <a href="https://communityarchive.sac.or.th/community/SuChartSupsin"
-                      >รายละเอียดเพิ่มเติม</a
-                    >
-                  </button></small
-                >
+                <small class="text-body-secondary">
+                  <a
+                    class="btn btn-dark"
+                    href="https://communityarchive.sac.or.th/community/SuChartSupsin"
+                    >รายละเอียดเพิ่มเติม</a
+                  >
+                </small>
               </p>
             </div>
           </div>
@@ -219,14 +223,14 @@ import Header_box_south from '../south/Box_menu_south.vue'
         <div class="row g-0">
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Coming Home Cafe & Seascape</h5>
-              <p class="card-text">
+              <h5 class="h3"><strong>Coming Home Cafe & Seascape</strong></h5>
+              <p class="cardtext">
                 #คาเฟ่ฮาลาล ที่บรรยากาศดีมากๆ ที่นี่เป็นทั้งคาเฟ่และร้านอาหารในหนึ่งเดียว
                 ในส่วนของคาเฟ่ เป็นสไตล์มินิมอลคลีนๆ ถ่ายรูปสวยมาก ช่วงเย็นๆแสงลอดหน้าต่างพอดีเลย
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a href="https://www.facebook.com/Cominghome.phuket">
+                  <a class="btn btn-dark" href="https://www.facebook.com/Cominghome.phuket">
                     แสดงข้อมูลเพิ่มเติม</a
                   ></small
                 >
@@ -245,3 +249,19 @@ import Header_box_south from '../south/Box_menu_south.vue'
     </div>
   </div>
 </template>
+<style scoped>
+.h4 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+.display-3 {
+  font-family: 'Gill Sans', sans-serif;
+}
+.textcenter {
+  text-align: center;
+  margin-inline: 230px;
+  border-bottom: 2px solid;
+}
+.cardtext {
+  font-size: 17px;
+}
+</style>

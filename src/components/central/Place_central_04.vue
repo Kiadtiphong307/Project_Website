@@ -7,6 +7,7 @@
           src="https://www.unseennewchapters.com/img/kanchanaburi-01.c0e8b9a9.jpg"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>อุโมงค์สามมิติ</h5>
-        <p>อุโมงค์สามมิติ อ.ทองผาภูมิ จ.กาญจนบุรี</p>
+        <h5 class="display-3">อุโมงค์สามมิติ</h5>
+        <p class="h4">อุโมงค์สามมิติ อ.ทองผาภูมิ จ.กาญจนบุรี</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">อุโมงค์สามมิติ</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>อุโมงค์สามมิติ</strong></h5>
+            <p class="h5">
               อุโมงค์แห่งนี้ เป็นเหมืองแร่เก่า มีความยาว 2,300 เมตร เป็นพื้นที่ท่องเที่ยวโดยชุมชน
               แหล่งเรียนรู้ทางธรณีวิทยา และระบบนิเวศ บริเวณรอบๆ เหมืองปกคลุมด้วยผืนป่าสีเขียว
               พบเห็นพืชสมุนไพรเทียนตาตั๊กแตนเป็นหย่อมๆ
@@ -66,7 +67,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               ท่อลมขนาดใหญ่ให้พบเห็น
               ส่วนไฮไลต์อยู่ที่ประสบการณ์ลอดอุโมงค์ภายใต้ความมืดแต่กลับมีอากาศเย็นสบาย
               เมื่อมีแสงไฟสาดส่องไปยังไอหมอกที่ปกคลุมบริเวณปากอุโมงค์
@@ -87,7 +88,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -105,6 +106,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -113,11 +115,19 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+        >อ้างอิงมาจาก</a
+      ></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter {
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_central from '../central/Box_menu_central.vue'
 

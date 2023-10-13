@@ -7,6 +7,7 @@
           src="https://mpics.mgronline.com/pics/Images/565000009180202.JPEG"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>หอมนสิการ</h5>
-        <p>หอมนสิการ อ.แก่งคอย จ.สระบุรี</p>
+        <h5 class="display-3">หอมนสิการ</h5>
+        <p class="h4">หอมนสิการ อ.แก่งคอย จ.สระบุรี</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">หอมนสิการ</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>หอมนสิการ</strong></h5>
+            <p class="h5">
               สถานที่ท่องเที่ยวเชิงวัฒนธรรมรูปแบบใหม่ สร้างขึ้นจากศรัทธา
               และแรงบันดาลที่มีต่อพุทธศาสนา ภายในตัวอาคารสีขาวบริสุทธิ์ที่ซ่อนตัวอยู่กลางหุบเขา
               ประกอบด้วยกิจกรรมที่หลากหลาย อาทิ สักการะพระบรมสารีริกธาตุ 18 พระองค์,
@@ -65,7 +66,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               ยังมีโซนนิทรรศการร่วมสมัยที่บอกเล่าความเป็นมาเป็นไปของพระพุทธเจ้า
               รวมถึงห้องจัดแสดงงานอาร์ตประเภทต่างๆ ที่แฝงไว้ด้วยปริศนาธรรม
               ส่วนผู้ที่มาก็จะได้ซึมซับหลักธรรมแบบครบรส ทั้งตาดู หูฟัง สมองคิด และกายปฏิบัติ
@@ -84,7 +85,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -102,6 +103,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -110,11 +112,19 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+        >อ้างอิงมาจาก</a
+      ></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter {
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_central from '../central/Box_menu_central.vue'
 
