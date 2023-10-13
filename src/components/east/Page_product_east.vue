@@ -47,13 +47,21 @@ const otop_east_all = ref(otop_eastStore.Otop_east_list)
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col" v-for="(i, index) in otop_east_all" :key="index">
-        <div class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+        <div
+          class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+        >
           <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
           <div class="card-body">
-            <h5 class="card-text mb-auto"><strong class="h3">{{ i.name }}</strong></h5>
-            <p class="card-text"><strong>ประเภท: {{ i.category }}</strong></p>
-            <p class="card-text"><strong>ราคา:{{ i.price }} บาท</strong></p>
-            <p class="card-text">{{ i.text }} </p>
+            <h5 class="card-text mb-auto">
+              <strong class="h3">{{ i.name }}</strong>
+            </h5>
+            <p class="card-text">
+              <strong>ประเภท: {{ i.category }}</strong>
+            </p>
+            <p class="card-text">
+              <strong>ราคา:{{ i.price }} บาท</strong>
+            </p>
+            <p class="card-text">{{ i.text }}</p>
             <button type="button" class="btn btn-dark" style="border-radius: 30px">ลงตะกร้า</button>
           </div>
         </div>
@@ -62,7 +70,7 @@ const otop_east_all = ref(otop_eastStore.Otop_east_list)
   </div>
 </template>
 <style scoped>
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 420px;
   border-bottom: 2px solid;

@@ -10,7 +10,9 @@ import Header_box_south from '../south/Box_menu_south.vue'
         <div class="carousel-image-container">
           <img
             src="https://i.pinimg.com/736x/1f/d2/85/1fd2858972eae4e02a7f903cefb57fe5.jpg"
-            class="d-block w-100" alt="..." height="550"
+            class="d-block w-100"
+            alt="..."
+            height="550"
           />
           <router-link :to="{ name: 'main' }">
             <svg
@@ -71,13 +73,13 @@ import Header_box_south from '../south/Box_menu_south.vue'
                 อุปกรณ์มาตราฐานด้วยเทคโนโลยี Coudou Pro มั่นใจตลอดทุกการเคลื่อนไหว
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"
+                <small class="text-body-secondary">
+                  <a
+                    class="btn btn-dark"
+                    href="https://we-offers.com/product/tarzan-adventure-phuket/?lang=th"
+                    >รายละเอียดเพิ่มเติม</a
                   >
-                    <a class="btn btn-dark" href="https://we-offers.com/product/tarzan-adventure-phuket/?lang=th"
-                      >รายละเอียดเพิ่มเติม</a
-                    >
-                  </small
-                >
+                </small>
               </p>
             </div>
           </div>
@@ -99,7 +101,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
               <p class="card-text">
                 <small class="text-body-secondary">
                   <a
-                  class="btn btn-dark"
+                    class="btn btn-dark"
                     href="https://thai.tourismthailand.org/Attraction/%E0%B8%AD%E0%B8%B8%E0%B8%97%E0%B8%A2%E0%B8%B2%E0%B8%99%E0%B9%81%E0%B8%AB%E0%B9%88%E0%B8%87%E0%B8%8A%E0%B8%B2%E0%B8%95%E0%B8%B4%E0%B8%AB%E0%B8%A1%E0%B8%B9%E0%B9%88%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%8A%E0%B8%B8%E0%B8%A1%E0%B8%9E%E0%B8%A3"
                   >
                     แสดงข้อมูลเพิ่มเติม</a
@@ -136,13 +138,13 @@ import Header_box_south from '../south/Box_menu_south.vue'
                 ยามคลื่นลมเป็นใจเราก็สามารถแบกเซิร์ฟไปเจอคลื่นที่หาดป่าตองได้เช่นกัน
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"
+                <small class="text-body-secondary">
+                  <a
+                    class="btn btn-dark"
+                    href="https://www.ticket2attraction.com/th/blogs/surf-phuket/"
+                    >รายละเอียดเพิ่มเติม</a
                   >
-                    <a class="btn btn-dark" href="https://www.ticket2attraction.com/th/blogs/surf-phuket/"
-                      >รายละเอียดเพิ่มเติม</a
-                    >
-                  </small
-                >
+                </small>
               </p>
             </div>
           </div>
@@ -164,7 +166,9 @@ import Header_box_south from '../south/Box_menu_south.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href="https://www.facebook.com/rollyyycafe/"> แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href="https://www.facebook.com/rollyyycafe/">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -202,13 +206,13 @@ import Header_box_south from '../south/Box_menu_south.vue'
                 ทรัพย์สินและครอบครัว ในการจัดทำพิพิธภัณฑ์หนังตะลุง
               </p>
               <p class="card-text">
-                <small class="text-body-secondary"
+                <small class="text-body-secondary">
+                  <a
+                    class="btn btn-dark"
+                    href="https://communityarchive.sac.or.th/community/SuChartSupsin"
+                    >รายละเอียดเพิ่มเติม</a
                   >
-                    <a class="btn btn-dark" href="https://communityarchive.sac.or.th/community/SuChartSupsin"
-                      >รายละเอียดเพิ่มเติม</a
-                    >
-                  </small
-                >
+                </small>
               </p>
             </div>
           </div>
@@ -246,18 +250,18 @@ import Header_box_south from '../south/Box_menu_south.vue'
   </div>
 </template>
 <style scoped>
-.h4{
+.h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
-.display-3{
-  font-family: "Gill Sans", sans-serif;
+.display-3 {
+  font-family: 'Gill Sans', sans-serif;
 }
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 230px;
   border-bottom: 2px solid;
 }
-.cardtext{
+.cardtext {
   font-size: 17px;
 }
 </style>

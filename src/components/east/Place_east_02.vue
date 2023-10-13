@@ -111,12 +111,14 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+        >อ้างอิงมาจาก</a
+      ></small
     >
   </p>
 </template>
 <style scoped>
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 500px;
   border-bottom: 2px solid;
