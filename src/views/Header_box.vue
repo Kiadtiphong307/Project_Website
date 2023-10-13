@@ -1,9 +1,55 @@
 <script setup>
-import { computed } from 'vue'
-import { cart } from '../components/shop/Cart_count'
+import { computed, ref } from 'vue';
+import { accounts } from '../stores/Account';
+import { cart } from '../components/shop/Cart_count';
 
-const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0))
+const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0));
+
+const enteredUsername = ref('');
+const enteredPassword = ref('');
+const isLoggedIn = ref(false);
+
+const localStorageKey = 'loggedIn';
+const previousLoggedInState = localStorage.getItem(localStorageKey);
+isLoggedIn.value = previousLoggedInState === 'true';
+
+const handleLogin = () => {
+  const foundAccount = accounts.find(
+    (account) =>
+      account.username === enteredUsername.value && account.password === enteredPassword.value
+  );
+  if (foundAccount) {
+    alert('เข้าสู่ระบบสำเร็จ');
+    isLoggedIn.value = true;
+    localStorage.setItem(localStorageKey, 'true');
+  } else {
+    alert('เข้าสู่ระบบไม่สำเร็จ');
+    alert('โปรดตรวจสอบชื่อผู้ใช้งาน หรือ รหัสผ่าน');
+    localStorage.setItem(localStorageKey, 'false');
+  }
+};
+
+const handleRegister = () => {
+  const newAccount = { username: enteredUsername.value, password: enteredPassword.value };
+  const isExistingAccount = accounts.some((account) => account.username === newAccount.username);
+
+  if (isExistingAccount) {
+    console.log('บัญชีนี้สมัครบัญชีไม่สำเร็จ');
+    alert('สมัครบัญชีไม่สำเร็จ');
+  } else {
+    accounts.push(newAccount);
+    console.log('บัญชีได้ถูกสร้างเรียบร้อยแล้ว', newAccount);
+    alert('สมัครบัญชีสำเร็จ');
+  }
+};
+
+const handleLogout = () => {
+  isLoggedIn.value = false;
+  localStorage.setItem(localStorageKey, 'false');
+};
+
 </script>
+
 
 
 <template>
@@ -61,14 +107,16 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
       </li>
 
       <!-- login -->
-      <li class="nav-item">
-        <RouterLink :to="{ name: 'login_register' }">
-        <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
-        </RouterLink>
+
+      <li v-if="!isLoggedIn" class="nav-item">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</button>
       </li>
 
-      <li class="nav-item">
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</button>
+      <li v-if="isLoggedIn" class="nav-item" @click="handleLogout">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg>
       </li>
 
     </ul>
@@ -112,82 +160,78 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
       <div>
         <router-link :to="{ name: 'about_page' }" class="btnNav" href="#">about</router-link>
       </div>
-      <div class="btnNav">
-        <router class="nav-link" href="#">link</router>
-      </div>
     </div>
   </nav>
 
-    <!-- Login Modal -->
-    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3 class="modal-title" id="loginModalLabel">เข้าสู่ระบบ</h3>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="loginModalLabel">เข้าสู่ระบบ</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Your login form here -->
+        <form @submit.prevent="handleLogin">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">ชื่อผู้ใช้งาน</label>
+            <input v-model="enteredUsername" type="text" class="form-control" id="exampleInputEmail1" name="username" aria-describedby="emailHelp">
           </div>
-
-          <div class="modal-body">
-            <!-- Your login form here -->
-            <form>
-              <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              </div>
-
-              <div class="mb-3">
-                <label for="exampleInputPassword1" class="form-label">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-              </div>
-              <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
-
-              <div class="mb-3">
-                <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal">หากยังไม่มีบัญชี</a>
-              </div>
-
-            </form>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">รหัสผ่าน</label>
+            <input v-model="enteredPassword" type="password" class="form-control" id="exampleInputPassword1" name="password">
           </div>
+          <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+        </form>
+      </div>
 
-          <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+      <div class="modal-footer">
+        <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal">หากยังไม่มีบัญชี</a>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Register Modal -->
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="registerModalLabel">สมัครสมาชิก</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Your registration form here -->
+        <form @submit.prevent="handleRegister">
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label">ชื่อผู้ใช้</label>
+            <input v-model="enteredUsername" type="text" class="form-control" id="exampleInputName">
           </div>
-
-        </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail" class="form-label">อีเมล</label>
+            <input type="email" class="form-control" id="exampleInputEmail">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword" class="form-label">รหัสผ่าน</label>
+            <input v-model="enteredPassword" type="password" class="form-control" id="exampleInputPassword">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputConfirmPassword" class="form-label">ยืนยัน รหัสผ่าน</label>
+            <input type="password" class="form-control" id="exampleInputConfirmPassword">
+          </div>
+          <button type="submit" class="btn btn-success">สมัครสมาชิก</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</button>
       </div>
     </div>
+  </div>
+</div>
 
-      <!-- Register Modal -->
-    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="registerModalLabel">Register</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <!-- Your registration form here -->
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputName" class="form-label">Full Name</label>
-              <input type="text" class="form-control" id="exampleInputName">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputEmail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail">
-            </div>
-            <div class="mb-3">
-              <label for="exampleInputPassword" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword">
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        </div>
-      </div>
-    </div>
-    </div>
 </template>
 
 <style scoped>
