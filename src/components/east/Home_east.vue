@@ -53,7 +53,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="textcenter"><strong>คาเฟ่ที่ไม่ควรพลาด!!</strong></h1>
+    <h1 class="textcenter"><strong>สถานที่ท่องเที่ยวที่น่าสนใจของภาคตะวันออก</strong></h1>
     <hr />
     <div class="container_all">
       <!--box1 รูปท่างซ้าย-->

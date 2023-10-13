@@ -31,7 +31,7 @@ const otop_north_all = ref(otop_northStore.Otop_north_list)
   <Header_box_north></Header_box_north>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="conTitle">หมวดหมู่สินค้าOTOPภาคเหนือ</h1>
+    <h1 class="conTitle">สินค้าOTOPที่น่าสนใจ</h1>
     <div class="container_otop">
       <div class="otop_conten" v-for="(i, index) in otop_north_all" :key="index">
         <img :src="i.img" class="img_otop" />

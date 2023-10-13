@@ -91,7 +91,7 @@ const handleAddToCart = (item) => {
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="textcenter"><strong>กิจกรรมที่น่าสนใจ</strong></h1>
+    <h1 class="textcenter"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">

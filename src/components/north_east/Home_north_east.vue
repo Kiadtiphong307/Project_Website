@@ -30,7 +30,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
   <Header_box_north_east></Header_box_north_east>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="conTitle">สายคาเฟ่ห้ามพลาด!!</h1>
+    <h1 class="conTitle">สถานที่ท่องเที่ยวที่น่าสนใจของภาคตะวันออกเฉียงเหนือ</h1>
     <div class="container_all">
       <!--box1 รูปท่างซ้าย-->
       <div class="LPage">
