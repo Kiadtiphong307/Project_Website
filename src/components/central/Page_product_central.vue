@@ -1,20 +1,20 @@
 <script setup>
-import Header_box_central from '../central/Box_menu_central.vue'
-import { ref } from 'vue'
-import { Otop_centralStore } from '../../stores/All_product'
-import { addToCart } from '../shop/Cart_count.js'
-import { computed } from 'vue'
-import { cart } from '../components/shop/Cart_count'
+import Header_box_central from '../central/Box_menu_central.vue';
+import { ref, computed } from 'vue';
+import { Otop_centralStore } from '../../stores/All_product';
+import { addToCart } from '../shop/Cart_count.js';
+import { cart } from '../shop/Cart_count';
 
-const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0))
+const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0));
 
-const otop_centralStore = Otop_centralStore()
-const otop_central_all = ref(otop_centralStore.Otop_central_list)
+const otop_centralStore = Otop_centralStore();
+const otop_central_all = ref(otop_centralStore.Otop_central_list);
 
 const handleAddToCart = (item) => {
-  addToCart(item)
-}
+  addToCart(item);
+};
 </script>
+
 <template>
   <!-- แถบ ภาพ  -->
 
