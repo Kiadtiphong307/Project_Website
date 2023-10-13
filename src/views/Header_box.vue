@@ -45,7 +45,6 @@
         </router-link>
       </li>
     </ul>
-    
   </div>
   <!--แถบ menu-->
   <nav class="BodyNav">
