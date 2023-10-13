@@ -13,7 +13,10 @@ import Header_box_east from '../east/Box_menu_east.vue'
               <div class="carousel-image-container">
                 <img
                   src="https://s359.kapook.com//pagebuilder/037951b6-33c7-4130-a250-44ee7ee41a5e.jpg"
-                  class="d-block w-100" alt="..." height="450"/>
+                  class="d-block w-100"
+                  alt="..."
+                  height="450"
+                />
                 <router-link :to="{ name: 'main' }">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +76,9 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href=" https://www.facebook.com/ourhomshouse">แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/ourhomshouse"
+                    >แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -94,7 +99,9 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href=" https://www.facebook.com/MOON-DINER">แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/MOON-DINER"
+                    >แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -129,7 +136,9 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href=" https://www.facebook.com/ToDieForCoffee">แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/ToDieForCoffee"
+                    >แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -150,7 +159,9 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href="https://www.facebook.com/Babycha"> แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href="https://www.facebook.com/Babycha">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -184,7 +195,9 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href="https://www.facebook.com/CakeryPatisseriesBoutiqueCafe"
+                  <a
+                    class="btn btn-dark"
+                    href="https://www.facebook.com/CakeryPatisseriesBoutiqueCafe"
                     >แสดงข้อมูลเพิ่มเติม</a
                   ></small
                 >
@@ -207,7 +220,9 @@ import Header_box_east from '../east/Box_menu_east.vue'
               </p>
               <p class="card-text">
                 <small class="text-body-secondary">
-                  <a class="btn btn-dark" href=" https://www.facebook.com/3-of-H"> แสดงข้อมูลเพิ่มเติม</a></small
+                  <a class="btn btn-dark" href=" https://www.facebook.com/3-of-H">
+                    แสดงข้อมูลเพิ่มเติม</a
+                  ></small
                 >
               </p>
             </div>
@@ -224,22 +239,24 @@ import Header_box_east from '../east/Box_menu_east.vue'
     </div>
   </div>
   <div class="d-grid gap-2 col-6 mx-auto">
-  <a class="btn btn-outline-secondary" href="https://food.trueid.net/detail/rOJdP09gGWXj">ขอบคุณข้อมูล</a>
-</div>
+    <a class="btn btn-outline-secondary" href="https://food.trueid.net/detail/rOJdP09gGWXj"
+      >ขอบคุณข้อมูล</a
+    >
+  </div>
 </template>
 <style scoped>
-.h4{
+.h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
-.display-3{
-  font-family: "Gill Sans", sans-serif;
+.display-3 {
+  font-family: 'Gill Sans', sans-serif;
 }
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 400px;
   border-bottom: 2px solid;
 }
-.cardtext{
+.cardtext {
   font-size: 17px;
 }
 </style>

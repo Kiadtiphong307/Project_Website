@@ -50,10 +50,14 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
     <div class="container">
       <div class="row row-cols-1 row-cols-md-2 g-4">
         <div class="col" v-for="(i, index) in otop_south_all" :key="index">
-          <div class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top">
+          <div
+            class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+          >
             <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
             <div class="card-body">
-              <h5 class="card-text mb-auto"><strong class="h3">{{ i.name }}</strong></h5>
+              <h5 class="card-text mb-auto">
+                <strong class="h3">{{ i.name }}</strong>
+              </h5>
               <p class="card-text">
                 <strong>ประเภท: {{ i.category }}</strong>
               </p>
@@ -61,7 +65,9 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
                 <strong>ราคา: {{ i.price }} บาท</strong>
               </p>
               <p class="card-text">{{ i.text }}</p>
-              <button type="button" class="btn btn-dark" style="border-radius: 30px">ลงตะกร้า</button>
+              <button type="button" class="btn btn-dark" style="border-radius: 30px">
+                ลงตะกร้า
+              </button>
             </div>
           </div>
         </div>
@@ -70,21 +76,27 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a class="btn btn-outline-secondary" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365">
+      <a
+        class="btn btn-outline-secondary"
+        href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365"
+      >
         ขอบคุณข้อมูลอ้างอิงจาก
       </a></small
     >
   </p>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a class="btn btn-outline-secondary" href="https://palanla.com/th/domesticLocation/detail/1560">
+      <a
+        class="btn btn-outline-secondary"
+        href="https://palanla.com/th/domesticLocation/detail/1560"
+      >
         ขอบคุณข้อมูลอ้างอิงจาก
       </a></small
     >
   </p>
 </template>
 <style scoped>
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 480px;
   border-bottom: 2px solid;

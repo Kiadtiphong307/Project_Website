@@ -7,6 +7,10 @@ import home_central from '../components/central/Home_central.vue'
 import home_east from '../components/east/Home_east.vue'
 import home_south from '../components/south/Home_south.vue'
 
+//Cart and oder
+import CartList from '../components/shop/Cart_list.vue'
+import Orderlist from '../components/shop/Oder_list.vue'
+
 //about
 import about_page from '../views/About_page.vue'
 
@@ -261,6 +265,18 @@ const router = createRouter({
       path: '/place_05_south',
       name: 'place_05_south',
       component: place_05_south
+    },
+
+    //Cart
+    {
+      path: '/cart',
+      name: 'cart',
+      component: CartList
+    },
+    {
+      path: '/orderlist',
+      name: 'orderList',
+      component: Orderlist
     }
   ]
 })

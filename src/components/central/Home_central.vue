@@ -13,7 +13,10 @@ import Header_box_central from '../central/Box_menu_central.vue'
               <div class="carousel-image-container">
                 <img
                   src="https://roijang.com/wp-content/uploads/2023/07/shutterstock_299388287-1.jpg"
-                  class="d-block w-100" alt="..." height="450"/>
+                  class="d-block w-100"
+                  alt="..."
+                  height="450"
+                />
                 <router-link :to="{ name: 'main' }">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -237,22 +240,24 @@ import Header_box_central from '../central/Box_menu_central.vue'
     </div>
   </div>
   <small class="text-body-secondary">
-    <a class="btn btn-outline-secondary" href="https://www.wongnai.com/news/cafe-workshop"> แสดงข้อมูลเพิ่มเติม</a></small
+    <a class="btn btn-outline-secondary" href="https://www.wongnai.com/news/cafe-workshop">
+      แสดงข้อมูลเพิ่มเติม</a
+    ></small
   >
 </template>
 <style scoped>
-.h4{
+.h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
-.display-3{
-  font-family: "Gill Sans", sans-serif;
+.display-3 {
+  font-family: 'Gill Sans', sans-serif;
 }
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 350px;
   border-bottom: 2px solid;
 }
-.cardtext{
+.cardtext {
   font-size: 17px;
 }
 </style>

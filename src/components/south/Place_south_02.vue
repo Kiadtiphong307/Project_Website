@@ -114,7 +114,9 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
-              <button type="button" class="btn btn-dark" style="border-radius: 30px">LINK สินค้า</button>
+              <button type="button" class="btn btn-dark" style="border-radius: 30px">
+                LINK สินค้า
+              </button>
             </div>
           </div>
         </div>
@@ -123,12 +125,14 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+        >อ้างอิงมาจาก</a
+      ></small
     >
   </p>
 </template>
 <style scoped>
-.textcenter{
+.textcenter {
   text-align: center;
   margin-inline: 500px;
   border-bottom: 2px solid;

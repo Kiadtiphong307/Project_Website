@@ -164,7 +164,7 @@ import Header_box_north from '../north/box_menu_north.vue'
 <style>
 .container_all {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   justify-items: stretch;
   align-items: stretch;
   row-gap: 1px;
@@ -187,24 +187,24 @@ import Header_box_north from '../north/box_menu_north.vue'
   margin-inline: 300px;
   border-bottom: 2px solid;
 }
-.Limg{
+.Limg {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   justify-items: center;
 }
-.Rimg{
+.Rimg {
   display: grid;
-  grid-template-columns: 1fr ;
+  grid-template-columns: 1fr;
   justify-items: center;
 }
 .imgBow {
   max-width: 280px;
   margin: 10px;
 }
-.imgBow1{
+.imgBow1 {
   max-width: 280px;
   height: 260px;
-  margin: 10px
+  margin: 10px;
 }
 .LPage {
   display: grid;
@@ -225,9 +225,8 @@ import Header_box_north from '../north/box_menu_north.vue'
   margin-block: 25px;
   width: 1000px;
   border-bottom: 2px solid;
-
 }
-.container_text{
+.container_text {
   padding: 40px;
 }
 .textConten {
