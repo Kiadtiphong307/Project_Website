@@ -11,6 +11,10 @@ import home_south from '../components/south/Home_south.vue'
 import CartList from '../components/shop/Cart_list.vue'
 import Orderlist from '../components/shop/Order_list.vue'
 
+// login and register
+import Login_Register from '../views/Login_Register.vue'
+
+
 //about
 import about_page from '../views/About_page.vue'
 
@@ -69,6 +73,13 @@ const router = createRouter({
       path: '/',
       name: 'main',
       component: homemain
+    },
+    
+    // login and register
+    {
+      path: '/login_register',
+      name: 'login_register',
+      component: Login_Register
     },
 
     //about

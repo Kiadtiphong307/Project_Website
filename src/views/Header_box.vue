@@ -9,12 +9,18 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
 <template>
   <!--แถบ header-->
   <div class="headNav">
-    <a href="#">
-      <img src="https://cdn.discordapp.com/attachments/1153766321666932836/1162317327547777034/DeeJai.png?ex=653b7f5d&is=65290a5d&hm=3e9fe6bad05c206667c205c02e17d0e3349f3b7b38c52ce173a9017b76754098&" alt="iocon_logo" width="60" height="60" />
-    </a>  DeeJai Travel
 
-    <!-- ตระกร้า -->
+    <!-- โลโก้ -->
+    <div class="icon_title">
+    <div href="#" class="logo_icon">
+      <img src="https://cdn.discordapp.com/attachments/1153766321666932836/1162317327547777034/DeeJai.png?ex=653b7f5d&is=65290a5d&hm=3e9fe6bad05c206667c205c02e17d0e3349f3b7b38c52ce173a9017b76754098&" alt="iocon_logo" width="60" height="60" />
+    <span class="title_box">DeeJai Travel</span>
+    </div>
+     
+    </div>
+
     <ul class="nav justify-content-end">
+      <!-- ตระกร้า -->
       <li class="nav-item">
         <router-link :to="{ name: 'cart' }">
           <svg
@@ -32,8 +38,9 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
           <span>[ {{ totalItems }} ]</span>
         </router-link>
       </li>
+
       <!-- เมนู -->
-      <li class="nav-item">
+      <li class="nav-item" >
         <router-link :to="{ name: 'orderList' }">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +59,20 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
           </svg>
         </router-link>
       </li>
+
+      <!-- login -->
+      <li class="nav-item">
+        <RouterLink :to="{ name: 'login_register' }">
+        <button type="button" class="btn btn-primary">เข้าสู่ระบบ</button>
+        </RouterLink>
+      </li>
+
+      <li class="nav-item">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#loginModal">เข้าสู่ระบบ</button>
+      </li>
+
     </ul>
+
   </div>
 
   <!--แถบ menu-->
@@ -97,14 +117,132 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
       </div>
     </div>
   </nav>
+
+    <!-- Login Modal -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="loginModalLabel">เข้าสู่ระบบ</h3>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+            <!-- Your login form here -->
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <button type="submit" class="btn btn-primary">เข้าสู่ระบบ</button>
+
+              <div class="mb-3">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#registerModal">หากยังไม่มีบัญชี</a>
+              </div>
+
+            </form>
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">ปิดหน้าต่าง</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+      <!-- Register Modal -->
+    <div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="registerModalLabel">Register</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- Your registration form here -->
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="exampleInputName">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+    </div>
 </template>
 
 <style scoped>
+
+.icon_title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* จัดตำแหน่งให้เท่ากัน */
+}
+
+.logo_icon {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* ปรับระยะห่างระหว่างโลโก้และข้อความ */
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 20px; /* ปรับระยะห่างระหว่างองค์ประกอบในแถว */
+}
+
+.nav-item {
+  list-style-type: none; 
+}
+
+.btn {
+  margin: 0; /* ลบขอบ */
+  padding: 10px 20px; /* ปรับขนาดของปุ่ม */
+}
+
+.title_box{
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+}
+.logo_icon {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* ปรับระยะห่างระหว่างโลโก้และตัวอักษร */
+}
+
+.nav-item {
+  margin-left: 0px; 
+}
+
 .headNav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
   background-color: rgb(0, 95, 112);
-  padding: 30px;
+  padding: 25px;
   text-decoration: none;
 }
+
 .BodyNav {
   background-color: rgb(14, 171, 182);
   padding: 10px;
@@ -134,6 +272,7 @@ const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.qu
   box-sizing: border-box;
   text-decoration: none;
 }
+
 </style>
 
 
