@@ -20,9 +20,7 @@
       </a>
       <ul class="dropdown-menu">
         <li>
-          <RouterLink :to="{ name: 'home_north' }" class="btnDrop" href="#"
-            >ภาคเหนือ</RouterLink
-          >
+          <RouterLink :to="{ name: 'home_north' }" class="btnDrop" href="#">ภาคเหนือ</RouterLink>
         </li>
         <li>
           <RouterLink :to="{ name: 'home_north_east' }" class="btnDrop" href="#"
@@ -30,26 +28,19 @@
           >
         </li>
         <li>
-          <RouterLink :to="{ name: 'home_central' }" class="btnDrop" href="#"
-            >ภาคกลาง</RouterLink
-          >
+          <RouterLink :to="{ name: 'home_central' }" class="btnDrop" href="#">ภาคกลาง</RouterLink>
         </li>
         <li>
           <RouterLink :to="{ name: 'home_east' }" class="btnDrop">ภาคตะวันออก</RouterLink>
         </li>
         <li>
-          <RouterLink :to="{ name: 'home_south' }" class="btnDrop" href="#"
-            >ภาคใต้</RouterLink
-          >
+          <RouterLink :to="{ name: 'home_south' }" class="btnDrop" href="#">ภาคใต้</RouterLink>
         </li>
       </ul>
     </div>
     <div class="btnGrop">
       <div>
         <router-link :to="{ name: 'about_page' }" class="btnNav" href="#">about</router-link>
-      </div>
-      <div class="btnNav">
-        <router class="nav-link" href="#">link</router>
       </div>
     </div>
   </nav>
@@ -80,15 +71,14 @@
   box-sizing: border-box;
   text-decoration: none;
 }
-.dropdown-menu{
+.dropdown-menu {
   background-color: rgba(6, 164, 175, 0.726);
 }
-.btnDrop{
+.btnDrop {
   padding: 10px;
   color: white;
   display: inline-block;
   box-sizing: border-box;
   text-decoration: none;
 }
-
 </style>

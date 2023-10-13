@@ -123,7 +123,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
       <!--box5 รูปท่างซ้าย-->
       <div class="LPage">
         <div class="Limg">
-          <img src="https://shorturl.at/cuFOR" class="imgBow" />
+          <img src="https://www.tripgether.com/wp-content/uploads/2021/07/piromburi-03.jpg" class="imgBow" />
         </div>
         <div class="container_text">
           <h5 class="card-title">ภิรมย์บุรี</h5>
