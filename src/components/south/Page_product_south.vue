@@ -44,7 +44,7 @@ const otop_south_all = ref(otop_southStore.Otop_south_list)
   <!-- box รูปซ้าย -->
   <div class="container">
     <!-- สิ่งของแนะนำขาย -->
-    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
+    <h1 class="textcenter"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
     <hr />
 
     <div class="container">
