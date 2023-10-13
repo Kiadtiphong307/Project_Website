@@ -1,7 +1,7 @@
 <script setup>
 import { orders } from '../shop/Order_count';
 import { computed } from 'vue';
-import header_bar from '/Project_Website/src/views/Header_box.vue'
+import header_bar from '../../views/Header_box.vue'
 
 const totalPrice = (item) => computed(() => item.quantity * item.price);
 
