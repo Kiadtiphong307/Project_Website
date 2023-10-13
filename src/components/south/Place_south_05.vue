@@ -1,5 +1,7 @@
 <template>
   <!-- แถบ ภาพ  -->
+  <!-- น้องเอิร์ธ -->
+  <!-- น้องบอส -->
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
