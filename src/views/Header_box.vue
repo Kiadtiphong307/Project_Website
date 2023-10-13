@@ -1,3 +1,11 @@
+<script setup>
+import { computed } from 'vue'
+import { cart } from '../components/shop/Cart_count'
+
+const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0))
+</script>
+
+
 <template>
   <!--แถบ header-->
   <div class="headNav">
@@ -46,6 +54,7 @@
       </li>
     </ul>
   </div>
+
   <!--แถบ menu-->
   <nav class="BodyNav">
     <router-link :to="{ name: 'main' }" class="btnNav"> หน้าแรก </router-link>
@@ -127,9 +136,4 @@
 }
 </style>
 
-<script setup>
-import { computed } from 'vue'
-import { cart } from '../components/shop/Cart_count'
 
-const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0))
-</script>

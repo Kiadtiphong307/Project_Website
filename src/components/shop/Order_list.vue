@@ -1,6 +1,7 @@
 <script setup>
 import { orders } from '../shop/Order_count';
 import { computed } from 'vue';
+import header_bar from '/Project_Website/src/views/Header_box.vue'
 
 const totalPrice = (item) => computed(() => item.quantity * item.price);
 
@@ -14,7 +15,8 @@ const totalOrderPrice = (order) => {
 </script>
 
 <template>
-  <div class="container">
+  <div class="container" >
+    <header_bar/>
     <div class="home_box">
       <!-- ปุ่ม home -->
       <router-link :to="{ name: 'main' }">
@@ -32,9 +34,9 @@ const totalOrderPrice = (order) => {
     </div>
 
     <div class="container_all">
-      <h2>ประวัติการสั่งซื้อ</h2>
-
+  
       <div v-if="orders.list.length">
+        <h2>ประวัติการสั่งซื้อ</h2>
         <div class="card rounded-3 mb-4" v-for="(order) in orders.list" :key="order.id">
           <h3 class="m-3">คำสั่งซื้อที่ : {{ order.id }} </h3>
           <div class="card-body p-4" v-for="(item, index) in order.items" :key="item.name">
