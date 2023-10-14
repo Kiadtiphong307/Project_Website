@@ -6,11 +6,11 @@
         <img
           src="https://www.khaosod.co.th/wpapp/uploads/2021/03/col01p1-14.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">วัดถ้ำเขาประทุน</h5>
         <p class="h4">Some representative placeholder content for the first slide.</p>
       </div>

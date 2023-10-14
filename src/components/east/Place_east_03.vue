@@ -6,11 +6,11 @@
         <img
           src="https://apis.sawasdee.ai/microsite/images/post/ckeditor/image-20230201113511-1.png"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">วัดหงษ์ทอง</h5>
         <p class="h4">วัดหงษ์ทอง อ.บางปะกง จ.ฉะเชิงเทรา</p>
       </div>

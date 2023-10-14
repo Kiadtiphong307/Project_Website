@@ -6,11 +6,11 @@
         <img
           src="https://www.hellosummer.60เส้นทางความสุข.com/wp-content/uploads/2020/02/%E0%B9%80%E0%B8%81%E0%B8%B2%E0%B8%B0%E0%B8%AA%E0%B8%B5%E0%B8%8A%E0%B8%B1%E0%B8%87-Banner.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">เกาะสีชัง</h5>
         <p class="h4">เกาะสีชัง อ.เกาะสีชัง จ.ชลบุรี</p>
       </div>

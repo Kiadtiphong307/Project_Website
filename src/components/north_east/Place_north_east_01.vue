@@ -8,12 +8,24 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
 </script>
 <template>
   <!-- แถบ ภาพ  -->
-  <div class="imgTitle">
-    <div class="textTitle">
-      <h2>มอหินขาว</h2>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-image-container">
+        <img
+          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          class="d-block w-100"
+          style="filter: brightness(75%)"
+          :height="'450'"
+        />
+      </div>
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <h5 class="display-3">มอหินขาว</h5>
       <p>มอหินขาว อ.เมือง จ.ชัยภูมิ</p>
     </div>
+    </div>
   </div>
+
   <!-- แถบ menu -->
   <Header_box_north_east></Header_box_north_east>
   <!-- แถบ เนื้อหา -->

@@ -9,26 +9,23 @@ const item_advice_north_04_all = ref(item_advice_north_04.item_advice_north_list
 </script>
 <template>
   <!-- แถบ ภาพ  -->
-  <div class="imgTitle">
-    <router-link :to="{ name: 'main' }">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        fill="currentColor"
-        class="bi bi-house house-icon"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-image-container">
+        <img
+          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          class="d-block w-100"
+          style="filter: brightness(75%)"
+          :height="'450'"
         />
-      </svg>
-    </router-link>
-    <div>
-      <h5>วัดเด่นสะหลีศรีเมืองแกน</h5>
+      </div>
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <h5 class="display-3">วัดเด่นสะหลีศรีเมืองแกน</h5>
       <p>เป็นวัดที่มีความงดงามอลังการ เหมาะแก่การไหว้พระขอพร</p>
+      </div>
     </div>
   </div>
+
   <!-- แถบ menu -->
   <Header_box_north></Header_box_north>
   <!-- แถบ เนื้อหา -->

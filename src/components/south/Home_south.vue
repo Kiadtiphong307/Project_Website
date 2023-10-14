@@ -4,23 +4,30 @@ import Header_box_south from '../south/Box_menu_south.vue'
 
 <template>
   <!-- แถบ ภาพ  -->
+
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <div class="carousel-image-container">
-          <img
-            src="https://i.pinimg.com/736x/1f/d2/85/1fd2858972eae4e02a7f903cefb57fe5.jpg"
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-image-container">
+                <img
+                src="https://i.pinimg.com/736x/1f/d2/85/1fd2858972eae4e02a7f903cefb57fe5.jpg"
             class="d-block w-100"
-            alt="..."
-            height="550"
+            style="filter: brightness(110%)"
+            height="450"
           />
-        </div>
+              </div>
 
-        <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
           <h5 class="display-3">ภาคใต้</h5>
           <p class="h4">
             ประตูภาคใต้ ไหว้เสร็จในกรมฯ ชมไร่กาแฟ แลหาดทรายรี ตีกล้วยเล็บมือนาง ขึ้นชื่อเรื่องรังนก
           </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

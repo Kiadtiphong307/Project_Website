@@ -4,16 +4,16 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://mpics.mgronline.com/pics/Images/565000009180202.JPEG"
+          src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/387519680_874205577375019_4751885481233347889_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH_nSXd_vYX9cdMrEi2XSK48kDu0gK9P73yQO7SAr0_vW9PdnnUxU7cPHRhYCpxfaYOQaO27DkPUNDyVaDhldnn&_nc_ohc=whj_SFVPOOkAX_t7bC8&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdSTlgyqZn1KBFpBFpIoevRPXaDf2bBcfyFNp14dNUptVQ&oe=6550915C"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="display-3">หอมนสิการ</h5>
-        <p class="h4">หอมนสิการ อ.แก่งคอย จ.สระบุรี</p>
-      </div>
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <h5 class="display-3">หอมนสิการ</h5>
+      <p class="h4">หอมนสิการ อ.แก่งคอย จ.สระบุรี</p>
+    </div>
     </div>
   </div>
 
