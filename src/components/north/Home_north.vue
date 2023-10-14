@@ -1,5 +1,5 @@
 <script setup>
-import Header_box_north from '../north/box_menu_north.vue'
+import Header_box_north from '../../components/north/Box_menu_north.vue'
 </script>
 <template>
   <!-- แถบ ภาพ  -->
