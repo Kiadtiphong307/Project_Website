@@ -33,12 +33,15 @@ const handleAddToCart = (item) => {
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="textcenter_Page_product_east"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
+    <h1 class="textcenter"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
     <hr />
 
-    <div class="container_otop_Page_product_east">
-      <div class="otop_conten_Page_product_east" v-for="(i, index) in otop_east_all" :key="index">
-          <img :src="i.img" class="img_otop_Page_product_east"/>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col" v-for="(i, index) in otop_east_all" :key="index">
+        <div
+          class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+        >
+          <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
           <div class="card-body">
             <h5 class="card-text mb-auto">
               <strong class="h3">{{ i.name }}</strong>
@@ -53,7 +56,7 @@ const handleAddToCart = (item) => {
             <button
               type="submit"
               @click="handleAddToCart(i)"
-              class="btn_cart_Page_product_east"
+              class="btn btn-dark"
               style="border-radius: 30px"
             >
               ลงตะกร้า
@@ -62,42 +65,12 @@ const handleAddToCart = (item) => {
         </div>
       </div>
     </div>
+  </div>
 </template>
 <style scoped>
 .textcenter {
   text-align: center;
   margin-inline: 420px;
-  border-bottom: 2px solid;
-}
-.container_otop_Page_product_east {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: stretch;
-  align-items: stretch;
-  column-gap: 10px;
-  padding: 40px;
-  row-gap: 20px;
-}
-.otop_conten_Page_product_east {
-  display: grid;
-  grid-template-columns: 250px auto;
-  justify-items: stretch;
-  margin-block: 10px;
-  column-gap: 10px;
-}
-.img_otop_Page_product_east {
-  max-width: 300px;
-  border-radius: 15px;
-}
-.btn_cart_Page_product_east {
-  margin-inline: 100px;
-  color: white;
-  background-color: black;
-  border-radius: 10px;
-}
-.textcenter_Page_product_east {
-  text-align: center;
-  margin-inline: 380px;
   border-bottom: 2px solid;
 }
 </style>
