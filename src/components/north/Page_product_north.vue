@@ -2,9 +2,15 @@
 import Header_box_north from '../north/Box_menu_north.vue'
 import { ref } from 'vue'
 import { Otop_northStore } from '../../stores/All_product'
+import { addToCart } from '../shop/Cart_count.js'
 
 const otop_northStore = Otop_northStore()
 const otop_north_all = ref(otop_northStore.Otop_north_list)
+
+const handleAddToCart = (item) => {
+  addToCart(item)
+}
+
 </script>
 
 <template>
@@ -43,7 +49,7 @@ const otop_north_all = ref(otop_northStore.Otop_north_list)
             <strong>ราคา: {{ i.price }} บาท</strong>
           </p>
           <!-- <p class="">{{ i.text }}</p> -->
-          <button type="button" class="btn_cart-n">ลงตะกร้า</button>
+          <button type="button"  @click="handleAddToCart(i)" class="btn btn-dark" >ลงตะกร้า</button>
         </div>
       </div>
     </div>

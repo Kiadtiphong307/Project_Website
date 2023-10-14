@@ -92,7 +92,7 @@ const showPassword = ref(false)
 
     <ul class="nav justify-content-end">
       <!-- ตระกร้า -->
-      <li class="nav-item">
+      <li v-if="isLoggedIn" class="nav-item">
         <router-link :to="{ name: 'cart' }">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -112,7 +112,7 @@ const showPassword = ref(false)
       </li>
 
       <!-- เมนู -->
-      <li class="nav-item">
+      <li v-if="isLoggedIn" class="nav-item">
         <router-link :to="{ name: 'orderList' }">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -136,10 +136,7 @@ const showPassword = ref(false)
       <!-- login -->
 
       <li v-if="!isLoggedIn" class="nav-item">
-        <button
-          type="button"
-          class="btn-login"
-        >
+        <button type="button" class="btn-login" data-bs-toggle="modal" data-bs-target="#loginModal">
           เข้าสู่ระบบ
         </button>
       </li>
