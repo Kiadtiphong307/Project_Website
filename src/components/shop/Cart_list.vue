@@ -3,7 +3,6 @@ import { cart, couponCode } from '../shop/Cart_count';
 import { addOrder } from '../shop/Order_count';
 import { computed, ref } from 'vue';
 
-
 const totalPrice = (item) => computed(() => item.price * item.quantity);
 
 const totalCartPrice = computed(() => {
@@ -16,7 +15,7 @@ const discountedPrice = computed(() => {
   } else {
     return totalCartPrice.value.toFixed(2);
   }
-})
+});
 
 const totalItemsInCart = computed(() => {
   return cart.value.reduce((acc, item) => acc + item.quantity, 0);
@@ -53,8 +52,9 @@ const clearShippingAddress = () => {
 
 const confirmOrder = () => {
   if (totalItemsInCart.value > 0 && isShippingAddressComplete()) {
+    const discountedPrice = couponCode.value === 'CSMJU' ? applyCoupon() : 0; 
     const orderData = { items: cart.value, shippingAddress: { ...shippingAddress.value } };
-    addOrder(orderData);
+    addOrder(orderData, discountedPrice); // Pass the discounted price to addOrder function
     cart.value = [];
   } else {
     console.log("ไม่สามารถยืนยันการสั่งซื้อได้ โปรดตรวจสอบว่าคุณมีสินค้าในตะกร้าสินค้าและกรอกข้อมูลที่อยู่จัดส่งทั้งหมด");
@@ -66,16 +66,46 @@ const isShippingAddressComplete = () => {
   return fullName && phoneNumber && province && district && subDistrict && address && zip;
 };
 
+
+const isTextThaiOrEnglish = (input) => {
+  const thaiOrEnglish = /^[A-Za-zก-ฮะ-์ ]+$/;
+  return thaiOrEnglish.test(input);
+};
+
+const isPhoneNumberValid = (input) => {
+  const phoneNumberRegex = /^[0-9]{10}$/;
+  return phoneNumberRegex.test(input);
+};
+
+const isAddressValid = (input) => {
+  const addressRegex = /^[A-Za-z0-9ก-ฮะ-์ ]+$/;
+  return addressRegex.test(input);
+};
+
+const isShippingAddressValid = () => {
+  const { fullName, phoneNumber, province, district, subDistrict, address, zip } = shippingAddress.value;
+
+  return (
+    isTextThaiOrEnglish(fullName) &&
+    isPhoneNumberValid(phoneNumber) &&
+    isTextThaiOrEnglish(province) &&
+    isTextThaiOrEnglish(district) &&
+    isTextThaiOrEnglish(subDistrict) &&
+    isAddressValid(address) &&
+    /^[0-9]{5}$/.test(zip)
+  );
+};
+
 const confirmOrderHandler = () => {
-  if (totalItemsInCart.value > 0 && isShippingAddressComplete()) {
+  if (totalItemsInCart.value > 0 && isShippingAddressValid()) {
     confirmOrder();
     clearShippingAddress();
     alert('สั่งซื้อสำเร็จ');
   } else {
     if (totalItemsInCart.value === 0) {
       alert('กรุณาเพิ่มสินค้าลงในตะกร้าก่อนทำการสั่งซื้อ');
-    } else if (!isShippingAddressComplete()) {
-      alert('กรุณากรอกข้อมูลที่อยู่การจัดส่งให้ครบถ้วน');
+    } else {
+      alert('โปรดตรวจสอบที่อยู่ให้ถูกต้อง หรือ กรอกที่อยู่ให้ถูกต้อง');
     }
   }
 };
@@ -85,6 +115,14 @@ const applyCouponCode = () => {
     alert('คูปองถูกต้อง ได้รับส่วนลด 10%')
   } else {
     alert('คูปองไม่ถูกต้อง หรือไม่สามารถใช้ได้')
+  }
+};
+
+const applyCoupon = () => {
+  if (couponCode.value === 'CSMJU') {
+    return (totalCartPrice.value * 0.9).toFixed(2); 
+  } else {
+    return totalCartPrice.value.toFixed(2);
   }
 };
 
@@ -183,36 +221,32 @@ const applyCouponCode = () => {
         <label for="fullName" class="form-label">ชื่อ-สกุล</label>
         <input v-model="shippingAddress.fullName" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="fullName" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-
+      
       <div class="mb-3">
         <label for="phoneNumber" class="form-label">เบอร์โทรศัทพ์</label>
         <input v-model="shippingAddress.phoneNumber" type="tel" pattern="[0-9]{10}" class="form-control" id="phoneNumber" required placeholder="กรอกเฉพาะตัวเลข 10 ตัว" />
       </div>
-
-
+      
       <div class="mb-3">
         <label for="province" class="form-label">จังหวัด</label>
         <input v-model="shippingAddress.province" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="province" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-
-
+      
       <div class="mb-3">
         <label for="district" class="form-label">อำเภอ</label>
         <input v-model="shippingAddress.district" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="district" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-
-
+      
       <div class="mb-3">
         <label for="subDistrict" class="form-label">ตำบล</label>
         <input v-model="shippingAddress.subDistrict" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="subDistrict" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-
-
+      
       <div class="mb-3">
         <label for="address" class="form-label">ที่อยู่</label>
         <input v-model="shippingAddress.address" type="text" pattern="[A-Za-z0-9ก-ฮะ-์ ]+" class="form-control" id="address" required placeholder="กรอกเฉพาะ ตัวอักษร และตัวเลข" />
       </div>
-
+      
       <div class="mb-3">
         <label for="zip" class="form-label">รหัสไปรษณีย์</label>
         <input v-model="shippingAddress.zip" type="text" pattern="[0-9]{5}" class="form-control" id="zip" required placeholder="กรอกเฉพาะ ตัวเลข 5 ตัว" />

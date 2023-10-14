@@ -8,9 +8,12 @@ const totalItemsInOrder = (order) => {
   return order.items.reduce((accum, item) => accum + item.quantity, 0);
 };
 
-const totalOrderPrice = (order) => {
-  return order.items.reduce((accum, item) => accum + item.quantity * item.price, 0);
+
+const getDiscountedPrice = (order) => {
+  return order.discountedPrice;
 };
+
+
 </script>
 
 <template>
@@ -45,9 +48,11 @@ const totalOrderPrice = (order) => {
                 <p class="mb-0 me-5 d-flex align-items-center">
                   <h4><span class="small text-muted me-2"> รายการทั้งหมด {{ totalItemsInOrder(order) }} จำนวน </span></h4>
                 </p>
+                
                 <p class="mb-0 me-5 d-flex align-items-center">
-                  <strong><h3><span class="small text-muted me-2"> ยอดรวมทั้งหมด {{ totalOrderPrice(order) }} บาท</span></h3></strong>
+                  <h4><span class="small text-muted me-2"> ยอดรวมทั้งหมด {{ getDiscountedPrice(order) }} บาท</span></h4>
                 </p>
+
               </div>
             </div>
             <hr />
