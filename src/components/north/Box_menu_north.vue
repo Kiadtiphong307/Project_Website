@@ -94,6 +94,25 @@
     text-decoration: none;
   }
 }
+<<<<<<< HEAD
+.itemNav {
+  border: 2px solid white;
+  border-radius: 16px;
+  padding-block: 10px;
+  padding-inline: 20px;
+  color: white;
+  text-decoration: none;
+  background-color: #01533B;
+}
+.itemNav:hover {
+  border: 2px solid rgba(65, 3, 3, 0.274);
+  background-color: rgba(0, 0, 0, 0.144);
+  border-radius: 16px;
+  padding-block: 10px;
+  padding-inline: 20px;
+  color: white;
+  text-decoration: none;
+=======
 @media (max-width: 767px) {
   .NavBar {
     background-color: rgb(5, 129, 88);
@@ -129,5 +148,6 @@
     color: white;
     text-decoration: none;
   }
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
 }
 </style>

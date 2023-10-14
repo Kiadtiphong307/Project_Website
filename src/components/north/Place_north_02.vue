@@ -9,45 +9,91 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
 </script>
 <template>
   <!-- แถบ ภาพ  -->
-  <div class="imgTitle">
-    <router-link :to="{ name: 'main' }">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="32"
-        height="32"
-        fill="currentColor"
-        class="bi bi-house house-icon"
-        viewBox="0 0 16 16"
-      >
-        <path
-          d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-image-container">
+        <img
+          src="https://scontent.fbkk29-6.fna.fbcdn.net/v/t1.15752-9/387335748_910711147147688_4540506814813974953_n.png?_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF09uFWYmx9CFPnUtzY3DWvNtCdYYR-gPM20J1hhH6A88ln56hF3kA3sVldOzJys6bZpvwJt0KPRgZdOuVZEeOS&_nc_ohc=-jesZLEXm-QAX-MTI7i&_nc_ht=scontent.fbkk29-6.fna&oh=03_AdRWb08NN-_F-iMtAN-SnGrNOsApkfegGXIzgDac0pVq4Q&oe=655160C1"
+          class="d-block w-100"
+          style="filter: brightness(85%)"
+          :height="'450'"
         />
+<<<<<<< HEAD
+        <router-link :to="{ name: 'main' }">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="32"
+            height="32"
+            fill="currentColor"
+            class="bi bi-house house-icon"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
+            />
+          </svg>
+        </router-link>
+      </div>
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+        <h2 class="display-3">สวนสนแม่แตง</h2>
+        <p class="h4">สถานที่ที่ร่มรื่นเหมาะกับวันพักผ่อน</p>
+      </div>
+=======
       </svg>
     </router-link>
     <div>
       <h2>สวนสนแม่แตง</h2>
       <p>สถานที่ที่ร่มรื่นเหมาะกับวันพักผ่อน</p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
     </div>
   </div>
   <!-- แถบ menu -->
   <Header_box_north></Header_box_north>
   <!-- แถบ เนื้อหา -->
   <!-- box รูปซ้าย -->
+<<<<<<< HEAD
+  <div class="container">
+    <div class="LPage_Place_north_02">
+=======
   <div class="container-n2">
     <div class="LPage-n2">
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
       <img
         src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/12/1-SON00554.jpg"
-        class="imgBow"
+        class="imgBow_Place_north_02"
       />
+<<<<<<< HEAD
+      <div class="container_text_Place_north_02">
+        <h5 class="display-5">สวนสนแม่แตง</h5>
+        <p class="h5">
+=======
       <div style="margin-block: 10px;">
         <h5 class="card-title">สวนสนแม่แตง</h5>
         <p class="textConten-n2">
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
           สวนสนแม่แตง หรือสวนผลิตเมล็ดพันธ์สองใบ
           ตั้งอยู่ในเขตพื้นที่รับผิดชอบของสถานีวนวัฒนาวิจัยอินทรขิล จังหวัดเชียงใหม่
           ซึ่งเป็นสถานีงานวิจัยด้านป่าไม้ บรรยากาศรอบๆ ของสวนสนแห่งนี้ดูร่มรื่นสบายตา
           จึงเหมาะแก่การมาถ่ายภาพ หรือจะมาพักผ่อนหย่อนใจก็ได้ค่ะ
           ภายในจะมีจุดถ่ายภาพให้กับนักท่องเที่ยว บริเวณกว้างขว้างมากๆ เลือกมุมถ่ายภาพได้ตามใจกันเลย
         </p>
+<<<<<<< HEAD
+      </div>
+    </div>
+    <!--box รูปขวา-->
+    <div class="RPage_Place_north_02">
+      <div class="container_text_Place_north_02">
+        <p class="h5">
+          สวนผลิตเมล็ดพันธ์สนสองใบหรือ สวนสนแม่แตง ตั้งอยู่ติดถนนหมายเลข 107
+          เส้นทางแม่แตงมุ่งหน้าสู่อำเภอเชียงดาวและฝา
+          เป็นเส้นทางผ่านไปยังสองอำเภอนี้สามารถแวะเที่ยวก่อนไปต่อยังจุดอื่นได้
+          ลักษณะเป็นสวนสนคาริเบียน ในเนื้อที่ 27 ไร่
+          ซึ่งเป็นงานวิจัยการพัฒนาและฟื้นฟูทดลองปลูกสนคาริเบีย
+          ภายในสวนสวยอากาศร่มรื่นเย็นสบายตลอดทั้งวัน
+        </p>
+        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart_Place_north_02">อ่านเพิ่มเติม...</a>
+      </div>
+=======
         <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-n2"
           >อ่านเพิ่มเติม</a
         >
@@ -63,15 +109,22 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
         ซึ่งเป็นงานวิจัยการพัฒนาและฟื้นฟูทดลองปลูกสนคาริเบีย
         ภายในสวนสวยอากาศร่มรื่นเย็นสบายตลอดทั้งวัน
       </p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
       <img
         src="https://img.wongnai.com/p/1920x0/2018/09/11/87d33f9b8d34413ba023c77b1f6c3691.jpg"
-        class="imgBow"
+        class="imgBow_Place_north_02"
       />
     </div>
     <!-- สิ่งของแนะนำขาย -->
+<<<<<<< HEAD
+    <h1 class="textcenter_Place_north_02"><strong>อุปกรณ์ที่ควรเอาไป</strong></h1>
+    <div class="recomen_Place_north_02">
+      <div class="re_conten_Place_north_02" v-for="(i, index) in item_advice_north_02_all" :key="index">
+=======
     <h1 style="text-align: center">สิ่งที่ควรเตรียมไป</h1>
     <div class="recomen-n2">
       <div class="re_conten-n2" v-for="(i, index) in item_advice_north_02_all" :key="index">
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
         <div>
           <div class="card">
             <img :src="i.img" />
@@ -86,6 +139,79 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
   </div>
 </template>
 <style scoped>
+<<<<<<< HEAD
+.textcenter_Place_north_02 {
+  text-align: center;
+  margin-inline: 430px;
+  border-bottom: 2px solid;
+}
+.btn_cart_Place_north_02 {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+  background-color: black;
+  border-radius: 5px;
+}
+.btn_cart_Place_north_02:hover {
+  padding: 8px;
+  color: white;
+  text-decoration: none;
+  background-color: rgb(4, 60, 203);
+  border-radius: 5px;
+}
+.LPage_Place_north_02 {
+  display: grid;
+  grid-template-columns: 400px auto;
+  column-gap: 10px;
+  justify-items: stretch;
+  align-items: center;
+  margin-inline: 170px;
+  margin-block: 5px;
+  width: 1000px;
+  border-bottom: 2px solid;
+}
+.RPage_Place_north_02 {
+  display: grid;
+  grid-template-columns: auto 400px;
+  column-gap: 1px;
+  justify-items: stretch;
+  align-items: center;
+  margin-inline: 170px;
+  margin-block: 5px;
+  width: 1000px;
+  border-bottom: 2px solid;
+}
+.imgBow_Place_north_02 {
+  max-width: 880px;
+  margin: 10px;
+}
+.container_text_Place_north_02 {
+  padding: 5px;
+}
+.textConten_Place_north_02 {
+  padding: 20px;
+  width: 500px;
+}
+.recomen_Place_north_02 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  row-gap: 2px;
+  column-gap: 2px;
+  max-width: 1000px;
+  margin-inline: 200px;
+  margin-block: 10px;
+}
+.re_conten_Place_north_02 {
+  display: grid;
+  grid-template-columns: 200px auto;
+  column-gap: 10px;
+  justify-items: stretch;
+  align-items: center;
+  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+  padding: 5px;
+=======
 @media (min-width: 1030px) {
   .container-n2 {
     display: grid;
@@ -329,5 +455,6 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
     box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
     padding: 5px;
   }
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
 }
 </style>
