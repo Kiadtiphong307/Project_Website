@@ -239,6 +239,12 @@ import Header_box_north from '../north/box_menu_north.vue'
     color: white;
     padding: 5px;
   }
+.container_all {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  row-gap: 1px;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container_all-n {
@@ -396,5 +402,67 @@ import Header_box_north from '../north/box_menu_north.vue'
     color: white;
     padding: 5px;
   }
+.textTitle {
+  color: white;
+  text-align: center;
+  font-size: x-large;
 }
+.conTitle {
+  text-align: center;
+  margin-inline: 300px;
+  border-bottom: 2px solid;
+}
+.Limg {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.Rimg {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+.imgBow {
+  max-width: 280px;
+  margin: 10px;
+}
+.imgBow1 {
+  max-width: 280px;
+  height: 260px;
+  margin: 10px;
+}
+.LPage {
+  display: grid;
+  grid-template-columns: 240px auto;
+  column-gap: 50px;
+  justify-items: stretch;
+  margin-inline: 170px;
+  margin-block: 25px;
+  width: 1000px;
+  border-bottom: 2px solid;
+}
+.RPage {
+  display: grid;
+  grid-template-columns: auto 300px;
+  column-gap: 20px;
+  justify-items: stretch;
+  margin-inline: 170px;
+  margin-block: 25px;
+  width: 1000px;
+  border-bottom: 2px solid;
+}
+.container_text {
+  padding: 40px;
+}
+.textConten {
+  padding: 20px;
+  width: 600px;
+}
+.btnLink {
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
 </style>

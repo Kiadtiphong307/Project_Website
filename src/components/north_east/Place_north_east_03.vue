@@ -69,14 +69,13 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
       <div class="re_conten" v-for="(i, index) in item_advice_north_east_01_all" :key="index">
         <div>
           <div class="card">
-            <img :src="i.img"/>
+            <img :src="i.img" />
           </div>
         </div>
-          <div class="re_text">
-            <h4>{{ i.name }}</h4>
-            <p >{{ i.category }}</p>
-          </div>
-
+        <div class="re_text">
+          <h4>{{ i.name }}</h4>
+          <p>{{ i.category }}</p>
+        </div>
       </div>
     </div>
   </div>

@@ -7,6 +7,7 @@
           src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03025718_1.jpeg"
           class="d-block w-100"
           alt="..."
+          :height="'450'"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +25,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>ภูผาแรด</h5>
-        <p>ภูผาแรด อ.เมืองราชบุรี จ.ราชบุรี</p>
+        <h5 class="display-3">ภูผาแรด</h5>
+        <p class="h4">ภูผาแรด อ.เมืองราชบุรี จ.ราชบุรี</p>
       </div>
     </div>
   </div>
@@ -48,8 +49,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">ภูผาแรด</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>ภูผาแรด</strong></h5>
+            <p class="h5">
               บริเวณนี้เคยเป็นแหล่งสัมปทานระเบิดหินภายในอุทยานหินเขางู
               ถูกซ่อนไว้กลางหุบเขามานานหลายปี
               ลักษณะเป็นผาสูงชันที่มีร่องรอยเว้าแหว่งของหินจากแรงระเบิด
@@ -67,7 +68,7 @@
       <div class="row g-0">
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               ซึ่งขึ้นอยู่กับทิศทางของแสงแดดที่ส่องลงบริเวณหน้าผาแต่ละฝั่ง
               และให้จับตาวินาทีที่น้ำนิ่งจนเกิดภาพเงาสะท้อนคล้ายภาพ Abstract บนผิวน้ำ
               ถือเป็นงานอาร์ตที่ธรรมชาติรังสรรค์ เป็นความมหัศจรรย์บทใหม่ของเมืองราชบุรี
@@ -87,7 +88,7 @@
 
     <!-- สิ่งของแนะนำขาย -->
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -105,6 +106,7 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark">LINK สินค้า</button>
             </div>
           </div>
         </div>
@@ -113,11 +115,19 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+        >อ้างอิงมาจาก</a
+      ></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter {
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_central from '../central/Box_menu_central.vue'
 

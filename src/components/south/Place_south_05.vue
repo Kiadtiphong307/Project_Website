@@ -1,5 +1,7 @@
 <template>
   <!-- แถบ ภาพ  -->
+  <!-- น้องเอิร์ธ -->
+  <!-- น้องบอส -->
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
@@ -7,6 +9,7 @@
           src="https://s359.kapook.com/pagebuilder/31774ae1-c3b8-465f-a487-6a7f5bacc773.jpg"
           class="d-block w-100"
           alt="..."
+          height="550"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -24,8 +27,8 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block">
-        <h5>เกาะตะรุเตา</h5>
-        <p>เกาะตะรุเตา อ.เมือง จ.สตูล</p>
+        <h5 class="display-3">เกาะตะรุเตา</h5>
+        <p class="h4">เกาะตะรุเตา อ.เมือง จ.สตูล</p>
       </div>
     </div>
   </div>
@@ -48,8 +51,8 @@
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <h5 class="card-title">เกาะตะรุเตา</h5>
-            <p class="card-text">
+            <h5 class="h2"><strong>เกาะตะรุเตา</strong></h5>
+            <p class="h5">
               ตะรุเตา เกาะที่เต็มไปด้วยตำนานและคำบอกเล่า ทั้งขุมสมบัติ ถ้ำลับ โจรสลัด สัตว์ร้าย
               หรือแม้กระทั่งต้นไม้มีพิษ แต่ในคำบอกเล่าสุดแฟนตาซี ถือว่ายังมีเค้าโครงจากเรื่องจริง
               ด้วยเป็นเกาะขนาดใหญ่ที่มีภูมิประเทศหลากหลาย แถมยังเงียบสงบ
@@ -66,13 +69,14 @@
         <div class="col-md-4">
           <img
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSi9X8L0bIZHzQ8zC91gTxHCPecr-YwJ8hUQ&usqp=CAU"
-            class="img-fluid rounded-start"
+            class="d-block w-100"
             alt="..."
+            height="200"
           />
         </div>
         <div class="col-md-8">
           <div class="card-body">
-            <p class="card-text">
+            <p class="h5">
               รวมถึงสัตว์หายาก และหากใครชอบศึกษาประวัติศาสตร์ จะรู้ว่านอกจากธรรมชาติและชายหาดสวยๆ
               แล้ว บนเกาะแห่งนี้ยังมีสถานที่ท่องเที่ยวทางประวัติศาสตร์มากมาย
               โดยเฉพาะสถานกักกันตัวนักโทษ ซึ่งท้ายสุดแล้วกลายเป็นที่มาของตำนาน “โจรสลัดแห่งตะรุเตา”
@@ -86,7 +90,7 @@
     </div>
 
     <!-- สิ่งของแนะนำขาย -->
-    <h1>แนะนำสินค้า</h1>
+    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
     <hr />
 
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -104,6 +108,9 @@
             <div class="card-body">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
+              <button type="button" class="btn btn-dark" style="border-radius: 30px">
+                LINK สินค้า
+              </button>
             </div>
           </div>
         </div>
@@ -112,11 +119,19 @@
   </div>
   <p class="card-text">
     <small class="text-body-secondary">
-      <a href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a></small
+      <a class="btn btn-outline-secondary" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+        >อ้างอิงมาจาก</a
+      ></small
     >
   </p>
 </template>
-
+<style scoped>
+.textcenter {
+  text-align: center;
+  margin-inline: 500px;
+  border-bottom: 2px solid;
+}
+</style>
 <script setup>
 import Header_box_south from '../south/Box_menu_south.vue'
 
