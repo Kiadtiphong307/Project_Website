@@ -8,6 +8,7 @@ const item_advice_north_02 = item_advice_north_02Store()
 const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list_02)
 </script>
 <template>
+  <!-- mainbox -->
   <!-- แถบ ภาพ  -->
   <div class="imgTitle">
     <div class="textTitle">
