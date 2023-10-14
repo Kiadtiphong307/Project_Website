@@ -4,7 +4,6 @@ import Header_box_north from '../north/box_menu_north.vue'
 <template>
   <!-- แถบ ภาพ  -->
   <div class="imgTitleN">
-   
     <div class="textTitle-n">
       <h2>ภาคเหนือ</h2>
       <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
