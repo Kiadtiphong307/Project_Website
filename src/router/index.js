@@ -14,6 +14,9 @@ import Orderlist from '../components/shop/Order_list.vue'
 //about
 import about_page from '../views/About_page.vue'
 
+//
+import weather_today from '../views/Weather_today.vue'
+
 //north
 import page_product_north from '../components/north/Page_product_north.vue'
 //place
@@ -77,6 +80,13 @@ const router = createRouter({
       name: 'about_page',
       component: about_page
     },
+
+    {
+      path: '/weather_today',
+      name: 'weather_today',
+      component: weather_today
+    },
+
 
     // home แต่ละภาค
     {

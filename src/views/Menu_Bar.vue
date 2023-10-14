@@ -32,9 +32,13 @@
         </li>
       </ul>
     </div>
+
     <div class="btnGrop">
       <div>
         <router-link :to="{ name: 'about_page' }" class="btnNav" href="#">about</router-link>
+      </div>
+      <div>
+        <router-link :to="{ name: 'weather_today' }" class="btnNav" href="#">เช็คสภาพอากาศ</router-link>
       </div>
     </div>
   </nav>
