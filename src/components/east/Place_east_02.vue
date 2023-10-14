@@ -6,11 +6,11 @@
         <img
           src="https://s359.kapook.com//pagebuilder/1cd4cae7-b77f-4ac5-ac70-0ca529255287.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">วัดมณีวงศ์</h5>
         <p class="h4">วัดมณีวงศ์ อ.เมือง จ.นครนายก</p>
       </div>

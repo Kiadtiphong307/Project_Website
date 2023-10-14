@@ -6,11 +6,11 @@
         <img
           src="https://www.traave.com/wp-content/uploads/2015/11/083b9284-9956-42f3-b08f-e63a8c5a93be.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">ถ้ำน้ำเขาศิวะ</h5>
         <p class="h4">ถ้ำน้ำเขาศิวะ อ.คลองหาด จ.สระแก้ว</p>
       </div>

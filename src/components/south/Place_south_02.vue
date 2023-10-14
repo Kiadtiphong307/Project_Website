@@ -6,11 +6,11 @@
         <img
           src="https://soithong.com/wp-content/uploads/2020/04/1587365692991.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           height="550"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">หมู่เกาะกำ</h5>
         <p class="h4">Some representative placeholder content for the first slide.</p>
       </div>

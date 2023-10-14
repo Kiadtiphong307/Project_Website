@@ -6,11 +6,11 @@
         <img
           src="https://s.isanook.com/tr/0/ud/287/1437671/line_album_11566_230511_25.jpg?ip/resize/w728/q80/jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           height="550"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">หินพับผ้า</h5>
         <p class="h4">หินพับผ้า อ.ขนอม จ.นครศรีธรรมราช</p>
       </div>

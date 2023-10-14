@@ -3,16 +3,37 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
 </script>
 
 <template>
+
   <!-- แถบ ภาพ  -->
-  <div class="imgTitle">
-    <div class="textTitle">
-      <h2>ภาคอีสาน</h2>
-      <p>
-        สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง สุดใหญ่ยิ่งแข่งเรือยาว
-        หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ สุขสำราญที่ได้ยล (จังหวัดบึงกาฬ)
-      </p>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-image-container">
+                <img
+            src="https://www.salika.co/wp-content/uploads/2018/05/agriculture-animals-asia-460223.jpg"
+            class="d-block w-100"
+            style="filter: brightness(75%)"
+            height="450"
+          />
+              </div>
+
+              <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+          <h5 class="display-3">ภาคอีสาน</h5>
+          <p class="h4">
+            สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง สุดใหญ่ยิ่งแข่งเรือยาว
+            หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ สุขสำราญที่ได้ยล (จังหวัดบึงกาฬ)
+          </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
   <Header_box_north_east></Header_box_north_east>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">

@@ -8,11 +8,11 @@
         <img
           src="https://s359.kapook.com/pagebuilder/31774ae1-c3b8-465f-a487-6a7f5bacc773.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           height="550"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">เกาะตะรุเตา</h5>
         <p class="h4">เกาะตะรุเตา อ.เมือง จ.สตูล</p>
       </div>

@@ -6,11 +6,11 @@
         <img
           src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/04/1-768x513.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(90%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">วัดทางสาย</h5>
         <p class="h4">วัดทางสาย อ.บางสะพาน จ.ประจวบคีรีขันธ์</p>
       </div>
