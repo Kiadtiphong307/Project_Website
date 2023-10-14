@@ -1,5 +1,5 @@
 <script setup>
-import { cart } from '../shop/Cart_count';
+import { cart, couponCode } from '../shop/Cart_count';
 import { addOrder } from '../shop/Order_count';
 import { computed, ref } from 'vue';
 
@@ -9,6 +9,14 @@ const totalPrice = (item) => computed(() => item.price * item.quantity);
 const totalCartPrice = computed(() => {
   return cart.value.reduce((acc, item) => acc + item.price * item.quantity, 0);
 });
+
+const discountedPrice = computed(() => {
+  if (couponCode.value === 'CSMJU') {
+    return (totalCartPrice.value * 0.9).toFixed(2);
+  } else {
+    return totalCartPrice.value.toFixed(2);
+  }
+})
 
 const totalItemsInCart = computed(() => {
   return cart.value.reduce((acc, item) => acc + item.quantity, 0);
@@ -71,6 +79,16 @@ const confirmOrderHandler = () => {
     }
   }
 };
+
+const applyCouponCode = () => {
+  if (couponCode.value === 'CSMJU') {
+    alert('คูปองถูกต้อง ได้รับส่วนลด 10%')
+  } else {
+    alert('คูปองไม่ถูกต้อง หรือไม่สามารถใช้ได้')
+  }
+};
+
+
 </script>
 
 
@@ -127,13 +145,26 @@ const confirmOrderHandler = () => {
 
     <div class="card mb-5">
       <div class="card-body p-4">
+        <div>
+          <form @submit.prevent="applyCouponCode">
+            <div class="mb-3">
+              <label for="couponCode" class="form-label">คูปอง</label>
+              <input v-model="couponCode" type="text" class="form-control" id="couponCode" placeholder="กรอกคูปองลดราคา">
+            </div>
+          </form>
+        </div>
+
         <div class="float-end">
           <p class="mb-0 me-5 d-flex align-items-center">
             <h4><span class="small text-muted me-2"> รายการทั้งหมด {{ totalItemsInCart }} จำนวน </span></h4>
           </p>
 
           <p class="mb-0 me-5 d-flex align-items-center">
-            <strong><h3> <span class="small text-muted me-2"> ยอดรวมทั้งหมด {{ totalCartPrice }}  บาท</span></h3></strong>
+            <strong><h5> <span class="small text-muted me-2" style="color: red;">ใช้งานคูปองประหยัดเพิ่ม {{ (totalCartPrice - parseFloat(discountedPrice)).toFixed(2) }} บาท</span></h5></strong>
+          </p>
+
+          <p class="mb-0 me-5 d-flex align-items-center">
+            <strong><h3> <span class="small text-muted me-2">ยอดรวมทั้งหมด {{ discountedPrice }} บาท</span></h3></strong>
           </p>
 
         </div>
@@ -143,46 +174,53 @@ const confirmOrderHandler = () => {
 
     <section class="h-100" style="background-color: #eee;">
   <div>
+
     <form @submit.prevent="confirmOrder">
       <h1 class="fw-normal mb-0 text-black">ที่อยู่การจัดส่ง</h1>
-      <hr>
+      <hr />
 
       <div class="mb-3">
         <label for="fullName" class="form-label">ชื่อ-สกุล</label>
-        <input v-model="shippingAddress.fullName" type="text" class="form-control" id="fullName" required>
+        <input v-model="shippingAddress.fullName" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="fullName" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-    
+
       <div class="mb-3">
         <label for="phoneNumber" class="form-label">เบอร์โทรศัทพ์</label>
-        <input v-model="shippingAddress.phoneNumber" type="text" class="form-control" id="phoneNumber" required>
+        <input v-model="shippingAddress.phoneNumber" type="tel" pattern="[0-9]{10}" class="form-control" id="phoneNumber" required placeholder="กรอกเฉพาะตัวเลข 10 ตัว" />
       </div>
-    
+
+
       <div class="mb-3">
         <label for="province" class="form-label">จังหวัด</label>
-        <input v-model="shippingAddress.province" type="text" class="form-control" id="province" required>
+        <input v-model="shippingAddress.province" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="province" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-    
+
+
       <div class="mb-3">
         <label for="district" class="form-label">อำเภอ</label>
-        <input v-model="shippingAddress.district" type="text" class="form-control" id="district" required>
+        <input v-model="shippingAddress.district" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="district" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-    
+
+
       <div class="mb-3">
         <label for="subDistrict" class="form-label">ตำบล</label>
-        <input v-model="shippingAddress.subDistrict" type="text" class="form-control" id="subDistrict" required>
+        <input v-model="shippingAddress.subDistrict" type="text" pattern="[A-Za-zก-ฮะ-์ ]+" class="form-control" id="subDistrict" required placeholder="กรอกเฉพาะ ข้อความ ภาษาไทย หรือ อังกฤษ" />
       </div>
-    
+
+
       <div class="mb-3">
         <label for="address" class="form-label">ที่อยู่</label>
-        <input v-model="shippingAddress.address" type="text" class="form-control" id="address" required>
+        <input v-model="shippingAddress.address" type="text" pattern="[A-Za-z0-9ก-ฮะ-์ ]+" class="form-control" id="address" required placeholder="กรอกเฉพาะ ตัวอักษร และตัวเลข" />
       </div>
-    
+
       <div class="mb-3">
         <label for="zip" class="form-label">รหัสไปรษณีย์</label>
-        <input v-model="shippingAddress.zip" type="text" class="form-control" id="zip" required>
+        <input v-model="shippingAddress.zip" type="text" pattern="[0-9]{5}" class="form-control" id="zip" required placeholder="กรอกเฉพาะ ตัวเลข 5 ตัว" />
       </div>
-    
+
+
     </form>
+
   </div>
 
       </section>
