@@ -10,6 +10,7 @@ const item_advice_north_04_all = ref(item_advice_north_04.item_advice_north_list
 <template>
   <!-- แถบ ภาพ  -->
   <div class="imgTitle">
+<<<<<<< HEAD
     <router-link :to="{ name: 'main' }">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +26,9 @@ const item_advice_north_04_all = ref(item_advice_north_04.item_advice_north_list
       </svg>
     </router-link>
     <div>
+=======
+    <div class="textTitle">
+>>>>>>> d20a4f6eb754e14929cdda251408e3f66dd8f61c
       <h5>วัดเด่นสะหลีศรีเมืองแกน</h5>
       <p>เป็นวัดที่มีความงดงามอลังการ เหมาะแก่การไหว้พระขอพร</p>
     </div>

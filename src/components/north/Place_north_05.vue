@@ -10,6 +10,7 @@ const item_advice_north_05_all = ref(item_advice_north_05.item_advice_north_list
 <template>
   <!-- แถบ ภาพ  -->
   <div class="imgTitle">
+<<<<<<< HEAD
     <router-link :to="{ name: 'main' }">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -25,6 +26,9 @@ const item_advice_north_05_all = ref(item_advice_north_05.item_advice_north_list
       </svg>
     </router-link>
     <div>
+=======
+    <div class="textTitle">
+>>>>>>> d20a4f6eb754e14929cdda251408e3f66dd8f61c
       <h2>เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</h2>
       <p>อุทยานแห่งชาติที่ควรมาเยือนซักครั้ง</p>
     </div>

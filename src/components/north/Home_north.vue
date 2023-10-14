@@ -4,6 +4,7 @@ import Header_box_north from '../north/box_menu_north.vue'
 <template>
   <!-- แถบ ภาพ  -->
   <div class="imgTitleN">
+<<<<<<< HEAD
     <router-link :to="{ name: 'main' }">
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -19,6 +20,9 @@ import Header_box_north from '../north/box_menu_north.vue'
       </svg>
     </router-link>
     <div class="textTitle-n">
+=======
+    <div class="textTitle">
+>>>>>>> d20a4f6eb754e14929cdda251408e3f66dd8f61c
       <h2>ภาคเหนือ</h2>
       <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
     </div>
