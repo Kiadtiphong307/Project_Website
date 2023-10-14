@@ -36,6 +36,7 @@
   padding-inline: 20px;
   color: white;
   text-decoration: none;
+  background-color: #01533B;
 }
 .itemNav:hover {
   border: 2px solid rgba(65, 3, 3, 0.274);

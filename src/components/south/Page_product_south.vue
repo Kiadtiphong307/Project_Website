@@ -21,10 +21,10 @@ const handleAddToCart = (item) => {
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/387555130_1036514387774840_6452738890701898177_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeErG2XjBWX_qjPUYMYRoYm8dvZI-MebaJF29kj4x5tokTMbpHOf0M2SoLVtH8lTPUOW64zVuXpxHA1z_f3lgTZz&_nc_ohc=AqofRQxSxK4AX_JO7QV&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdRj5MP70TlwzsUSL0iBNZZiZRVDLYEDNcmExFcQzdDWYA&oe=654EB29B"
+          src="https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/387555130_1036514387774840_6452738890701898177_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeErG2XjBWX_qjPUYMYRoYm8dvZI-MebaJF29kj4x5tokTMbpHOf0M2SoLVtH8lTPUOW64zVuXpxHA1z_f3lgTZz&_nc_ohc=eSUAbaxu-VYAX_Yuxdl&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdTfC_sKPe82i0BrGxSU8haVywxcN8vRzwG8uCNV98wiMA&oe=6551559B"
           class="d-block w-100"
           alt="..."
-          height="550"
+          height="450"
         />
         <router-link :to="{ name: 'main' }">
           <svg
@@ -93,37 +93,24 @@ const handleAddToCart = (item) => {
   <!-- box รูปซ้าย -->
   <div class="container">
     <!-- สิ่งของแนะนำขาย -->
-    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
+    <h1 class="textcenter_Page_product_south"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
     <hr />
 
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col" v-for="(i, index) in otop_south_all" :key="index">
-          <div
-            class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
-          >
-            <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
-            <div class="card-body">
-              <h5 class="card-text mb-auto">
-                <strong class="h3">{{ i.name }}</strong>
-              </h5>
-              <p class="card-text">
-                <strong>ประเภท: {{ i.category }}</strong>
-              </p>
-              <p class="card-text">
-                <strong>ราคา: {{ i.price }} บาท</strong>
-              </p>
-              <p class="card-text">{{ i.text }}</p>
-              <button
-                type="submut"
-                @click="handleAddToCart(i)"
-                class="btn btn-dark"
-                style="border-radius: 30px"
-              >
-                ลงตะกร้า
-              </button>
-            </div>
-          </div>
+    <div class="container_otop_Page_product_south">
+      <div class="otop_conten_Page_product_south" v-for="(i, index) in otop_south_all" :key="index">
+        <img :src="i.img" class="img_otop_Page_product_south" alt="..." width="300" height="300" />
+        <div class="card-body">
+          <h5 class="card-text">
+            <strong class="h3">{{ i.name }}</strong>
+          </h5>
+          <p class="card-text">
+            <strong>ประเภท: {{ i.category }}</strong>
+          </p>
+          <p class="card-text">
+            <strong>ราคา: {{ i.price }} บาท</strong>
+          </p>
+          <p class="card-text">{{ i.text }}</p>
+          <button type="submut" @click="handleAddToCart(i)" class="btn_cart_Page_product_south">ลงตะกร้า</button>
         </div>
       </div>
     </div>
@@ -150,9 +137,41 @@ const handleAddToCart = (item) => {
   </p>
 </template>
 <style scoped>
-.textcenter {
+.textcenter_Page_product_south {
   text-align: center;
   margin-inline: 480px;
+  border-bottom: 2px solid;
+}
+
+.container_otop_Page_product_south {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: stretch;
+  align-items: stretch;
+  column-gap: 10px;
+  padding: 40px;
+  row-gap: 20px;
+}
+.otop_conten_Page_product_south {
+  display: grid;
+  grid-template-columns: 250px auto;
+  justify-items: stretch;
+  margin-block: 10px;
+  column-gap: 10px;
+}
+.img_otop_Page_product_south {
+  max-width: 300px;
+  border-radius: 15px;
+}
+.btn_cart_Page_product_south {
+  margin-inline: 100px;
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+.textcenter {
+  text-align: center;
+  margin-inline: 380px;
   border-bottom: 2px solid;
 }
 </style>
