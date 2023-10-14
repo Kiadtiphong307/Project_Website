@@ -2,7 +2,7 @@
 import { cart } from '../shop/Cart_count';
 import { addOrder } from '../shop/Order_count';
 import { computed, ref } from 'vue';
-import header_bar from '../../views/Header_box.vue';
+
 
 const totalPrice = (item) => computed(() => item.price * item.quantity);
 
@@ -78,7 +78,6 @@ const confirmOrderHandler = () => {
 
 <template>
 <div class="container">
-  <header_bar/>
 
   <div v-if="cart.length">
     <section class="h-100" style="background-color: #eee;">

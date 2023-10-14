@@ -1,9 +1,9 @@
 <script setup>
-import header_bar from '../views/Header_box.vue'
+import Menubar from '../views/Menu_Bar.vue'
 </script>
 
 <template>
-  <header_bar></header_bar>
+  <Menubar></Menubar>
   <div class="container">
     <main>
       <div class="Colrou">

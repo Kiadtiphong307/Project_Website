@@ -11,9 +11,6 @@ import home_south from '../components/south/Home_south.vue'
 import CartList from '../components/shop/Cart_list.vue'
 import Orderlist from '../components/shop/Order_list.vue'
 
-
-
-
 //about
 import about_page from '../views/About_page.vue'
 
@@ -73,7 +70,6 @@ const router = createRouter({
       name: 'main',
       component: homemain
     },
-  
 
     //about
     {
