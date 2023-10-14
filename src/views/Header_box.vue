@@ -292,27 +292,9 @@ const showPassword = ref(false)
             data-bs-toggle="modal"
             data-bs-target="#loginModal"
           >
-<<<<<<< HEAD
-        </li>
-        <li>
-          <RouterLink :to="{ name: 'home_central' }" class="btnDrop" href="#">ภาคกลาง</RouterLink>
-        </li>
-        <li>
-          <RouterLink :to="{ name: 'home_east' }" class="btnDrop">ภาคตะวันออก</RouterLink>
-        </li>
-        <li>
-          <RouterLink :to="{ name: 'home_south' }" class="btnDrop" href="#">ภาคใต้</RouterLink>
-        </li>
-      </ul>
-    </div>
-    <div class="btnGrop">
-      <div>
-        <router-link :to="{ name: 'about_page' }" class="btnNav" href="#">about</router-link>
-=======
             เข้าสู่ระบบ
           </button>
         </div>
->>>>>>> d20a4f6eb754e14929cdda251408e3f66dd8f61c
       </div>
     </div>
   </div>
