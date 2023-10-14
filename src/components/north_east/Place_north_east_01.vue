@@ -1,6 +1,5 @@
 <script setup>
 import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
-
 import { ref } from 'vue'
 import { item_advice_north_east_01Store } from '../north_east/index_north_east'
 
@@ -9,6 +8,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
 </script>
 <template>
   <!-- แถบ ภาพ  -->
+<<<<<<< HEAD
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
@@ -37,6 +37,12 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
         <h2 class="display-3">มอหินขาว</h2>
         <p class="h4">มอหินขาว อ.เมือง จ.ชัยภูมิ</p>
       </div>
+=======
+  <div class="imgTitle">
+    <div class="textTitle">
+      <h2>มอหินขาว</h2>
+      <p>มอหินขาว อ.เมือง จ.ชัยภูมิ</p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
     </div>
   </div>
   <!-- แถบ menu -->

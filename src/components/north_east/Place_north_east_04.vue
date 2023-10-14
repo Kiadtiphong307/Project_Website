@@ -9,6 +9,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
 </script>
 <template>
   <!-- แถบ ภาพ  -->
+<<<<<<< HEAD
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
@@ -37,6 +38,12 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
         <h2 class="display-3">ชุมชนบ้านปรางค์นคร</h2>
         <p class="h4">ชุมชนบ้านปรางค์นคร อ.คง จ.นครราชสีมา</p>
       </div>
+=======
+  <div class="imgTitle">
+    <div class="textTitle">
+      <h2>ชุมชนบ้านปรางค์นคร</h2>
+      <p>ชุมชนบ้านปรางค์นคร อ.คง จ.นครราชสีมา</p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
     </div>
   </div>
   <!-- แถบ menu -->

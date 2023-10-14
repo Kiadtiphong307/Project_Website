@@ -9,6 +9,7 @@ const item_advice_north_east_02_all = ref(item_advice_north_east_02.item_advice_
 </script>
 <template>
   <!-- แถบ ภาพ  -->
+<<<<<<< HEAD
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
@@ -37,6 +38,12 @@ const item_advice_north_east_02_all = ref(item_advice_north_east_02.item_advice_
         <h5 class="display-3">วนอุทยานภูบ่อบิด</h5>
         <p class="h4">วนอุทยานภูบ่อบิด อ.เมือง จ.เลย</p>
       </div>
+=======
+  <div class="imgTitle">
+    <div class="textTitle">
+      <h5>วนอุทยานภูบ่อบิด</h5>
+      <p>วนอุทยานภูบ่อบิด อ.เมือง จ.เลย</p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
     </div>
   </div>
   <!-- แถบ menu -->

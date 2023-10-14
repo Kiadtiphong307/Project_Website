@@ -1,11 +1,8 @@
 <script setup>
 import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
 import { Otop_north_eastStore } from '../../stores/All_product'
-import { ref, computed } from 'vue'
+import { ref } from 'vue'
 import { addToCart } from '../shop/Cart_count.js'
-import { cart } from '../shop/Cart_count'
-
-const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0))
 
 const otop_north_eastStore = Otop_north_eastStore()
 const otop_north_east_all = ref(otop_north_eastStore.Otop_north_east_list)
@@ -17,6 +14,7 @@ const handleAddToCart = (item) => {
 
 <template>
   <!-- แถบ ภาพ  -->
+<<<<<<< HEAD
   <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
@@ -82,6 +80,12 @@ const handleAddToCart = (item) => {
           </li>
         </ul>
       </div>
+=======
+  <div class="imgTitle">
+    <div class="textTitle">
+      <h5>First slide label</h5>
+      <p>Some representative placeholder content for the first slide.</p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
     </div>
   </div>
   <!-- แถบ menu -->

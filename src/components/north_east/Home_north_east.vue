@@ -4,6 +4,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
 
 <template>
   <!-- แถบ ภาพ  -->
+<<<<<<< HEAD
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -37,6 +38,15 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
           </p>
         </div>
       </div>
+=======
+  <div class="imgTitle">
+    <div class="textTitle">
+      <h2>ภาคอีสาน</h2>
+      <p>
+        สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง สุดใหญ่ยิ่งแข่งเรือยาว
+        หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ สุขสำราญที่ได้ยล (จังหวัดบึงกาฬ)
+      </p>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
     </div>
   </div>
 

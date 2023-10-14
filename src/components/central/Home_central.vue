@@ -7,6 +7,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-inner">
       <div class="carousel-item active">
+<<<<<<< HEAD
         <div class="carousel-image-container">
           <img
             src="https://scontent.fbkk29-7.fna.fbcdn.net/v/t1.15752-9/387333797_1385648352371015_4182642729400666643_n.png?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGWqVd7Y9I1-dFucZUSsaQRPBFhAiRQXXo8EWECJFBdenDAhdIJ64HTmHXsxAkYIune1iJLaxQN0wkW8hhkgCcg&_nc_ohc=8eP6kDHHeWgAX-5sjcJ&_nc_ht=scontent.fbkk29-7.fna&oh=03_AdRGTE2WetFycY6OdS3Uq32bIuRJMlH3AQZ77UUAYthLfQ&oe=6550879D"
@@ -35,6 +36,30 @@ import Header_box_central from '../central/Box_menu_central.vue'
             กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลก ภพนพรัตน์ ราชธานี บุรีรมย์
             อุดมราชนิเวศน์ มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยะ วิษณุกรรมประสิทธิ์ (กรุงเทพมหานคร)
           </p>
+=======
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-image-container">
+                <img
+                  src="https://roijang.com/wp-content/uploads/2023/07/shutterstock_299388287-1.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                  height="450"
+                />
+              </div>
+
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="display-3">ภายในมีองค์พระประธานปางนาคปรกแกะสลักจากไม้สักทองทั้งองค์</h5>
+                <p class="h4">
+                  กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลก ภพนพรัตน์ ราชธานี บุรีรมย์
+                  อุดมราชนิเวศน์ มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยะ วิษณุกรรมประสิทธิ์
+                  (กรุงเทพมหานคร)
+                </p>
+              </div>
+            </div>
+          </div>
+>>>>>>> 32499d83f8092f54d95143793e6d1c214b14840a
         </div>
       </div>
     </div>

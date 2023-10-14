@@ -1,7 +1,8 @@
 <script setup>
 import { cart } from '../shop/Cart_count';
-import { computed } from 'vue';
-import { addOrder } from '../shop/Oder_count';
+import { addOrder } from '../shop/Order_count';
+import { computed, ref } from 'vue';
+
 
 const totalPrice = (item) => computed(() => item.price * item.quantity);
 
@@ -20,32 +21,66 @@ const removeFromCart = (itemToRemove) => {
   }
 };
 
+const shippingAddress = ref({
+  fullName: '',
+  phoneNumber: '',
+  province: '',
+  district: '',
+  subDistrict: '',
+  address: '',
+  zip: ''
+});
+
+const clearShippingAddress = () => {
+  shippingAddress.value = {
+    fullName: '',
+    phoneNumber: '',
+    province: '',
+    district: '',
+    subDistrict: '',
+    address: '',
+    zip: ''
+  };
+};
+
 const confirmOrder = () => {
-  addOrder(cart.value);
-  cart.value = [];
+  if (totalItemsInCart.value > 0 && isShippingAddressComplete()) {
+    const orderData = { items: cart.value, shippingAddress: { ...shippingAddress.value } };
+    addOrder(orderData);
+    cart.value = [];
+  } else {
+    console.log("ไม่สามารถยืนยันการสั่งซื้อได้ โปรดตรวจสอบว่าคุณมีสินค้าในตะกร้าสินค้าและกรอกข้อมูลที่อยู่จัดส่งทั้งหมด");
+  }
+};
+
+const isShippingAddressComplete = () => {
+  const { fullName, phoneNumber, province, district, subDistrict, address, zip } = shippingAddress.value;
+  return fullName && phoneNumber && province && district && subDistrict && address && zip;
+};
+
+const confirmOrderHandler = () => {
+  if (totalItemsInCart.value > 0 && isShippingAddressComplete()) {
+    confirmOrder();
+    clearShippingAddress();
+    alert('สั่งซื้อสำเร็จ');
+  } else {
+    if (totalItemsInCart.value === 0) {
+      alert('กรุณาเพิ่มสินค้าลงในตะกร้าก่อนทำการสั่งซื้อ');
+    } else if (!isShippingAddressComplete()) {
+      alert('กรุณากรอกข้อมูลที่อยู่การจัดส่งให้ครบถ้วน');
+    }
+  }
 };
 </script>
 
-<template>
-<div>
-    <router-link :to="{ name: 'main' }">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="32"
-          height="32"
-          fill="currentColor"
-          class="bi bi-house house-icon"
-          viewBox="0 0 16 16"
-        >
-          <path
-            d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"
-          />
-        </svg>
-      </router-link>
-</div>
 
-<hr>
-<section class="h-100" style="background-color: #eee;">
+
+
+<template>
+<div class="container">
+
+  <div v-if="cart.length">
+    <section class="h-100" style="background-color: #eee;">
   <div class="container h-100 py-5" >
     <div class="row d-flex justify-content-center align-items-center h-100">
       <div class="col-10">
@@ -104,11 +139,63 @@ const confirmOrder = () => {
         </div>
       </div>
   </div>
-</section>
-<div class="d-flex justify-content-end">
-  <button @click="confirmOrder" type="button" class="btn btn-primary btn-lg">สั่งซื้อ</button>
+      </section>  
+
+    <section class="h-100" style="background-color: #eee;">
+  <div>
+    <form @submit.prevent="confirmOrder">
+      <h1 class="fw-normal mb-0 text-black">ที่อยู่การจัดส่ง</h1>
+      <hr>
+
+      <div class="mb-3">
+        <label for="fullName" class="form-label">ชื่อ-สกุล</label>
+        <input v-model="shippingAddress.fullName" type="text" class="form-control" id="fullName" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="phoneNumber" class="form-label">เบอร์โทรศัทพ์</label>
+        <input v-model="shippingAddress.phoneNumber" type="text" class="form-control" id="phoneNumber" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="province" class="form-label">จังหวัด</label>
+        <input v-model="shippingAddress.province" type="text" class="form-control" id="province" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="district" class="form-label">อำเภอ</label>
+        <input v-model="shippingAddress.district" type="text" class="form-control" id="district" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="subDistrict" class="form-label">ตำบล</label>
+        <input v-model="shippingAddress.subDistrict" type="text" class="form-control" id="subDistrict" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="address" class="form-label">ที่อยู่</label>
+        <input v-model="shippingAddress.address" type="text" class="form-control" id="address" required>
+      </div>
+    
+      <div class="mb-3">
+        <label for="zip" class="form-label">รหัสไปรษณีย์</label>
+        <input v-model="shippingAddress.zip" type="text" class="form-control" id="zip" required>
+      </div>
+    
+    </form>
+  </div>
+
+      </section>
+
+    <div class="d-flex justify-content-end">
+      <button @click="confirmOrderHandler" type="button" class="btn btn-primary btn-lg">สั่งซื้อ</button>
+    </div>
+  </div>
+
+
+  <div v-else>
+    <p style="color: red;">**ไม่มีสินค้าในตระกร้า**</p>
+  </div>
 </div>
-
-
 
 </template>

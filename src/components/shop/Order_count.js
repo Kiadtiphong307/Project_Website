@@ -2,10 +2,11 @@ import { reactive } from 'vue'
 
 export const orders = reactive({ list: [] })
 
-export function addOrder(orderItems) {
+export function addOrder(orderData) {
   const newOrder = {
     id: orders.list.length + 1,
-    items: orderItems
+    items: orderData.items,
+    shippingAddress: orderData.shippingAddress
   }
   orders.list.push(newOrder)
 }
