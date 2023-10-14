@@ -4,9 +4,7 @@ import Header_box_north from '../north/box_menu_north.vue'
 <template>
   <!-- แถบ ภาพ  -->
   <div class="imgTitleN">
-    <router-link :to="{ name: 'main' }">
-     
-    </router-link>
+    <router-link :to="{ name: 'main' }"> </router-link>
     <div class="textTitle-n">
       <h2>ภาคเหนือ</h2>
       <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
@@ -420,26 +418,6 @@ import Header_box_north from '../north/box_menu_north.vue'
     max-width: 280px;
     height: 260px;
     margin: 10px;
-  }
-  .LPage {
-    display: grid;
-    grid-template-columns: 240px auto;
-    column-gap: 50px;
-    justify-items: stretch;
-    margin-inline: 170px;
-    margin-block: 25px;
-    width: 1000px;
-    border-bottom: 2px solid;
-  }
-  .RPage {
-    display: grid;
-    grid-template-columns: auto 300px;
-    column-gap: 20px;
-    justify-items: stretch;
-    margin-inline: 170px;
-    margin-block: 25px;
-    width: 1000px;
-    border-bottom: 2px solid;
   }
   .container_text {
     padding: 40px;
