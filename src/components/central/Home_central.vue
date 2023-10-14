@@ -2,7 +2,6 @@
 import Header_box_central from '../central/Box_menu_central.vue'
 </script>
 
-<!-- comment -->
 <template>
   <!-- แถบ ภาพ  -->
   <div id="carouselExampleCaptions" class="carousel slide">

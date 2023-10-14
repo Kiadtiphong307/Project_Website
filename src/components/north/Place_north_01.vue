@@ -9,11 +9,20 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
 </script>
 <template>
   <!-- แถบ ภาพ  -->
-  <div class="imgTitle">
-
-    <div class="textTitle">
-      <h2>ประตูท่าแพ</h2>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="carousel-image-container">
+        <img
+          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          class="d-block w-100"
+          style="filter: brightness(75%)"
+          :height="'450'"
+        />
+      </div>
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <h5 class="display-3">ประตูท่าแพ</h5>
       <p>จุดถ่ายรูปที่ไม่ควรพลาด</p>
+      </div>
     </div>
   </div>
   <!-- แถบ menu -->

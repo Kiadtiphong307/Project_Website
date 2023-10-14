@@ -6,11 +6,11 @@
         <img
           src="https://www.unseennewchapters.com/img/phuket-02.7d11c4d8.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(75%)"
           height="550"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">รอยพระพุทธบาทในทะเล สำนักสงฆ์เกาะแก้วพิสดาร อ</h5>
         <p class="h4">พระพุทธบาทในทะเล สำนักสงฆ์เกาะแก้วพิสดาร อ .เมือง จ.ภูเก็ต</p>
       </div>

@@ -14,12 +14,12 @@ import Header_box_east from '../east/Box_menu_east.vue'
                 <img
                   src="https://s359.kapook.com//pagebuilder/037951b6-33c7-4130-a250-44ee7ee41a5e.jpg"
                   class="d-block w-100"
-                  alt="..."
+                  style="filter: brightness(80%)"
                   height="450"
                 />
               </div>
 
-              <div class="carousel-caption d-none d-md-block">
+              <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
                 <h5 class="display-3">ภาคตะวันออก</h5>
                 <p class="h4">
                   นํ้าตกลือเลื่อง เมืองผลไม้ พริกไทยพันธุ์ดี อัญมณีมากเหลือ เสื่อจันทบูร
