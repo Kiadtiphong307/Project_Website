@@ -6,11 +6,11 @@
         <img
           src="https://www.unseennewchapters.com/img/kanchanaburi-01.c0e8b9a9.jpg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(90%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">อุโมงค์สามมิติ</h5>
         <p class="h4">อุโมงค์สามมิติ อ.ทองผาภูมิ จ.กาญจนบุรี</p>
       </div>

@@ -4,16 +4,16 @@
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://www.unseennewchapters.com/img/phetchaburi-01.838b543e.jpg"
+          src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t1.15752-9/387506915_1715636725567765_7369844422724517203_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGsp7V0dAvO2Mg5E1-lKJJRq3MBPJj1SmyrcwE8mPVKbAXoWpGhYno9i_Ow4xJGyCI1E3VdYE4d1LjB4gq-ESDG&_nc_ohc=DtPett6dBsIAX9gsLKO&_nc_ht=scontent.fbkk29-1.fna&oh=03_AdSPMirtE-raOa3wfCjJIF8gLXpu2IV4TaIKMqR-isfIPQ&oe=6550820E"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(90%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
-        <h5 class="display-3">ถ้ำโบ้</h5>
-        <p class="h4">ถ้ำโบ้ อ.เขาย้อย จ.เพชรบุรี</p>
-      </div>
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <h5 class="display-3">ถ้ำโบ้-เขาอีบิด</h5>
+      <p class="h4">ถ้ำโบ้ อ.เขาย้อย จ.เพชรบุรี</p>
+    </div>
     </div>
   </div>
 

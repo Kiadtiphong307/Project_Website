@@ -6,11 +6,11 @@
         <img
           src="https://tatapi.tourismthailand.org/tatfs/Image/CustomPOI/Picture/P03025718_1.jpeg"
           class="d-block w-100"
-          alt="..."
+          style="filter: brightness(90%)"
           :height="'450'"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block">
+      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
         <h5 class="display-3">ภูผาแรด</h5>
         <p class="h4">ภูผาแรด อ.เมืองราชบุรี จ.ราชบุรี</p>
       </div>
