@@ -88,7 +88,7 @@ const handleAddToCart = (item) => {
   <Header_box_north></Header_box_north>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="conTitle">หมวดหมู่สินค้าOTOPภาคเหนือ</h1>
+    <h1 class="textcenter_Page_product_north">สินค้าOTOPที่น่าสนใจ</h1>
     <div class="container_otop_Page_product_north">
       <div class="otop_conten_Page_product_north" v-for="(i, index) in otop_north_all" :key="index">
         <img :src="i.img" class="img_otop_Page_product_north" />
@@ -135,5 +135,10 @@ const handleAddToCart = (item) => {
   color: white;
   background-color: black;
   border-radius: 10px;
+}
+.textcenter_Page_product_north {
+  text-align: center;
+  margin-inline: 380px;
+  border-bottom: 2px solid;
 }
 </style>

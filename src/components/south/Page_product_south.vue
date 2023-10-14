@@ -115,26 +115,6 @@ const handleAddToCart = (item) => {
       </div>
     </div>
   </div>
-  <p class="card-text">
-    <small class="text-body-secondary">
-      <a
-        class="btn btn-outline-secondary"
-        href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365"
-      >
-        ขอบคุณข้อมูลอ้างอิงจาก
-      </a></small
-    >
-  </p>
-  <p class="card-text">
-    <small class="text-body-secondary">
-      <a
-        class="btn btn-outline-secondary"
-        href="https://palanla.com/th/domesticLocation/detail/1560"
-      >
-        ขอบคุณข้อมูลอ้างอิงจาก
-      </a></small
-    >
-  </p>
 </template>
 <style scoped>
 .textcenter_Page_product_south {
@@ -169,7 +149,7 @@ const handleAddToCart = (item) => {
   background-color: black;
   border-radius: 10px;
 }
-.textcenter {
+.textcenter_Page_product_south {
   text-align: center;
   margin-inline: 380px;
   border-bottom: 2px solid;

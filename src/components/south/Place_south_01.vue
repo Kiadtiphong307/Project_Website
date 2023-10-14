@@ -25,7 +25,7 @@
         </router-link>
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-        <h5 class="display-3">อุทยานธรรมเขานาในหลวง อ.พนม จ.สุราษฎร์ธานี</h5>
+        <h5 class="display-3">อุทยานธรรมเขานาในหลวง</h5>
         <p class="h4">อุทยานธรรมชาติที่สวยและงดงามเหมาะแก่การมาเยี่ยมชม ซักครั้ง</p>
       </div>
     </div>
@@ -41,15 +41,14 @@
     <div class="LPage_Place_south_01">
       <img src="https://s.isanook.com/tr/0/ud/281/1409765/ghf.jpg" class="imgBow_Place_south_01" />
       <div class="container_text_Place_south_01">
-        <h5 class="display-5"><strong>อุทยานธรรมเขานาในหลวง อ.พนม จ.สุราษฎร์ธานี</strong></h5>
-        <p class="h5">
+        <h5 class="display-5" style="font-size: 2.2rem;"><strong>อุทยานธรรมเขานาในหลวง</strong></h5>
+        <p class="h5" style="font-size: 1rem;">
           อุทยานธรรมเขานาในหลวง เป็นสำนักสงฆ์ที่สร้างขึ้นด้วยพลังศรัทธาของชาวบ้าน
           สถานที่แห่งนี้เป็นที่รู้จักจากความวิจิตรของประตูพุทธวดี หรือซุ้มประตูแห่งกาลเวลา
           ถือเป็นไฮไลต์อันแสนงดงามยามเมื่อแสงเช้าตกกระทบ ก่อนจะต่อยอดพลังศรัทธา
           ด้วยการสร้างเจดีย์ร้อยยอดพันองค์ เจดีย์ลอยฟ้าพุทธศิลาวดี เจดีย์ลอยฟ้าพุทธราชาวดี
           ทำให้ปัจจุบันสถานที่แห่งนี้เป็นเหมือนสวรรค์บนดิน โดยเฉพาะยามทะเลหมอกที่สวยงามอย่างมาก
-          และเจดีย์แต่ละองค์จะดูคล้ายกับลอยอยู่บนก้อนเมฆ เป็นภาพอุทยานธรรมลอยฟ้าที่ดูตื่นตา
-          และน่าอัศจรรย์ใจ นักท่องเที่ยวสามารถเดินทางมาชมความมหัศจรรย์ได้ตลอดทั้งปี
+          และเจดีย์แต่ละองค์จะดูคล้ายกับลอยอยู่บนก้อนเมฆ นักท่องเที่ยวสามารถเดินทางมาชมความมหัศจรรย์ได้ตลอดทั้งปี
         </p>
       </div>
     </div>
@@ -57,7 +56,7 @@
     <!--box รูปขวา-->
     <div class="RPage_Place_south_01">
       <div class="container_text_Place_south_01">
-        <p class="h5">
+        <p class="h5" style="font-size: 1rem;">
           ตามประวัติของพื้นที่บริเวณเขานาในคือ มีกลุ่มชาวบ้านราว 40 คน อพยพจาก อ.ชะอวด
           จ.นครศรีธรรมราช เข้ามาตั้งรกรากครั้งแรกในปี พ.ศ. 2518
           ซึ่งขณะนั้นพื้นที่บริเวณเขานาในอยู่ภายใต้การครอบครองของพรรคคอมมิวนิสต์แห่งประเทศไทย
@@ -72,7 +71,7 @@
         >
       </div>
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRj1cUue3D_2rl_1uYCb1eHUdQrp5LspIrMiA&usqp=CAU"
+        src="https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/387556286_303943792348817_3683307762814413576_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFRumd33sMKsPEPctnvYVlCZ-3b_6C7v11n7dv_oLu_XWroRc6MEUNPhUAg0CAE8GUCw6Fjm0U-NBGEl4fCzDfr&_nc_ohc=LHcnPMfvlgIAX_othVn&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdQEBo1Sd4GsJw6KmS0xpCzj5dnLItDW8DylJsBzp_E4Dw&oe=6551A4B8"
         class="imgBow_Place_south_01"
       />
     </div>

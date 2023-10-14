@@ -41,8 +41,8 @@
     <div class="LPage_Place_south_02">
       <img src="https://img.kapook.com/u/2016/suppaporn/2016/kwai600.jpg" class="imgBow_Place_south_02" />
       <div class="container_text_Place_south_02">
-        <h5 class="display-5"><strong>หมู่เกาะกำ</strong></h5>
-        <p class="h5">
+        <h5 class="display-5" style="font-size: 2.2rem;"><strong>หมู่เกาะกำ</strong></h5>
+        <p class="h5" style="font-size: 1rem;">
           หมู่เกาะกำ ประกอบด้วย เกาะกำตก หรือ อ่าวเขาควาย
           มีเอกลักษณ์ของเกาะที่โค้งมาติดกันเป็นรูปวงกลมตามแนวเหนือ-ใต้ ชายหาดที่ขาวสะอาด
           เนื้อทรายเนียนละเอียด น้ำทะเลโดยรอบเกาะเป็นสีฟ้าใส สามารถเล่นน้ำได้ เกาะค้างคาว
@@ -57,7 +57,7 @@
     <!--box รูปขวา-->
     <div class="RPage_Place_south_02">
       <div class="container_text_Place_south_02">
-        <p class="h5">
+        <p class="h5" style="font-size: 1rem;">
           เกาะญี่ปุ่น มีประวัติ คือ เมื่อก่อนเคยมีชาวญี่ปุ่นมาเลี้ยงหอยมุก
           บางคนก็บอกว่าที่นี่เป็นที่ประกอบอาหารส่งเสบียงให้แก่ทหารญี่ปุ่นในยุคสงครามโลกครั้งที่ 2
           สภาพพื้นที่มีภูเขาเล็กๆ ด้านหน้าเกาะเป็นแนวชายหาด หาดทรายมีสีขาวละเอียด

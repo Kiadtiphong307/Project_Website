@@ -91,7 +91,7 @@ const handleAddToCart = (item) => {
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="conTitle"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
+    <h1 class="textcenter_Page_product_east"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
     <hr />
 
     <div class="container_otop_Page_product_east">
@@ -152,5 +152,10 @@ const handleAddToCart = (item) => {
   color: white;
   background-color: black;
   border-radius: 10px;
+}
+.textcenter_Page_product_east {
+  text-align: center;
+  margin-inline: 380px;
+  border-bottom: 2px solid;
 }
 </style>

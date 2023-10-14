@@ -80,7 +80,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             ราคาก็ไม่แพง นั่งชิลได้สบาย ๆ คนมาตลอด แต่ไม่แน่นมาก ไม่วุ่นวาย ใครว่าง ๆ
             มาเรียนทำโดนัทน่ารัก ๆ ที่นี่ได้ มีการสอนแต่งหน้าคุกกี้น่ารัก ๆ ด้วย
           </p>
-          <a class="btnLink" href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
+          <a class="btnLink_central" href="https://www.wongnai.com/news/cafe-workshop?ref=ct">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>

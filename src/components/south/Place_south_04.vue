@@ -44,8 +44,8 @@
             class="imgBow_Place_south_04"
           />
           <div class="container_text_Place_south_04">
-            <h5 class="display-5"><strong>หินพับผ้า</strong></h5>
-            <p class="h5">
+            <h5 class="display-5" style="font-size: 2.2rem;"><strong>หินพับผ้า</strong></h5>
+            <p class="h5" style="font-size: 1rem;">
               ผาหินรูปร่างแปลกตาที่พบเห็นได้บริเวณกลางทะเลขนอม
               เป็นปรากฏการณ์ทางธรณีวิทยาที่มีอยู่เพียงน้อยแห่งบนโลกใบนี้
               มีลักษณะเป็นแผ่นหินซ้อนเรียงกันเป็นชั้นๆ
@@ -59,7 +59,7 @@
     <!--box รูปขวา-->
     <div class="RPage_Place_south_04">
       <div class="container_text_Place_south_04">
-            <p class="h5">
+            <p class="h5" style="font-size: 1rem;">
               เพราะดูคล้ายกับผ้าที่พับซ้อนกันเป็นชั้นๆ เป็นความมหัศจรรย์ของธรรมชาติเมืองคอน
               ซึ่งนักท่องเที่ยวสามารถเช่าเรือจากชุมชนแหลมประทับ
               เพื่อมาเที่ยวชมพิพิธภัณฑ์ธรรมชาติแห่งนี้ได้ตลอดวัน

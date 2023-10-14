@@ -50,7 +50,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
       <div class="LPage_south">
         <div class="Limg_south">
           <img
-            src="https://media-cdn.tripadvisor.com/media/photo-s/05/cb/c0/bd/tarzan-adventure-phuket.jpg"
+            src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCRHt8zycgxIIjdcsUUYLJkMqUZ4amHuWg_qyj9tgLKTuuaTySz3E0_oxztVlwpM-0vC-ESVAOozBfNXcqtWahpp_l33br6y4QVBD0SdeRMvqHykob1XCfejmIp3lsscBoCQ3PQyBtjNtiW4NlM3NiYb04qt3udswMnYslQpTk4RTBwMpaGPyEXUZoFA/s5472/100.JPG"
             class="imgBow1_south"
           />
         </div>
@@ -132,7 +132,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
         </div>
         <div class="col-md-4">
           <img
-            src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-6/378021206_787929146507595_3142067566188781602_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=49d041&_nc_eui2=AeHoKWPork6J8zrmUFXQqKWK8kyfwZq_F3XyTJ_Bmr8XdXcFv6fjt8EoUMgC4t2rxBxUOEXeVkT38pLxG-XPKfzP&_nc_ohc=mjUTFiQUPzEAX-UO15q&_nc_ht=scontent.fbkk8-4.fna&oh=00_AfDq-o89NurSxjUa5ESP0jkUt8KM_npzOvprbgtCavRR6A&oe=652040CA"
+            src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t39.30808-6/378021206_787929146507595_3142067566188781602_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGhgEwPQ53--ZLqUO7-Ul0Z8kyfwZq_F3XyTJ_Bmr8XdRcR0Sx2bUR4yo1O6zzUZ5zPt_6U-CZlgnoZpUAAzofK&_nc_ohc=ZsK5A_G3ZG8AX9MpCP9&_nc_ht=scontent.fbkk29-1.fna&oh=00_AfBP_YMrG5HZZ3xf7Y0qsiKXVQZYPFcxnUNFWarl3nOTfg&oe=653012CA"
             class="imgBow_south"
           />
         </div>
@@ -177,7 +177,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
         </div>
         <div class="Rimg_south">
           <img
-            src="https://scontent.fbkk8-4.fna.fbcdn.net/v/t39.30808-6/257837445_237948621697263_1581911832597680771_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5614bc&_nc_eui2=AeEIcDtN9szvAYQ-pLNqWD8SZRjekKrapqllGN6QqtqmqfkdAEeCRegIUZIMtOSt6oz_OtNWrdUWejckVrzRRNYK&_nc_ohc=pyEHl_OYm1sAX9S4Zo5&_nc_ht=scontent.fbkk8-4.fna&oh=00_AfDSz187tIqmlyzMLJzndyg88ZhyIGpNK-XAlkTebqPJlw&oe=651F8922"
+            src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t39.30808-6/298589033_409164661242324_3710738288339173523_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGNt-4d1ubFTH-kH8Ycya4BmN3p1mwTfb6Y3enWbBN9vihbeV8-6zHvRIYTpqzW2tFNfXhG2gIU73Hg-qFTYD3_&_nc_ohc=cGuxl_PUjFcAX-AvUp_&_nc_oc=AQkpgmhtG43CjeDnkszLzkfS-duE16brm-cDhj3IaO_KU9kfrYByNtAdojTugRoFGdw&_nc_ht=scontent.fbkk29-8.fna&oh=00_AfCGGLc91Wp6ofKUshOzVwMObb1dpRE8tUFjY9sTYDsSyw&oe=652F7D23"
             class="imgBow_south"
           />
         </div>
@@ -257,7 +257,7 @@ import Header_box_south from '../south/Box_menu_south.vue'
   border-bottom: 2px solid;
 }
 .container_text_south {
-  padding: 40px;
+  padding: 10px
 }
 .textConten_south {
   padding: 20px;
