@@ -3,12 +3,13 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
 </script>
 <template>
   <!-- แถบ ภาพ  -->
-  <div role="img" style="background:url(&quot;https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A&quot;)  right top / cover no-repeat" class="imgTitleN">
+  <div class="imgTitleN">
     <div class="textTitle-n">
       <h2>ภาคเหนือ</h2>
       <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
     </div>
   </div>
+
   <!-- แถบ menu -->
   <Header_box_north></Header_box_north>
   <!--กิจกรรมที่น่าสนใจ-->
@@ -151,8 +152,8 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
   .container_all-n {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: stretch;
-    align-items: stretch;
+    justify-items: center;
+    align-items: center;
     row-gap: 1px;
   }
   .imgTitleN {
@@ -161,6 +162,7 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 100px;
+    background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
   }
   .textTitle-n {
     color: white;
@@ -196,7 +198,6 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     grid-template-columns: 240px auto;
     column-gap: 50px;
     justify-items: stretch;
-    margin-inline: 170px;
     margin-block: 25px;
     width: 1000px;
     border-bottom: 2px solid;
@@ -206,7 +207,6 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     grid-template-columns: auto 300px;
     column-gap: 20px;
     justify-items: stretch;
-    margin-inline: 170px;
     margin-block: 25px;
     width: 1000px;
     border-bottom: 2px solid;
@@ -224,13 +224,6 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     color: white;
     padding: 5px;
   }
-  .container_all {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    row-gap: 1px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container_all-n {
@@ -246,6 +239,7 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 100px;
+    background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
   }
   .textTitle-n {
     color: white;
@@ -299,7 +293,8 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
   }
   .card-text {
     padding: 20px;
-    height: 100px;
+    height: 150px;
+    width: auto;
     overflow: auto;
   }
   .btnLink {
@@ -324,7 +319,7 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     text-align: center;
     padding-top: 200px;
     padding-bottom: 100px;
-    
+    background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
   }
   .textTitle-n {
     color: white;
@@ -374,12 +369,55 @@ import Header_box_north from '../../components/north/Box_menu_north.vue'
     border-bottom: 2px solid;
   }
   .container_text {
-    padding: 40px;
+    padding: 10px;
   }
   .card-text {
-    padding: 20px;
+    padding: 10px;
     height: 100px;
+    width: auto;
     overflow: auto;
+  }
+  .btnLink {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  .textTitle {
+    color: white;
+    text-align: center;
+    font-size: x-large;
+  }
+  .conTitle {
+    text-align: center;
+    margin-inline: 300px;
+    border-bottom: 2px solid;
+  }
+  .Limg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .Rimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .imgBow {
+    max-width: 280px;
+    margin: 10px;
+  }
+  .imgBow1 {
+    max-width: 280px;
+    height: 260px;
+    margin: 10px;
+  }
+  .container_text {
+    padding: 40px;
+  }
+  .textConten {
+    padding: 20px;
+    width: 600px;
   }
   .btnLink {
     background-color: black;

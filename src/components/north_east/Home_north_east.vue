@@ -3,7 +3,6 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
 </script>
 
 <template>
-
   <!-- แถบ ภาพ  -->
   <div id="carouselExampleCaptions" class="carousel slide">
     <div class="carousel-inner">
@@ -13,19 +12,20 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
             <div class="carousel-item active">
               <div class="carousel-image-container">
                 <img
-            src="https://www.salika.co/wp-content/uploads/2018/05/agriculture-animals-asia-460223.jpg"
-            class="d-block w-100"
-            style="filter: brightness(75%)"
-            height="450"
-          />
+                  src="https://www.salika.co/wp-content/uploads/2018/05/agriculture-animals-asia-460223.jpg"
+                  class="d-block w-100"
+                  style="filter: brightness(75%); display: block"
+                  height="450"
+                />
               </div>
 
               <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-          <h5 class="display-3">ภาคอีสาน</h5>
-          <p class="h4">
-            สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง สุดใหญ่ยิ่งแข่งเรือยาว
-            หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ สุขสำราญที่ได้ยล (จังหวัดบึงกาฬ)
-          </p>
+                <h5 class="display-3">ภาคอีสาน</h5>
+                <p class="h4">
+                  สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง
+                  สุดใหญ่ยิ่งแข่งเรือยาว หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ
+                  สุขสำราญที่ได้ยล (จังหวัดบึงกาฬ)
+                </p>
               </div>
             </div>
           </div>
@@ -37,19 +37,19 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
   <Header_box_north_east></Header_box_north_east>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="conTitle">สถานที่ท่องเที่ยวที่น่าสนใจของภาคตะวันออกเฉียงเหนือ</h1>
-    <div class="container_all">
+    <h1 style="text-align: center;border-bottom: 2px solid;">สถานที่ท่องเที่ยวที่น่าสนใจของภาคตะวันออกเฉียงเหนือ</h1>
+    <div class="container_all-ne">
       <!--box1 รูปท่างซ้าย-->
-      <div class="LPage">
-        <div class="Limg">
+      <div class="LPage-ne">
+        <div class="Limg" >
           <img
             src="https://lh4.googleusercontent.com/Mc0-OrfmiXbQRT_8bJS8uE9wBluOGRzrPivzIlOKqwV8uP1d0eEsRkgjLhsvuWkJO-9Rbewrw6V6SCKK4JIyQ3nuzts_Ye30KBM_BOA1JQSGysKb5BO5DWEMd9zYKBdZhF9hXDxL-Syi1uUGgLtSgA"
-            class="imgBow1"
+            class="imgBow"
           />
         </div>
-        <div class="container_text">
+        <div class="container_text-ne">
           <h5 class="card-title">Zero Fat In Buriram</h5>
-          <p class="textConten">
+          <p class="card-text-ne">
             ZERO FAT In Buriram ที่มีคติประจำร้าน และเป็นที่ชื่นชอบสำหรับหนุ่มสาวรักสุขภาพสายเฮลตี้
             คือ “ทุกเมนูของร้าน ZERO FAT In Buriram แห่งนี้ มีรสชาติหวานแบบไม่มีน้ำตาล”
             สำหรับเมนูที่ทางร้านแนะนำคือ เมนูกาแฟสดรสเข้มข้น โดยเสริฟให้ทานคู่กับน้ำมะพร้าวน้ำหอม
@@ -62,10 +62,10 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
         </div>
       </div>
       <!--box2 รูปขวา-->
-      <div class="RPage">
-        <div class="container_text">
+      <div class="RPage-ne">
+        <div class="container_text-ne">
           <h5 class="card-title">T taste. Khamriang.</h5>
-          <p class="textConten">
+          <p class="card-text-ne">
             "T taste. Khamriang
             โดยคาเฟ่แห่งนี้มีความโดดเด่นด้านธรรมชาติที่ตกแต่งด้วยต้นไม้ขนาดใหญ่ให้ปกคลุมร่มเงานของแดด
             และต้นไม่ขนาดเล็กที่ตกแต่งความสวยงามให้เพื่อนๆ
@@ -80,20 +80,23 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
           >
         </div>
         <div class="Rimg">
-          <img src="https://shorturl.at/bduHL" class="imgBow" />
+          <img
+            src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/241003637_208247627966136_9168413733379611084_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeG-jvFiZikcq61SCBYN6g8VAH443TcGpuUAfjjdNwam5e85K5zskTj__zA9-04Ts_NiLJiv6WAgXH73yqGYOWl9&_nc_ohc=G6aPElG5kjgAX85RBOY&_nc_ht=scontent.fbkk13-1.fna&_nc_e2o=f&oh=00_AfCiUGZt7WU1_yVj4Z1wUCmIBKc_yHcqxPGE7mGbnyViAA&oe=6530A119"
+            class="imgBow"
+          />
         </div>
       </div>
       <!--box3 รูปท่างซ้าย-->
-      <div class="LPage">
+      <div class="LPage-ne">
         <div class="Limg">
           <img
             src="https://lh6.googleusercontent.com/l-f_3CiJIShqdlWiUB3zYOMUWuHqw02_lQ-qU648JCIazrk4escofTuXGhEvuhe_xxCokuPJYIxUFbsj50MXlI8X43ty6uMgTpoujVCN56cO9iZxZfUmU0OibYTHVPiMBPsjiU5xMNx69tkjVTsUxA"
             class="imgBow"
           />
         </div>
-        <div class="container_text">
+        <div class="container_text-ne">
           <h5 class="card-title">Zen cafe & restaurant</h5>
-          <p class="textConten">
+          <p class="card-text-ne">
             Zen cafe & restaurant เป็นคาเฟ่ใน จ.ยโสธร ที่เป็นการผสมผสานระหว่าง คาเฟ่ ร้านอาหาร
             และที่พักภายในธรรมชาติ อีกทั้งที่พื้นที่ตั้งอยู่ไม่ไกลจากถนนสายหลักของเมือง
             จึงสามารถเดินทางมายังร้านได้โดยสะดวก ในเรื่องของเมนูอาหารก็มีให้บริการ
@@ -107,10 +110,10 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
         </div>
       </div>
       <!--box4 รูปขวา-->
-      <div class="RPage">
-        <div class="container_text">
+      <div class="RPage-ne">
+        <div class="container_text-ne">
           <h5 class="card-title">Ob-uan homemade cakery</h5>
-          <p class="textConten">
+          <p class="card-text-ne">
             อบ-อวล คาเฟ่ มีพื้นที่ตั้งอยู่ใน อ.เมือง จ.ร้อยเอ็ด
             ที่มีชื่อเสียงโด่งดังมายาวนานจากการทำขนมเค้ก ที่มีรสชาติที่ถูกลิ้นของชาว จ.ร้อยเอ็ด
             จนขายดีกระจายไปในจังหวัดใกล้เคียง จนกระทั้งมาเปิดร้าน อบ-อวล คาเฟ่ แห่งนี้
@@ -128,13 +131,16 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
         </div>
       </div>
       <!--box5 รูปท่างซ้าย-->
-      <div class="LPage">
+      <div class="LPage-ne">
         <div class="Limg">
-          <img src="https://shorturl.at/cuFOR" class="imgBow" />
+          <img
+            src="https://scontent.fbkk13-1.fna.fbcdn.net/v/t39.30808-6/380005472_788511343281242_8377415586807057650_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFUYOLhl4jHPZEU9mR05lx6a23dCqNelpFrbd0Ko16WkYu45pjLenBcYrYtogf5SuhnJH4FxIL6YkYDCipxqAPo&_nc_ohc=ilv2hL0VkZoAX9qNJFN&_nc_ht=scontent.fbkk13-1.fna&_nc_e2o=f&oh=00_AfAaucwDQd4aaVoYDpycFZEECDnczqPpM4MQ4loR9Jcyvw&oe=652FD22B"
+            class="imgBow"
+          />
         </div>
-        <div class="container_text">
+        <div class="container_text-ne">
           <h5 class="card-title">ภิรมย์บุรี</h5>
-          <p class="textConten">
+          <p class="card-text-ne">
             ภิรมย์บุรี ได้รับความนิยมเป็นอย่างมากจากการตกแต่งร้านที่ถูกใจวัยรุ่นชาวสกลนคร
             โดยทางร้านมีพื้นที่สำหรับถ่ายรูปแนวๆ หลายมุม อีกทั้งยังมีกาแฟ
             และเครื่องดื่มที่รอให้บริการอยู่มากมาย ซึ่งมีรสชาติเข้มข้นถูกใจอย่างแน่นอน
@@ -154,80 +160,176 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     >
   </div>
 </template>
-<style>
-.container_all {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: stretch;
-  align-items: stretch;
-  row-gap: 1px;
+<style scoped>
+@media (min-width: 1030px) {
+  .container_all-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 1px;
+  }
+
+  .Limg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: stretch;
+  }
+  .Rimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: stretch;
+  }
+  .imgBow {
+    max-width: 300px;
+    margin: 10px;
+  }
+  .LPage-ne {
+    display: grid;
+    grid-template-columns: 350px auto;
+    column-gap: 20px;
+    justify-items: center;
+    margin-block: 25px;
+    width: 1000px;
+    border-bottom: 2px solid;
+  }
+  .RPage-ne {
+    display: grid;
+    grid-template-columns: auto 300px;
+    column-gap: 20px;
+    justify-items: center;
+    margin-block: 25px;
+    width: 1000px;
+    border-bottom: 2px solid;
+  }
+  .container_text-ne {
+    padding: 20px;
+  }
+  .card-text-ne {
+    padding: 20px;
+    width: 600px;
+  }
+  .btnLink {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
 }
-.imgTitle {
-  max-width: 100%;
-  background-position: left bottom;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  background-image: url(https://www.salika.co/wp-content/uploads/2018/05/agriculture-animals-asia-460223.jpg);
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container_all-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 1px;
+  }
+  .Limg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .Rimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+  }
+  .imgBow {
+    max-height: 150px;
+    margin: 10px;
+  }
+
+  .LPage-ne {
+    display: grid;
+    grid-template-columns: 250px auto;
+    column-gap: 5px;
+    max-width: 600px;
+    justify-items: stretch;
+    margin-block: 25px;
+    border-bottom: 2px solid;
+  }
+  .RPage-ne {
+    display: grid;
+    grid-template-columns: auto 300px;
+    column-gap: 5px;
+    max-width: 600px;
+    justify-items: stretch;
+    margin-block: 25px;
+    border-bottom: 2px solid;
+  }
+  .container_text-ne {
+    padding: 10px;
+  }
+  .card-text-ne {
+    padding: 10px;
+    height: 150px;
+    overflow: auto;
+  }
+  .btnLink {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
 }
-.textTitle {
-  color: white;
-  text-align: center;
-  font-size: large;
-  padding-inline: 280px;
-}
-.conTitle {
-  text-align: center;
-  margin-inline: 300px;
-  border-bottom: 2px solid;
-}
-.Limg {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  align-items: center;
-}
-.Rimg {
-  display: grid;
-  grid-template-columns: 1fr;
-  justify-items: center;
-  align-items: center;
-}
-.imgBow {
-  max-width: 280px;
-  margin: 10px;
-}
-.LPage {
-  display: grid;
-  grid-template-columns: 340px auto;
-  column-gap: 20px;
-  justify-items: stretch;
-  margin-inline: 170px;
-  margin-block: 25px;
-  width: 1000px;
-  border-bottom: 2px solid;
-}
-.RPage {
-  display: grid;
-  grid-template-columns: auto 300px;
-  column-gap: 20px;
-  justify-items: stretch;
-  margin-inline: 170px;
-  margin-block: 25px;
-  width: 1000px;
-  border-bottom: 2px solid;
-}
-.container_text {
-  padding: 15px;
-}
-.textConten {
-  padding: 20px;
-  width: 600px;
-}
-.btnLink {
-  background-color: black;
-  text-decoration: none;
-  color: white;
-  padding: 5px;
+@media (max-width: 767px) {
+  .container_all-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: stretch;
+    row-gap: 1px;
+  }
+  .Limg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .Rimg {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+  .imgBow {
+    max-height: 200px;
+    margin: 10px;
+  }
+  .LPage-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    border-bottom: 2px solid;
+    margin-block: 5px;
+    max-width: 300px;
+  }
+  .RPage-ne {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: stretch;
+    max-width: 300px;
+    margin-block: 5px;
+    border-bottom: 2px solid;
+  }
+  .card-text-ne {
+    padding: 20px;
+    height: 100px;
+    overflow: auto;
+  }
+  .btnLink {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+  }
+  .container_text-ne {
+    padding: 20px;
+  }
 }
 </style>
