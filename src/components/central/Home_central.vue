@@ -4,11 +4,20 @@ import Header_box_central from '../central/Box_menu_central.vue'
 
 <template>
   <!-- แถบ ภาพ  -->
-  <div role="img" style="background:url(&quot;https://scontent.fbkk29-7.fna.fbcdn.net/v/t1.15752-9/387333797_1385648352371015_4182642729400666643_n.png?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGWqVd7Y9I1-dFucZUSsaQRPBFhAiRQXXo8EWECJFBdenDAhdIJ64HTmHXsxAkYIune1iJLaxQN0wkW8hhkgCcg&_nc_ohc=8eP6kDHHeWgAX-5sjcJ&_nc_ht=scontent.fbkk29-7.fna&oh=03_AdRGTE2WetFycY6OdS3Uq32bIuRJMlH3AQZ77UUAYthLfQ&oe=6550879D&quot;)  right top / cover no-repeat" class="imgTitleN_c">
-    <div class="textTitle_c" >
+  <div
+    role="img"
+    style="
+      background: url('https://scontent.fbkk29-7.fna.fbcdn.net/v/t1.15752-9/387333797_1385648352371015_4182642729400666643_n.png?_nc_cat=108&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGWqVd7Y9I1-dFucZUSsaQRPBFhAiRQXXo8EWECJFBdenDAhdIJ64HTmHXsxAkYIune1iJLaxQN0wkW8hhkgCcg&_nc_ohc=8eP6kDHHeWgAX-5sjcJ&_nc_ht=scontent.fbkk29-7.fna&oh=03_AdRGTE2WetFycY6OdS3Uq32bIuRJMlH3AQZ77UUAYthLfQ&oe=6550879D')
+        right top / cover no-repeat;
+    "
+    class="imgTitleN_c"
+  >
+    <div class="textTitle_c">
       <h2 class="display-3">ภาคกลาง</h2>
-      <p>กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลก ภพนพรัตน์ ราชธานี บุรีรมย์
-            อุดมราชนิเวศน์ มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยะ วิษณุกรรมประสิทธิ์ (กรุงเทพมหานคร)</p>
+      <p>
+        กรุงเทพมหานคร อมรรัตนโกสินทร์ มหินทรายุธยา มหาดิลก ภพนพรัตน์ ราชธานี บุรีรมย์ อุดมราชนิเวศน์
+        มหาสถาน อมรพิมานอวตารสถิต สักกะทัตติยะ วิษณุกรรมประสิทธิ์ (กรุงเทพมหานคร)
+      </p>
     </div>
   </div>
   <!-- แถบ menu -->
@@ -26,19 +35,14 @@ import Header_box_central from '../central/Box_menu_central.vue'
           />
         </div>
         <div class="container_text_c">
-          <h5 class="card-title">
-            Billybillies Cafe and Workshop Studio
-          </h5>
+          <h5 class="card-title">Billybillies Cafe and Workshop Studio</h5>
           <p class="card-text_c">
             ร้าน "Billybillies" คาเฟ่ติดริมถนนใหญ่ปลายทางเดินลง BTS สถานีแบริง ร้านโทนสีขาวและน้ำตาล
             ให้ความรู้สึกถึงบรรยากาศแบบอังกฤษย้อนยุค กลิ่นอายความอบอุ่นและเพลย์ลิสต์ดี ๆ
             ในวันหยุดทางร้านจะมีกิจกรรม Workshop ดี ๆ ทั้งทำเคสมือถือ ทำเทียนหอม และอื่น ๆ
             อีกมากมายให้เข้าร่วมกันด้วย
           </p>
-          <a
-          href="https://www.wongnai.com/news/cafe-workshop?ref=ct"
-            class="btnLink_c"
-          >
+          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -46,9 +50,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
       <!--box 2รูปขวา-->
       <div class="RPage_c">
         <div class="container_text_c">
-          <h5 class="card-title">
-            NAHIM Cafe x Handcraft
-          </h5>
+          <h5 class="card-title">NAHIM Cafe x Handcraft</h5>
           <p class="card-text_c">
             เมนูเด็ดทางร้านคือ “วาฟเฟิลบราวนี” ร้อน ๆ เสิร์ฟพร้อมไอศกรีมเย็น ๆ ไม่หวานเกิน
             กับครีมสดที่ไม่เลี่ยนเลย หวานละมุนหอมละไม บรรยากาศในร้านเรียกว่าถ่ายรูปสวยทุกมุม
@@ -83,10 +85,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             “ขนมเหนียวดังโงะ” เป็นขนมเหนียวแบบไทย ๆ เสิร์ฟในรูปแบบดังโงะญี่ปุ่น อร่อยค่ะ ชอบมาก
             “ขนมเปียกปูนกะทิสด” รสชาติหวานกำลังดีเลยค่ะ ใครสนใจทำขนมไทย ที่ร้านมีสอนทำขนมไทยด้วยนะคะ
           </p>
-          <a
-          href="https://www.wongnai.com/news/cafe-workshop?ref=ct"
-            class="btnLink_c"
-          >
+          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -125,7 +124,9 @@ import Header_box_central from '../central/Box_menu_central.vue'
             แถมยังมีคาเฟ่ให้ได้นั่งพักผ่อนเพลิน ๆ เค้กก็เป็นเอกลักษณ์มาก
           </p>
 
-          <a href="hhttps://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c"> แสดงข้อมูลเพิ่มเติม</a>
+          <a href="hhttps://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+            แสดงข้อมูลเพิ่มเติม</a
+          >
         </div>
       </div>
       <!--box 6 รูปขวา-->
@@ -139,7 +140,9 @@ import Header_box_central from '../central/Box_menu_central.vue'
             เป็นเมนูจานเดียวง่าย ๆ อย่างข้าวหมูตุ๋น พาสต้า ขนมปังหน้าผักโขมอบชีส
             ส่วนของหวานค่อนข้างเยอะมีทั้งเบเกอรี ขนมเปี๊ยะ ขนมไทยอย่างขนมต้ม และไอศกรีมโฮมเมดหลายรส
           </p>
-          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c"> แสดงข้อมูลเพิ่มเติม</a>
+          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+            แสดงข้อมูลเพิ่มเติม</a
+          >
         </div>
         <div class="Rimg_c">
           <img
@@ -148,22 +151,23 @@ import Header_box_central from '../central/Box_menu_central.vue'
           />
         </div>
       </div>
+      <a
+        class="btnLink_c "
+        href="https://www.wongnai.com/news/cafe-workshop"
+        style="width: 36%"
+      >
+        อ้างอิงมาจาก https://www.wongnai.com/news/cafe-workshop</a
+      >
     </div>
   </div>
-  <a
-    class="btnLink_c d-grid "
-    href="https://www.wongnai.com/news/cafe-workshop"
-    style="width: 36%"
-  >
-    อ้างอิงมาจาก https://www.wongnai.com/news/cafe-workshop</a>
 </template>
 <style scoped>
 @media (min-width: 1030px) {
   .container_all_c {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: stretch;
-    align-items: stretch;
+    justify-items: center;
+    align-items: center;
     row-gap: 1px;
   }
   .imgTitleN_c {
@@ -172,7 +176,6 @@ import Header_box_central from '../central/Box_menu_central.vue'
     background-size: cover;
     padding-top: 200px;
     padding-bottom: 100px;
-    
   }
   .textTitle_c {
     color: white;
@@ -236,13 +239,6 @@ import Header_box_central from '../central/Box_menu_central.vue'
     color: white;
     padding: 5px;
   }
-  .container_all_c {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    row-gap: 1px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container_all_c {
@@ -259,7 +255,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
     padding-top: 200px;
     padding-bottom: 100px;
   }
-  .textTitle_c{
+  .textTitle_c {
     color: white;
     text-align: center;
     font-size: x-large;
@@ -336,14 +332,13 @@ import Header_box_central from '../central/Box_menu_central.vue'
     text-align: center;
     padding-top: 200px;
     padding-bottom: 100px;
-    
   }
   .textTitle_c {
     color: white;
     text-align: center;
     font-size: x-small;
   }
-  .conTitle_c{
+  .conTitle_c {
     text-align: center;
     margin-inline: 30px;
     border-bottom: 2px solid;

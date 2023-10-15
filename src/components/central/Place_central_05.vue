@@ -70,10 +70,10 @@
         style="max-width: 1500px"
         v-for="(i, index) in item_advice_central_03_all"
         :key="index">
-      <div class="card_c5">
+      <div class="card">
             <img :src="i.img" class="img-fluid rounded-start" alt="..." />
           </div>
-          <div class="re_text_c5">
+          <div class="re_text">
               <h5 class="card-title">{{ i.name }}</h5>
               <p class="card-text">{{ i.category }}</p>
             </div>
@@ -266,7 +266,7 @@
     border-bottom: 2px solid;
   }
   .imgBow_c5 {
-  max-height: 200px;
+  max-height: 180px;
     margin: 10px;
   }
   .textConten_c5 {
