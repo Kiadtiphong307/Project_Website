@@ -34,17 +34,11 @@ const handleAddToCart = (item) => {
 
   <!-- box รูปซ้าย -->
   <div class="container">
-    <!-- สิ่งของแนะนำขาย -->
-    <h1 class="textcenter"><strong>แนะนำสินค้า</strong></h1>
+    <h1 class="text-center"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
     <hr />
-
-    <div class="container">
-      <div class="row row-cols-1 row-cols-md-2 g-4">
-        <div class="col" v-for="(i, index) in otop_south_all" :key="index">
-          <div
-            class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
-          >
-            <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
+    <div class="container_otop_s">
+      <div class="otop_conten_s" v-for="(i, index) in otop_south_all" :key="index">
+            <img :src="i.img" class="img_otop_s" />
             <div class="card-body">
               <h5 class="card-text mb-auto">
                 <strong class="h3">{{ i.name }}</strong>
@@ -68,33 +62,97 @@ const handleAddToCart = (item) => {
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <p class="card-text">
-    <small class="text-body-secondary">
-      <a
-        class="btn btn-outline-secondary"
-        href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365"
-      >
-        ขอบคุณข้อมูลอ้างอิงจาก
-      </a></small
-    >
-  </p>
-  <p class="card-text">
-    <small class="text-body-secondary">
-      <a
-        class="btn btn-outline-secondary"
-        href="https://palanla.com/th/domesticLocation/detail/1560"
-      >
-        ขอบคุณข้อมูลอ้างอิงจาก
-      </a></small
-    >
-  </p>
 </template>
 <style scoped>
-.textcenter {
-  text-align: center;
-  margin-inline: 480px;
-  border-bottom: 2px solid;
+@media (min-width: 1030px) {
+  .container_otop_s {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    padding: 40px;
+    row-gap: 10px;
+  }
+  .otop_conten_s {
+    display: grid;
+    grid-template-columns: 250px auto;
+    justify-items: stretch;
+    column-gap: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-block: 20px;
+  }
+  .img_otop_s {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  .btn_cart_s {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container_otop_s {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-inline: 50px;
+  }
+  .otop_conten_s {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+    padding-block: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+  .img_otop_s {
+    max-width: 200px;
+    border-radius: 15px;
+  }
+  .btn_cart_s {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .container_otop_s {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  .otop_conten_s {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-block: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-inline: 10px;
+  }
+  .img_otop_s {
+    max-width: 200px;
+    border-radius: 15px;
+  }
+  .btn_cart_s {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
 }
 </style>

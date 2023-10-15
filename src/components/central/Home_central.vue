@@ -354,7 +354,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
     justify-items: center;
   }
   .imgBow_c {
-    max-height: 200px;
+   height: 160px;
     margin: 10px;
   }
   .imgBow1_c {
