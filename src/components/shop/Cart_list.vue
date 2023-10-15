@@ -78,9 +78,10 @@ const isPhoneNumberValid = (input) => {
 };
 
 const isAddressValid = (input) => {
-  const addressRegex = /^[A-Za-z0-9ก-ฮะ-์ ]+$/;
+  const addressRegex = /^[A-Za-z0-9ก-ฮะ-์!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/? ]+$/;
   return addressRegex.test(input);
 };
+
 
 const isShippingAddressValid = () => {
   const { fullName, phoneNumber, province, district, subDistrict, address, zip } = shippingAddress.value;
