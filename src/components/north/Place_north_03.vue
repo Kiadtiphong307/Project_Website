@@ -295,7 +295,7 @@ const item_advice_north_03_all = ref(item_advice_north_03.item_advice_north_list
     border-bottom: 2px solid;
   }
   .imgBow {
-    max-width: 880px;
+    max-width: 100%;
     margin: 10px;
   }
   .textConten-n3 {
