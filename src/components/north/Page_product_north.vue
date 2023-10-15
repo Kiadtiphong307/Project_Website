@@ -39,13 +39,13 @@ const handleAddToCart = (item) => {
       <div class="otop_conten-n" v-for="(i, index) in otop_north_all" :key="index">
         <img :src="i.img" class="img_otop-n" />
         <div>
-          <h5>
+          <h5 class="card-text">
             <strong>{{ i.name }}</strong>
           </h5>
-          <p>
+          <p class="card-text">
             <strong>ประเภท: {{ i.category }}</strong>
           </p>
-          <p>
+          <p class="card-text">
             <strong>ราคา: {{ i.price }} บาท</strong>
           </p>
           <!-- <p class="">{{ i.text }}</p> -->
