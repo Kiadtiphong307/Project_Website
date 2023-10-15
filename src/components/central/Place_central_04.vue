@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t1.15752-9/370033797_1206844753986192_926853601596424030_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeE7QWzMPgAYYzJyfY8fTV-LtkupSgQ1nLC2S6lKBDWcsKQRo_PtSIE7G5tpopo4eqEzhmkLbmD8fYiRWPmq4Tju&_nc_ohc=pIdWwWBQATQAX8m-3B2&_nc_ht=scontent.fbkk29-1.fna&oh=03_AdSGMeU9QZ3MR06PhaeFJLepsbPZ4kMP0izk0D7dvS-AvQ&oe=6552556B"
           class="d-block w-100"
           style="filter: brightness(85%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -54,8 +54,8 @@
               จะให้ความรู้สึกราวกับว่าได้ทะลุผ่านจากมิติหนึ่งไปสู่อีกมิติ จึงเป็นที่มาของชื่อ
               “อุโมงค์สามมิติ” ที่ผู้คนต่างเรียกขาน
             </p>
-            <a class="btn_cart_c4" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_c4" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1"
+        >อ่านเพิ่มเติม</a>
         </div>
           <img
             src="https://www.unseennewchapters.com/img/kanchanaburi-02.71da4740.jpg"

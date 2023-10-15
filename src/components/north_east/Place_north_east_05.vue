@@ -42,7 +42,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
           พระอุโบสถ ที่สร้างจากไม้ตะเคียนที่ใหญ่ที่สุดในโลก โดยเสาไม้ตะเคียนทองขนาดใหญ่
           ใช้เสาไม้ตะเคียนทองมากถึง 32 ต้น ขนาด 4 คนโอบ พระอุโบสถหลังนี้มีความสูงกว่า 20 เมตร
         </p>
-        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-ne5">อ้างอิงมาจาก</a>
+
       </div>
     </div>
     <!--box รูปขวา-->
@@ -54,6 +54,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
           ยังมีชื่อเสียงมากขึ้นด้านการท่องเที่ยว
           กลายเป็นจุดหมายห้ามพลาดของจังหวัดที่นักท่องเที่ยวทั่วไปสามารถแวะเวียนเยี่ยมชมสักการะสิ่งศักดิ์สิทธิ์ได้
         </p>
+        <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158?fbclid=IwAR3356QAvipXvkzqSUgrqKeF6hIL5rJUPkup_WlOEcK-n3myanYsqNhyAAA" class="btn_cart-ne4">อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://www.mahatsachan.com/wp-content/uploads/2021/01/106100847_1032410543841895_7475103690081161300_o-1024x683.jpg"

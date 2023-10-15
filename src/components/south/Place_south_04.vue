@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-5.fna.fbcdn.net/v/t1.15752-9/370195101_3494696777458128_5337590874790048784_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFA3pmRikZOzNxT4C0RQgH9Ge27SkHY884Z7btKQdjzzhb3WfbB1sNUF0Z4eOtjrZikCwwTntTBrqA-kKGiWe8i&_nc_ohc=MAg0lQmfUCEAX_VO-91&_nc_oc=AQmbmVrlvkVUgfRr0XqPVZYZLbFgz1gpWbR4YgaQOjt4bXS5MyIaADy4dWdDM91AsRQ&_nc_ht=scontent.fbkk29-5.fna&oh=03_AdR1DmqU2f4I4kFA8jD3qkpDUcjXLj_-_DJpq5wd9qK47Q&oe=6553096C"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          height="550"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -49,7 +49,7 @@
           เพื่อมาเที่ยวชมพิพิธภัณฑ์ธรรมชาติแห่งนี้ได้ตลอดวัน สามารถเดินทางมาชมชั้นหินได้ตลอดทั้งปี
           ทั้งนี้ขึ้นอยู่กับ ลม ฟ้า และอากาศ แต่ช่วงที่แนะนำ คือ เดือนมกราคม-เมษายน
         </p>
-        <a class="btn_cart_s4" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a>
+        <a class="btn_cart_s4" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365 ">อ่านเพิ่มเติม...</a>
       </div>
       <div class="Rimg_s4">
         <img

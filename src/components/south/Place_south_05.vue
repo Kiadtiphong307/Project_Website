@@ -9,7 +9,7 @@
           src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/387526729_659544962634980_3737299389350029963_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEvqZHGc2qOeQMk0FMcgWoTuF6EJxiB6x24XoQnGIHrHSOx66cjkg4aOijGZXHBhh3wzEAVRblMRNedKcYwwrgh&_nc_ohc=cD-Inw3stjkAX88wmmM&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdS7kFfgJzdZuKUZS1y0EansxUckTbjy5QXjM5LuNBh8ZA&oe=65530C8F"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          height="550"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -53,7 +53,7 @@
               ช่วงเวลาที่เกาะตะรุเตาเปิดให้นักท่องเที่ยวเข้ามาผจญภัย คือ
               เดือนตุลาคม-เดือนพฤษภาคมของทุกปี
             </p>
-            <a class="btn_cart_s5" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a>
+            <a class="btn_cart_s5" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365">อ่านเพิ่มเติม...</a>
           </div>
           <div class="Rimg_s5">
           <img

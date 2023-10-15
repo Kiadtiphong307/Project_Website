@@ -42,7 +42,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
           เพราะนอกจากนักเดินทางจะได้ชมประติมากรรมธรรมชาติของเสาหินแล้ว
           ยังจะได้ชื่นชมดอกไม้ที่กำลังบานสะพรั่งทั่วมอหินขาว
         </p>
-        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-ne1">อ้างอิงมาจาก</a>
+        
       </div>
     </div>
     <!--box รูปขวา-->
@@ -53,6 +53,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
           และจุดชมวิวผาหัวนาค ส่วนหากชอบการแคมปิ้งและดูดาว บริเวณมอหินขาวก็ถือว่า เป็นจุดชมดวงดาว
           และทางช้างเผือกที่ควรค่าแก่การมาเยี่ยมเยือน
         </p>
+        <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158?fbclid=IwAR3356QAvipXvkzqSUgrqKeF6hIL5rJUPkup_WlOEcK-n3myanYsqNhyAAA" class="btn_cart-ne1">อ่านเพิ่มเติม</a>
       </div>
       <img src="https://img.kapook.com/u/2015/suppaporn/morhinkaow/mor04.jpg" class="imgBow" />
     </div>

@@ -20,7 +20,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
               </div>
 
               <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-                <h5 class="display-3">ภาคอีสาน</h5>
+                <h5 class="display-3">ภาคตะวันออกเฉียงเหนือ</h5>
                 <p class="h4">
                   สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง
                   สุดใหญ่ยิ่งแข่งเรือยาว หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ

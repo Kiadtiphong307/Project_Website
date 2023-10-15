@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-4.fna.fbcdn.net/v/t1.15752-9/385505891_701028948582653_4730202359107220894_n.png?_nc_cat=110&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGPRn3-CD4qsKfHx3jzWHWCTmaGOm2l8p5OZoY6baXynpxnhiOZtpdxcidKdq2bz3TfxVkwYTiTZR8jNhCk-_Zh&_nc_ohc=HBOjI22v0WkAX8ic8Gx&_nc_ht=scontent.fbkk29-4.fna&oh=03_AdQppcgiq8jrFYZiMqSkZsHRcT6rKM6VU5vqC1IVhNa3nQ&oe=65530B12"
           class="d-block w-100"
           style="filter: brightness(85%)"
-          height="550"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -60,8 +60,8 @@
               เป็นหมู่เกาะที่ไม่หมุนไปตามกาลเวลา ซึ่งรอการเดินทางมาพิสูจน์ความหลงยุคด้วยตัวคุณเอง
               สามารถเดินทางท่องเที่ยวได้ในช่วงวันที่ 16 ตุลาคม-15 พฤษภาคม ของทุกปี
             </p>
-            <a class="btn_cart_s2" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_s2" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365"
+        >อ่านเพิ่มเติม...</a>
           </div>
         <div class="Rimg_s2">
           <img

@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/387334485_1953495848363690_9003134885524877919_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGGzNIxP515JKlTA0stS2CHOhZ3ywNPAgw6FnfLA08CDIOYaD-7e0x98Qvw-wkm68Llwc2H4e2vpR5bejyjrXlQ&_nc_ohc=Xyly3vn7UyoAX8S0w__&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdS9OEH7kdyotvw70ZLQutPD0iqWKtU3FkdsJvuBDiTY3g&oe=6552F039"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          height="550"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -67,8 +67,8 @@
               ที่พบต้องมองและพระลายลักษณ์ เหมือนประจักษ์จริงจังไม่กังขา มีทั้งร้อยแปดอย่างกระจ่างตา
               เป็นดินฟ้าพรหมอินทร์สิ้นทั้งปวง "
             </p>
-            <a class="btn_cart_s3" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_s3" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365 "
+        >อ่านเพิ่มเติม...</a>
           </div>
           <div class="Rimg_s3">
           <img

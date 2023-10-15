@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/387489938_1307855546765525_8048117540218306131_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFwqAj-p48vpEoexbm10aO4oZdSMM05rhWhl1IwzTmuFYSvdzEBxju84F04HAvZyQmfjTVdjQzXB0u3hYexBayL&_nc_ohc=bGMd1OEAy8UAX-kZkGl&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdQ93S_OGJRVHU-Uv8TfjiUKFkXvOOCeaXIj1AuxyTKqvg&oe=65530382"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -50,7 +50,7 @@
           เกาะให้มีความยั่งยืน ใครรู้ตัวว่าเป็นสาย ECO กดจองที่พักบนเกาะได้เลย
           โดยท่องเที่ยวได้ตลอดทั้งปี
         </p>
-        <a class="btn_cart_e1" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a>
+        <a class="btn_cart_e1" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1">อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://roijang.com/wp-content/uploads/2022/07/aerial-view-wood-waterfront-pavilion-koh-si-chang-island-thailand-asdang-bridge-1.jpg"

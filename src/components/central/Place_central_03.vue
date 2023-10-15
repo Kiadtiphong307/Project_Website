@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370295290_1483753312421483_4888976312918379260_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHTDKh_JI2S8V3G61IhgEpBH0Ob3q-17X4fQ5ver7XtfjBrCZpVYRLf2lzqkW9uSN9WsIslg8tHWBhu2YLdsW65&_nc_ohc=BCEMYrRXpp4AX_j_bc1&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdT3T5V8XF_ujZcKsewqJxmeK57vSxhteQfk5m2_jiBHcQ&oe=65524D09"
           class="d-block w-100"
           style="filter: brightness(90%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -51,8 +51,8 @@
               ถือเป็นงานอาร์ตที่ธรรมชาติรังสรรค์ เป็นความมหัศจรรย์บทใหม่ของเมืองราชบุรี
               สามารถเดินทางท่องเที่ยวได้ตลอดทั้งปี ตั้งแต่เวลา 08.00 - 17.00 น
             </p>
-            <a class="btn_cart_c3" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_c3" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1"
+        >อ่านเพิ่มเติม</a>
           </div>
           <img
             src="https://www.mcot.net/uploads/article/202308/0ddd2668b0a007355ae6e24290eab631.jpg"

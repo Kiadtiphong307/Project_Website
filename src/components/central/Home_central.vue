@@ -42,7 +42,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             ในวันหยุดทางร้านจะมีกิจกรรม Workshop ดี ๆ ทั้งทำเคสมือถือ ทำเทียนหอม และอื่น ๆ
             อีกมากมายให้เข้าร่วมกันด้วย
           </p>
-          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+          <a href="https://www.wongnai.com/restaurants/460959Od-billybillies-cafe-and-workshop-studio-bts-bearing?ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -58,7 +58,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             ราคาก็ไม่แพง นั่งชิลได้สบาย ๆ คนมาตลอด แต่ไม่แน่นมาก ไม่วุ่นวาย ใครว่าง ๆ
             มาเรียนทำโดนัทน่ารัก ๆ ที่นี่ได้ มีการสอนแต่งหน้าคุกกี้น่ารัก ๆ ด้วย
           </p>
-          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+          <a href="https://www.wongnai.com/restaurants/nahimcafe?_st=cD0wO2I9MjAzODU5O2FkPWZhbHNlO3Q9MTYxODk3MTUyMzQxNjtyaT0xWDdhQlEwT2ZEREZyaFNOYWhPTFpRMHJmRXBSNTY7aT0xWDZ6ZWpsejd0QUpuTGpmU1o0RUJFcDNsS2VIVjE7d3JlZj1zcjs%3D&ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -85,7 +85,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             “ขนมเหนียวดังโงะ” เป็นขนมเหนียวแบบไทย ๆ เสิร์ฟในรูปแบบดังโงะญี่ปุ่น อร่อยค่ะ ชอบมาก
             “ขนมเปียกปูนกะทิสด” รสชาติหวานกำลังดีเลยค่ะ ใครสนใจทำขนมไทย ที่ร้านมีสอนทำขนมไทยด้วยนะคะ
           </p>
-          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+          <a href="https://www.wongnai.com/restaurants/286750yd-%E0%B8%82%E0%B8%99%E0%B8%A1%E0%B9%84%E0%B8%97%E0%B8%A2%E0%B9%80%E0%B8%AA%E0%B8%99%E0%B9%88%E0%B8%AB%E0%B9%8C-%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88%E0%B8%95%E0%B9%8C-sane-cafe-and-workshop-%E0%B8%AD%E0%B8%B4%E0%B8%AA%E0%B8%A3%E0%B8%A0%E0%B8%B2%E0%B8%9E?ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -98,7 +98,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             คาเฟ่เท่ ๆ ที่เต็มไปด้วยกาแฟคุณภาพ พร้อมทั้งมี Workshop
             การทำเครื่องหนังให้เอาไปใช้กันได้ยาว ๆ ทั้งกระเป๋า และเครื่องหนังอื่น ๆ เพียบ
           </p>
-          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+          <a href="https://www.wongnai.com/restaurants/862439zM-the-kafe-by-mha-art-craft" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -124,7 +124,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             แถมยังมีคาเฟ่ให้ได้นั่งพักผ่อนเพลิน ๆ เค้กก็เป็นเอกลักษณ์มาก
           </p>
 
-          <a href="hhttps://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+          <a href="https://www.wongnai.com/restaurants/331686Pl-april-trees-cafe?ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
@@ -140,7 +140,7 @@ import Header_box_central from '../central/Box_menu_central.vue'
             เป็นเมนูจานเดียวง่าย ๆ อย่างข้าวหมูตุ๋น พาสต้า ขนมปังหน้าผักโขมอบชีส
             ส่วนของหวานค่อนข้างเยอะมีทั้งเบเกอรี ขนมเปี๊ยะ ขนมไทยอย่างขนมต้ม และไอศกรีมโฮมเมดหลายรส
           </p>
-          <a href="https://www.wongnai.com/news/cafe-workshop?ref=ct" class="btnLink_c">
+          <a href="https://www.wongnai.com/restaurants/329313XV-a-clay-cafe?ref=ct" class="btnLink_c">
             แสดงข้อมูลเพิ่มเติม</a
           >
         </div>
