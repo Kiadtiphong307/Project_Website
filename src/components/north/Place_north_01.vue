@@ -15,8 +15,7 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
         <img
           src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%);max-height: 500px;"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -90,14 +89,6 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
     justify-items: center;
     align-items: center;
   }
-  .imgTitle {
-    max-width: 100%;
-    background-position: left bottom;
-    background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    background-image: url(https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg);
-  }
   .btn_cart-n1 {
     padding: 5px;
     color: white;
@@ -120,7 +111,7 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
     align-items: center;
     margin-inline: 170px;
     margin-block: 5px;
-    width: 1000px;
+
     border-bottom: 2px solid;
   }
   .RPage-n1 {
@@ -131,11 +122,11 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
     align-items: center;
     margin-inline: 170px;
     margin-block: 5px;
-    width: 1000px;
+
     border-bottom: 2px solid;
   }
   .imgBow {
-    max-width: 880px;
+    max-width: 100%;
     margin: 10px;
   }
   .container_text {
@@ -174,14 +165,6 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
     justify-items: center;
     align-items: stretch;
   }
-  .imgTitle {
-    max-width: 100%;
-    background-position: left bottom;
-    background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    background-image: url(https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg);
-  }
   .btn_cart-n1 {
     padding: 5px;
     color: white;
@@ -215,7 +198,7 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
     border-bottom: 2px solid;
   }
   .imgBow {
-    max-width: 880px;
+    max-width: 100%;
     margin: 10px;
   }
   .textConten-n1 {

@@ -14,13 +14,12 @@ const item_advice_north_03_all = ref(item_advice_north_03.item_advice_north_list
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://scontent.fbkk4-2.fna.fbcdn.net/v/t1.15752-9/370234447_887428248879573_1573601828990633777_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFvncWOIQE4gNFPBHf7Kkk-z6CdhNqNuWTPoJ2E2o25ZJHA2SaJM74vlVf6ku2_6n0FhoWwjPQr2hXaNC1D9v9h&_nc_ohc=mjlDT-XOHPcAX8ZFPOL&_nc_ht=scontent.fbkk4-2.fna&_nc_e2o=f&oh=03_AdQ4JCstMyiICS6a1ajziJZKdqVlK4oR9nZq94kTocRb5Q&oe=65531F8C"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%);max-height: 500px;"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <div class="carousel-caption d-none d-md-block">
       <h5 class="display-3">ห้วยกุ๊บกั๊บ</h5>
       <p>แหล่งธรรมชาติที่สวยงามคุ้มค่ากับการมาท่องเที่ยว</p>
       </div>

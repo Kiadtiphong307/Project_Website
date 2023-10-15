@@ -14,13 +14,12 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://scontent.fbkk4-4.fna.fbcdn.net/v/t1.15752-9/387478145_711237554187200_734508528323400992_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHSd8nF5zRDXMSQAAFvpMhjm7Ru2APVL3ibtG7YA9UveDyGF2LfuQx8pi3ths0NPmEc4MRi5aaB0MVg09j29oNf&_nc_ohc=YFxwDA7i1poAX_2zbDu&_nc_ht=scontent.fbkk4-4.fna&_nc_e2o=f&oh=03_AdS4GH8KMzaMSsNts3KRj-UKa_RyJYjN4wMlU0YFqNLOYg&oe=65533FAD"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%);max-height: 500px;"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <div class="carousel-caption d-none d-md-block" >
       <h5 class="display-3">ผาพญากูปรี</h5>
       <p>ผาพญากูปรี อ.ภูสิงห์ จ.ศรีสะเกษ</p>
       </div>

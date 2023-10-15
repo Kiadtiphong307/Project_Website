@@ -8,20 +8,19 @@ const item_advice_north_05 = item_advice_north_05Store()
 const item_advice_north_05_all = ref(item_advice_north_05.item_advice_north_list_05)
 </script>
 <template>
-    <!-- แถบ ภาพ  -->
-    <div class="carousel-inner">
+  <!-- แถบ ภาพ  -->
+  <div class="carousel-inner">
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://scontent.fbkk4-3.fna.fbcdn.net/v/t1.15752-9/387617313_715523600594829_173210498840244655_n.png?_nc_cat=100&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF4Z6tkTav_KVlF_q1hR5GUnVC6-HWH3PSdULr4dYfc9H_WYyCQcBYSLeiBVtNHn-Dm4AgZA-RozbArF6xnAjbZ&_nc_ohc=hK31c2-82W8AX_ubKbg&_nc_ht=scontent.fbkk4-3.fna&_nc_e2o=f&oh=03_AdREynRTiOxTi9rRDmvgh9Dc7tq5Tg8UV3kxlYMSzdn_Ow&oe=65532A63"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%); max-height: 500px"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-      <h5 class="display-3">เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</h5>
-      <p>อุทยานแห่งชาติที่ควรมาเยือนซักครั้ง</p>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="display-3">เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</h5>
+        <p>อุทยานแห่งชาติที่ควรมาเยือนซักครั้ง</p>
       </div>
     </div>
   </div>
@@ -36,7 +35,7 @@ const item_advice_north_05_all = ref(item_advice_north_05.item_advice_north_list
         src="https://i.pinimg.com/564x/e5/98/6e/e5986ead821600e86c01eac7079d1bf6.jpg"
         class="imgBow"
       />
-      <div style="margin-block: 10px;">
+      <div style="margin-block: 10px">
         <h2 class="card-title">เขื่อนแม่งัด อุทยานแห่งชาติศรีลานนา</h2>
         <p class="textConten-n5">
           เขื่อนแม่งัด ตั้งอยู่ในเขตอุทยานแห่งชาติศรีลานนา จังหวัดเชียงใหม่ และอยู่ไม่ไกลจาก
