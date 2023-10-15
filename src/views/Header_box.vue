@@ -3,6 +3,8 @@ import { computed, ref } from 'vue'
 import { accounts } from '../stores/Account'
 import { cart } from '../components/shop/Cart_count'
 
+const showPassword = ref(false);
+
 const totalItems = computed(() => cart.value.reduce((acc, item) => acc + item.quantity, 0))
 
 const enteredUsername = ref('')
@@ -69,7 +71,7 @@ const handleLogout = () => {
   localStorage.setItem(localStorageKey, 'false')
 }
 
-const showPassword = ref(false)
+
 </script>
 
 <template>
@@ -268,9 +270,13 @@ const showPassword = ref(false)
                   id="exampleInputPassword"
                   placeholder="กรุณากรอกรหัสผ่านภาษาอังกฤษและตัวเลข ขั้นต่ำ 8 ตัว"
                 />
-                <button class="btn btn-outline-secondary" @click="showPassword = !showPassword">
-                  {{ showPassword ? 'ซ่อน' : 'แสดง' }}รหัสผ่าน
-                </button>
+                <button
+                @click="showPassword = !showPassword"
+                type="button"
+                class="btn btn-outline-secondary"
+              >
+                {{ showPassword ? 'ซ่อนรหัสผ่าน' : 'แสดงรหัสผ่าน' }}
+              </button>
               </div>
             </div>
 
