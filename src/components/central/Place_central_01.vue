@@ -32,7 +32,7 @@
           />
         <div style="margin-block: 10px;">
         <h2 class="card-title"><strong>หอมนสิการ</strong></h2>
-            <p class="h5">
+            <p class="textConten_c1">
               สถานที่ท่องเที่ยวเชิงวัฒนธรรมรูปแบบใหม่ สร้างขึ้นจากศรัทธา
               และแรงบันดาลที่มีต่อพุทธศาสนา ภายในตัวอาคารสีขาวบริสุทธิ์ที่ซ่อนตัวอยู่กลางหุบเขา
               ประกอบด้วยกิจกรรมที่หลากหลาย อาทิ สักการะพระบรมสารีริกธาตุ 18 พระองค์,
@@ -267,7 +267,7 @@
     border-bottom: 2px solid;
   }
   .imgBow_c1 {
-  max-height: 200px;
+  max-height: 180px;
     margin: 10px;
   }
   .textConten_c1 {

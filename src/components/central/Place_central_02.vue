@@ -268,7 +268,7 @@
     border-bottom: 2px solid;
   }
   .imgBow_c2 {
-  max-height: 200px;
+  max-height: 180px;
     margin: 10px;
   }
   .textConten_c2 {

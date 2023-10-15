@@ -29,8 +29,6 @@
             src="https://www.mcot.net/uploads/article/202308/6cad4580c8ef76c3a5c9fc80f0028970.jpg"
             class="imgBow_c3"
             alt="..."
-            width="300"
-            height="300"
           />
         <div style="margin-block: 10px;">
             <h5 class="card-title"><strong>ภูผาแรด</strong></h5>
@@ -270,7 +268,7 @@
     border-bottom: 2px solid;
   }
   .imgBow_c3 {
-  max-height: 200px;
+  max-height: 180px;
     margin: 10px;
   }
   .textConten_c3 {
