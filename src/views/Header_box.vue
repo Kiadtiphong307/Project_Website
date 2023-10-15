@@ -146,6 +146,7 @@ const showPassword = ref(false)
           xmlns="http://www.w3.org/2000/svg"
           width="50"
           height="50"
+          color="white"
           fill="currentColor"
           class="bi bi-person-circle"
           viewBox="0 0 16 16"
