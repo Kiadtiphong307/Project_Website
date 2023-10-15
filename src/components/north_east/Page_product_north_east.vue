@@ -26,65 +26,117 @@ const handleAddToCart = (item) => {
       </div>
     </div>
   </div>
-  
+
   <!-- แถบ menu -->
   <Header_box_north_east></Header_box_north_east>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="conTitle">สินค้าOTOPที่น่าสนใจ</h1>
-    <div class="container_otop">
-      <div class="otop_conten" v-for="(i, index) in otop_north_east_all" :key="index">
-        <img :src="i.img" class="img_otop" />
+    <h1 class="conTitle-ne">สินค้าOTOPที่น่าสนใจ</h1>
+    <div class="container_otop-ne">
+      <div class="otop_conten-ne" v-for="(i, index) in otop_north_east_all" :key="index">
+        <img :src="i.img" class="img_otop-ne" />
         <div>
-          <h5>
+          <h5 class="card-text">
             <strong>{{ i.name }}</strong>
           </h5>
-          <p>
+          <p class="card-text">
             <strong>ประเภท: {{ i.category }}</strong>
           </p>
-          <p>
+          <p class="card-text">
             <strong>ราคา:{{ i.price }} บาท</strong>
           </p>
-          <button type="submit" @click="handleAddToCart(i)" class="btn_cart">ลงตะกร้า</button>
+          <button type="submit" @click="handleAddToCart(i)" class="btn btn-dark">ลงตะกร้า</button>
         </div>
       </div>
     </div>
   </div>
 </template>
 <style scoped>
-.imgTitle {
-  max-width: 100%;
-  background-position: left bottom;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  background-color: bisque;
-  background-image: url();
+@media (min-width: 1030px) {
+  .container_otop-ne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    padding: 40px;
+    row-gap: 10px;
+  }
+  .otop_conten-ne {
+    display: grid;
+    grid-template-columns: 250px auto;
+    justify-items: stretch;
+    column-gap: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+  }
+  .img_otop-ne {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  .btn_cart-ne {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
 }
-.container_otop {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: stretch;
-  align-items: stretch;
-  column-gap: 10px;
-  padding: 40px;
-  row-gap: 20px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container_otop-ne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-inline: 50px;
+  }
+  .otop_conten-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+  .img_otop-ne {
+    max-width: 200px;
+    border-radius: 15px;
+  }
+  .btn_cart-ne {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
 }
-.otop_conten {
-  display: grid;
-  grid-template-columns: 250px auto;
-  justify-items: stretch;
-  margin-block: 10px;
-  column-gap: 10px;
-}
-.img_otop {
-  max-width: 300px;
-  border-radius: 15px;
-}
-.btn_cart {
-  margin-inline: 100px;
-  color: white;
-  background-color: black;
-  border-radius: 10px;
+@media (max-width: 767px) {
+  .container_otop-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  .otop_conten-ne {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-block: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-inline: 10px;
+    max-width: 100%;
+  }
+  .img_otop-ne {
+    max-width: 100%;
+    border-radius: 15px;
+  }
+
 }
 </style>

@@ -37,18 +37,20 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
   <Header_box_north_east></Header_box_north_east>
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 style="text-align: center;border-bottom: 2px solid;">สถานที่ท่องเที่ยวที่น่าสนใจของภาคตะวันออกเฉียงเหนือ</h1>
+    <h1 style="text-align: center; border-bottom: 2px solid">
+      สถานที่ท่องเที่ยวที่น่าสนใจของภาคตะวันออกเฉียงเหนือ
+    </h1>
     <div class="container_all-ne">
       <!--box1 รูปท่างซ้าย-->
       <div class="LPage-ne">
-        <div class="Limg" >
+        <div class="Limg">
           <img
             src="https://lh4.googleusercontent.com/Mc0-OrfmiXbQRT_8bJS8uE9wBluOGRzrPivzIlOKqwV8uP1d0eEsRkgjLhsvuWkJO-9Rbewrw6V6SCKK4JIyQ3nuzts_Ye30KBM_BOA1JQSGysKb5BO5DWEMd9zYKBdZhF9hXDxL-Syi1uUGgLtSgA"
             class="imgBow"
           />
         </div>
         <div class="container_text-ne">
-          <h5 class="card-title">Zero Fat In Buriram</h5>
+          <h5>Zero Fat In Buriram</h5>
           <p class="card-text-ne">
             ZERO FAT In Buriram ที่มีคติประจำร้าน และเป็นที่ชื่นชอบสำหรับหนุ่มสาวรักสุขภาพสายเฮลตี้
             คือ “ทุกเมนูของร้าน ZERO FAT In Buriram แห่งนี้ มีรสชาติหวานแบบไม่มีน้ำตาล”
@@ -64,7 +66,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
       <!--box2 รูปขวา-->
       <div class="RPage-ne">
         <div class="container_text-ne">
-          <h5 class="card-title">T taste. Khamriang.</h5>
+          <h5>T taste. Khamriang.</h5>
           <p class="card-text-ne">
             "T taste. Khamriang
             โดยคาเฟ่แห่งนี้มีความโดดเด่นด้านธรรมชาติที่ตกแต่งด้วยต้นไม้ขนาดใหญ่ให้ปกคลุมร่มเงานของแดด
@@ -95,7 +97,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
           />
         </div>
         <div class="container_text-ne">
-          <h5 class="card-title">Zen cafe & restaurant</h5>
+          <h5>Zen cafe & restaurant</h5>
           <p class="card-text-ne">
             Zen cafe & restaurant เป็นคาเฟ่ใน จ.ยโสธร ที่เป็นการผสมผสานระหว่าง คาเฟ่ ร้านอาหาร
             และที่พักภายในธรรมชาติ อีกทั้งที่พื้นที่ตั้งอยู่ไม่ไกลจากถนนสายหลักของเมือง
@@ -112,7 +114,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
       <!--box4 รูปขวา-->
       <div class="RPage-ne">
         <div class="container_text-ne">
-          <h5 class="card-title">Ob-uan homemade cakery</h5>
+          <h5>Ob-uan homemade cakery</h5>
           <p class="card-text-ne">
             อบ-อวล คาเฟ่ มีพื้นที่ตั้งอยู่ใน อ.เมือง จ.ร้อยเอ็ด
             ที่มีชื่อเสียงโด่งดังมายาวนานจากการทำขนมเค้ก ที่มีรสชาติที่ถูกลิ้นของชาว จ.ร้อยเอ็ด
@@ -139,7 +141,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
           />
         </div>
         <div class="container_text-ne">
-          <h5 class="card-title">ภิรมย์บุรี</h5>
+          <h5>ภิรมย์บุรี</h5>
           <p class="card-text-ne">
             ภิรมย์บุรี ได้รับความนิยมเป็นอย่างมากจากการตกแต่งร้านที่ถูกใจวัยรุ่นชาวสกลนคร
             โดยทางร้านมีพื้นที่สำหรับถ่ายรูปแนวๆ หลายมุม อีกทั้งยังมีกาแฟ
@@ -152,12 +154,12 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
           >
         </div>
       </div>
+      <a
+        href="https://cafeuc.org/%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87-21-9/5-%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88-%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99/"
+        class="btnLink"
+        >ขอบคุณข้อมูลอ้างอิงจาก</a
+      >
     </div>
-    <a
-      href="https://cafeuc.org/%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88%E0%B9%83%E0%B8%99%E0%B9%80%E0%B8%A1%E0%B8%B7%E0%B8%AD%E0%B8%87-21-9/5-%E0%B8%84%E0%B8%B2%E0%B9%80%E0%B8%9F%E0%B9%88-%E0%B9%81%E0%B8%99%E0%B8%B0%E0%B8%99%E0%B8%B3%E0%B8%A0%E0%B8%B2%E0%B8%84%E0%B8%AD%E0%B8%B5%E0%B8%AA%E0%B8%B2%E0%B8%99/"
-      class="btnLink"
-      >ขอบคุณข้อมูลอ้างอิงจาก</a
-    >
   </div>
 </template>
 <style scoped>
@@ -191,7 +193,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     grid-template-columns: 350px auto;
     column-gap: 20px;
     justify-items: center;
-    margin-block: 25px;
+    margin-block: 10px;
     width: 1000px;
     border-bottom: 2px solid;
   }
@@ -200,7 +202,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     grid-template-columns: auto 300px;
     column-gap: 20px;
     justify-items: center;
-    margin-block: 25px;
+    margin-block: 10px;
     width: 1000px;
     border-bottom: 2px solid;
   }
@@ -216,6 +218,8 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     text-decoration: none;
     color: white;
     padding: 5px;
+    margin-bottom: 10px;
+    text-align: center;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -245,11 +249,11 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
 
   .LPage-ne {
     display: grid;
-    grid-template-columns: 250px auto;
+    grid-template-columns: 300px auto;
     column-gap: 5px;
     max-width: 600px;
     justify-items: stretch;
-    margin-block: 25px;
+    margin-block: 10px;
     border-bottom: 2px solid;
   }
   .RPage-ne {
@@ -258,7 +262,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     column-gap: 5px;
     max-width: 600px;
     justify-items: stretch;
-    margin-block: 25px;
+    margin-block: 10px;
     border-bottom: 2px solid;
   }
   .container_text-ne {
@@ -274,6 +278,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     text-decoration: none;
     color: white;
     padding: 5px;
+    margin-bottom: 10px;
   }
 }
 @media (max-width: 767px) {
@@ -295,7 +300,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
     justify-items: center;
   }
   .imgBow {
-    max-height: 200px;
+    max-height: 150px;
     margin: 10px;
   }
   .LPage-ne {
@@ -319,14 +324,15 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
   }
   .card-text-ne {
     padding: 20px;
-    height: 100px;
+    height: 150px;
     overflow: auto;
   }
   .btnLink {
     background-color: black;
     text-decoration: none;
     color: white;
-    padding: 5px;
+    padding: 2px;
+    margin-bottom: 10px;
   }
   .container_text-ne {
     padding: 20px;
