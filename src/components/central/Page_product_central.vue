@@ -33,15 +33,13 @@ const handleAddToCart = (item) => {
 
   <!--กิจกรรมที่น่าสนใจ-->
   <div class="container">
-    <h1 class="textcenter"><strong>สินค้าOTOPที่น่าสนใจ</strong></h1>
+    <h1 class="text-center"><ins><strong>สินค้าOTOPที่น่าสนใจ</strong></ins></h1>
     <hr />
 
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      <div class="col" v-for="(i, index) in otop_central_all" :key="index">
-        <div
-          class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
-        >
-          <img :src="i.img" class="rounded float-start" alt="..." width="300" height="300" />
+    <div class="container_otop_c">
+      <div class="otop_conten_c" v-for="(i, index) in otop_central_all" :key="index">
+
+          <img :src="i.img" class="img_otop_c"/>
           <div class="card-body">
             <h5 class="card-title">
               <strong>{{ i.name }}</strong>
@@ -65,12 +63,112 @@ const handleAddToCart = (item) => {
         </div>
       </div>
     </div>
-  </div>
 </template>
 <style scoped>
-.textcenter {
-  text-align: center;
-  margin-inline: 420px;
-  border-bottom: 2px solid;
+@media (min-width: 1030px) {
+  .imgTitle {
+    max-width: 100%;
+    padding-block: 200px;
+    background-image: url(https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/386458934_311035248223132_1537075123796840911_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHmjzl-csr_jQ4WrrpwRuod4krk1349mwTiSuTXfj2bBLrzIlfHSmwW4f_E_04E6izxstTVXcRbJ-B5Ic7nZV3I&_nc_ohc=KfEJuQcp78MAX83axBf&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=f&oh=03_AdSXziZrrDiifiUtEgjSiTWa0YwkFPjXoOOka_t3c0H0JA&oe=654E4617);
+  }
+  .container_otop_c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    padding: 40px;
+    row-gap: 10px;
+  }
+  .otop_conten_c {
+    display: grid;
+    grid-template-columns: 250px auto;
+    justify-items: stretch;
+    column-gap: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-block: 20px;
+  }
+  .img_otop_c {
+    max-width: 300px;
+    border-radius: 15px;
+  }
+  .btn_cart_c {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .imgTitle_c {
+    max-width: 100%;
+    padding-block: 200px;
+    background-image: url(https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/386458934_311035248223132_1537075123796840911_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHmjzl-csr_jQ4WrrpwRuod4krk1349mwTiSuTXfj2bBLrzIlfHSmwW4f_E_04E6izxstTVXcRbJ-B5Ic7nZV3I&_nc_ohc=KfEJuQcp78MAX83axBf&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=f&oh=03_AdSXziZrrDiifiUtEgjSiTWa0YwkFPjXoOOka_t3c0H0JA&oe=654E4617);
+  }
+  .container_otop_c {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    column-gap: 20px;
+    row-gap: 10px;
+    padding-inline: 50px;
+  }
+  .otop_conten_c {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+    padding-block: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+  }
+  .img_otop_c {
+    max-width: 200px;
+    border-radius: 15px;
+  }
+  .btn_cart_c {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .imgTitle_c {
+    max-width: 100%;
+    padding-block: 200px;
+    background-image: url(https://scontent.fbkk12-1.fna.fbcdn.net/v/t1.15752-9/386458934_311035248223132_1537075123796840911_n.png?_nc_cat=107&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeHmjzl-csr_jQ4WrrpwRuod4krk1349mwTiSuTXfj2bBLrzIlfHSmwW4f_E_04E6izxstTVXcRbJ-B5Ic7nZV3I&_nc_ohc=KfEJuQcp78MAX83axBf&_nc_ht=scontent.fbkk12-1.fna&_nc_e2o=f&oh=03_AdSXziZrrDiifiUtEgjSiTWa0YwkFPjXoOOka_t3c0H0JA&oe=654E4617);
+  }
+  .container_otop_c {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+  }
+  .otop_conten_c {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    row-gap: 10px;
+    padding-block: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-inline: 10px;
+  }
+  .img_otop_c {
+    max-width: 200px;
+    border-radius: 15px;
+  }
+  .btn_cart_c {
+    margin-inline: 100px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+  }
 }
 </style>
