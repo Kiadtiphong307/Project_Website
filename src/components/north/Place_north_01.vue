@@ -20,8 +20,8 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-      <h5 class="display-3">ประตูท่าแพ</h5>
-      <p>จุดถ่ายรูปที่ไม่ควรพลาด</p>
+        <h5 class="display-3">ประตูท่าแพ</h5>
+        <p>จุดถ่ายรูปที่ไม่ควรพลาด</p>
       </div>
     </div>
   </div>
@@ -35,14 +35,13 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
         src="https://i.pinimg.com/564x/46/7e/85/467e85d04949954473e824aae11cc891.jpg"
         class="imgBow"
       />
-      <div style="margin-block: 10px;">
+      <div style="margin-block: 10px">
         <h2 class="card-title">ประตูท่าแพ</h2>
         <p class="textConten-n1">
           ประตูท่าแพ ถือเป็นอีกหนึ่งจุดถ่ายภาพเช็คอินที่ห้ามพลาดของจังหวัดเชียงใหม่
           เพราะเป็นสถานที่ยอดนิยมของนักท่องเที่ยวที่รู้จักกันดีเมื่อมาที่นี่
           นับว่าเป็นจุดไฮไลท์ที่จะต้องมาเก็บภาพ ไม่ว่าจะเป็นภาพนิ่ง หรือภาพเคลื่อนไหวกับนกพิราบ
         </p>
-        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-n1">อ่านเพิ่มเติม</a>
       </div>
     </div>
     <!--box รูปขวา-->
@@ -55,11 +54,16 @@ const item_advice_north_01_all = ref(item_advice_north_01.item_advice_north_list
           วางตำแหน่งเยื้องกันและมีป้อมยื่นออกมาข้างประตูเมือง
           เพื่อใช้เป็นปราการป้องกันเมืองยามศึกสงครามในอดีต
         </p>
+        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-n1"
+          >อ่านเพิ่มเติม</a
+        >
       </div>
-      <img
-        src="https://i.pinimg.com/564x/9f/84/9b/9f849babe21739644bcca118cf0bbe29.jpg"
-        class="imgBow"
-      />
+      <div class="Rimg">
+        <img
+          src="https://i.pinimg.com/564x/9f/84/9b/9f849babe21739644bcca118cf0bbe29.jpg"
+          class="imgBow"
+        />
+      </div>
     </div>
     <!-- สิ่งของแนะนำขาย -->
     <h1 style="text-align: center">สิ่งที่ควรเตรียมไป</h1>

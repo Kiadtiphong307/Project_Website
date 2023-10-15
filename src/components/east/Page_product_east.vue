@@ -40,7 +40,7 @@ const handleAddToCart = (item) => {
       <div class="otop_conten_e" v-for="(i, index) in otop_east_all" :key="index">
           <img :src="i.img" class="img_otop_e"/>
           <div class="card-body">
-            <h5 class="card-title">
+              <h5 class="card-text mb-auto">
               <strong class="h3">{{ i.name }}</strong>
             </h5>
             <p class="card-text">
