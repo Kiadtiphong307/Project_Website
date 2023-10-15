@@ -18,10 +18,10 @@ const handleAddToCart = (item) => {
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://scontent.fbkk29-4.fna.fbcdn.net/v/t1.15752-9/370294893_635112385484009_6360565414414864349_n.png?_nc_cat=111&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFN-Uoualpdjc0hUPbf9ZUjOGNwyUgeCMU4Y3DJSB4IxSi3r1kaABL_OJejKEqUtaUmMnl2SEwZmTwPzlcNGAt6&_nc_ohc=-IP8fAILOosAX9GIcSe&_nc_ht=scontent.fbkk29-4.fna&oh=03_AdQQ5YuQcEao1zfVWpJPSicHRksjBoTqTt4W30TD6yyv1Q&oe=654E308E"
+          src="https://scontent.fbkk4-5.fna.fbcdn.net/v/t1.15752-9/369856938_234627502927085_3172637021821908409_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF9P09NOsZztXf94q-0ojllMxDUej5H20MzENR6PkfbQxmB87NVFcCKQBQ6HCfHq3R3UNlwVipdXLiUBYY8IVoI&_nc_ohc=vke8og1aUR0AX_RhGqc&_nc_ht=scontent.fbkk4-5.fna&_nc_e2o=f&oh=03_AdREnFjitQ0a9arszK_-XwJ0VZb5vBgw1I7PnUI7t_9n_A&oe=655357D0"
           class="d-block w-100"
           alt="..."
-          height="450"
+          style="max-height: 500px;"
         />
       </div>
     </div>
@@ -64,8 +64,9 @@ const handleAddToCart = (item) => {
   }
   .otop_conten-ne {
     display: grid;
-    grid-template-columns: 250px auto;
+    grid-template-columns: 300px auto;
     justify-items: stretch;
+    align-items: center;
     column-gap: 10px;
     border: 1px solid;
     border-radius: 10px;
@@ -96,6 +97,7 @@ const handleAddToCart = (item) => {
     display: grid;
     grid-template-columns: 1fr;
     justify-items: center;
+    align-items: center;
     row-gap: 10px;
     padding: 10px;
     border: 1px solid;

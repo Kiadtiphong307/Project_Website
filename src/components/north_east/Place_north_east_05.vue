@@ -13,13 +13,12 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://scontent.fbkk3-6.fna.fbcdn.net/v/t1.15752-9/370072521_1767159360395157_5641868215004618720_n.png?_nc_cat=106&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFwonasx3nPmRClq228ls_Gr4sriUP5-AaviyuJQ_n4BvMCx67qubQETSszeKvCrjkD_ygx1F5jBNqFzE9s33Rc&_nc_ohc=GhnVm_X5joMAX_UX_8e&_nc_ht=scontent.fbkk3-6.fna&_nc_e2o=f&oh=03_AdS5rKy0xz7bTGz05mLZ_Rub85qRuROFuLqULXBY98GOhw&oe=65535FDA"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%);max-height: 500px;"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <div class="carousel-caption d-none d-md-block">
         <h5 class="display-3">วัดพุทธวนาราม</h5>
         <p>วัดพุทธวนาราม (วัดป่าวังน้ำเย็น) อ.เมือง จ.มหาสารคาม</p>
       </div>

@@ -12,15 +12,13 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
             <div class="carousel-item active">
               <div class="carousel-image-container">
                 <img
-                  src="https://www.salika.co/wp-content/uploads/2018/05/agriculture-animals-asia-460223.jpg"
+                  src="https://scontent.xx.fbcdn.net/v/t1.15752-9/387324669_886117069526539_1702189566890899816_n.png?_nc_cat=104&ccb=1-7&_nc_sid=510075&_nc_eui2=AeHjqqj-h_FKEPZI5w8AJ9l3zQBai7WwAQjNAFqLtbABCJaQGQTfcPStjgDbeqlh0PyobIa1UKok9T_HPKI-e4Xv&_nc_ohc=qMDyjSZidvIAX9G0d2Z&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&_nc_e2o=f&oh=03_AdT3fQmhp3utNkVEYIWEjT1xtza7gsKtDX0RxZXppGkpuw&oe=65532CBB"
                   class="d-block w-100"
-                  style="filter: brightness(75%); display: block"
-                  height="450"
+                  style="filter: brightness(75%); display: block;"
                 />
               </div>
-
-              <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-                <h5 class="display-3">ภาคตะวันออกเฉียงเหนือ</h5>
+              <div class="carousel-caption d-none d-md-block" >
+                <h5 class="display-3">ภาคอีสาน</h5>
                 <p class="h4">
                   สองนางศาลศักดิ์สิทธ์ อิทธิฤทธิ์หลวงพ่อใหญ่ แหล่งน้ำใสหนองกุดทิง
                   สุดใหญ่ยิ่งแข่งเรือยาว หาดทรายขาวเป็นสง่า น่าทัศนาแก่งอาฮง งามน้ำโขงที่บึงกาฬ
@@ -161,6 +159,7 @@ import Header_box_north_east from '../north_east/Box_menu_north_east.vue'
       >
     </div>
   </div>
+
 </template>
 <style scoped>
 @media (min-width: 1030px) {

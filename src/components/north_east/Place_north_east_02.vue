@@ -13,13 +13,12 @@ const item_advice_north_east_02_all = ref(item_advice_north_east_02.item_advice_
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://scontent.fbkk3-2.fna.fbcdn.net/v/t1.15752-9/369839227_1475009400009377_5314507570066498479_n.png?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeECgD6oouxO75BHSKBHLRPRgoOPJqi1JdSCg48mqLUl1J16rPr29s0V9wf3Sy3qR4jga00KTaPf4qU0Hk4rAqsO&_nc_ohc=xu2btCxRle4AX_BFRor&_nc_ht=scontent.fbkk3-2.fna&_nc_e2o=f&oh=03_AdRk9B0Q7AbaMdfWPo5N-CyewvXsY1GrA6eBVka_-p-cVQ&oe=65533A7E"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%);max-height: 500px;"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <div class="carousel-caption d-none d-md-block">
       <h5 class="display-3">วนอุทยานภูบ่อบิด</h5>
       <p>วนอุทยานภูบ่อบิด อ.เมือง จ.เลย</p>
     </div>

@@ -14,13 +14,12 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://scontent.fbkk4-4.fna.fbcdn.net/v/t1.15752-9/370351708_205696719207025_4055785953824528915_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEzl54mSjEkvipBG1l5BMIfPcrb_-dIeY49ytv_50h5jkidFTHgeB0dPZshzHNc-U_WJk-zZC5vI3Wvs48dCTHr&_nc_ohc=HrorrvbWoKMAX_Sh_Xs&_nc_ht=scontent.fbkk4-4.fna&_nc_e2o=f&oh=03_AdT9dJer-uvxf6xhFQGZLzuxjPKiOYVt6Jvfz-WRQ-6QXA&oe=65533F26"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%);max-height: 500px;"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+      <div class="carousel-caption d-none d-md-block">
       <h5 class="display-3">ชุมชนบ้านปรางค์นคร</h5>
       <p>ชุมชนบ้านปรางค์นคร อ.คง จ.นครราชสีมา</p>
       </div>

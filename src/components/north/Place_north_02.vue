@@ -13,15 +13,14 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
     <div class="carousel-item active">
       <div class="carousel-image-container">
         <img
-          src="https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg"
+          src="https://img.wongnai.com/p/1920x0/2018/09/11/87d33f9b8d34413ba023c77b1f6c3691.jpg"
           class="d-block w-100"
-          style="filter: brightness(75%)"
-          :height="'450'"
+          style="filter: brightness(75%); max-height: 500px"
         />
       </div>
-      <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
-      <h5 class="display-3">สวนสนแม่แตง</h5>
-      <p>สถานที่ที่ร่มรื่นเหมาะกับวันพักผ่อน</p>
+      <div class="carousel-caption d-none d-md-block">
+        <h5 class="display-3">สวนสนแม่แตง</h5>
+        <p>สถานที่ที่ร่มรื่นเหมาะกับวันพักผ่อน</p>
       </div>
     </div>
   </div>
@@ -35,7 +34,7 @@ const item_advice_north_02_all = ref(item_advice_north_02.item_advice_north_list
         src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/12/1-SON00554.jpg"
         class="imgBow"
       />
-      <div style="margin-block: 10px;">
+      <div style="margin-block: 10px">
         <h5 class="card-title">สวนสนแม่แตง</h5>
         <p class="textConten-n2">
           สวนสนแม่แตง หรือสวนผลิตเมล็ดพันธ์สองใบ
