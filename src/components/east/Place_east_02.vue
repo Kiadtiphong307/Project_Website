@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-6.fna.fbcdn.net/v/t1.15752-9/387342054_289226447306924_1554262047155648050_n.png?_nc_cat=103&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEm56rGAVBVr1dUfhKwr3OHSnlP-7ZFs_hKeU_7tkWz-CRP2NTw8UFndrJgZpLaTQltYE9_-4qGn0LlG0Rb35te&_nc_ohc=Z5FOhEYxi2QAX-aG5Zj&_nc_ht=scontent.fbkk29-6.fna&oh=03_AdRern_eC5BKFwUO2KuJFzmmIVjUwMLRGQrRu9mCIsA_8g&oe=65531279"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -47,7 +47,7 @@
           รับรองว่าถูกใจลูกหลานพญานาคสายมูอย่างแน่นอน โดยเปิดให้เข้าชมทุกวัน ตั้งแต่เวลา 07.00-17.00
           น.
         </p>
-        <a class="btn_cart_e2" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a>
+        <a class="btn_cart_e2" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1">อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://s359.kapook.com/r/600/auto/pagebuilder/e112209a-ad9a-4e39-bfa7-9b9e2475f31e.jpg"

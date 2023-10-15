@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-9.fna.fbcdn.net/v/t1.15752-9/370289853_677436577690801_7346062393919505792_n.png?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEtf9ZUeJBbTvm83FIwJ3ZWpMo2KYokTW-kyjYpiiRNb8yFq5AbMdaE4GCwSqM5nL3OqZbzi2bqLbDSAqGHI7aJ&_nc_ohc=xG4gN9GcnB4AX_H-7E5&_nc_ht=scontent.fbkk29-9.fna&oh=03_AdQ_48y5S0FByNmaX8QWfAEUiJvC1mUbDp-yArROQGljlw&oe=6552FA14"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -51,8 +51,8 @@
           ลูกหลานพญานาคทราบแล้วเตรียมชุดเปียกด่วน
           นักท่องเที่ยวสามารถเข้าผจญภัยเมืองบาดาลได้ตลอดทั้งปี ตั้งแต่เวลา 10.00-16.00 น.
         </p>
-        <a class="btn_cart_e5" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-          >อ้างอิงมาจาก</a>
+        <a class="btn_cart_e5" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1"
+          >อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://s.isanook.com/tr/0/ui/282/1412293/aaf868be79ff968a950292bf72058d9b_1538133839.jpg"

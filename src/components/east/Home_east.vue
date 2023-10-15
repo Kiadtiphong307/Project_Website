@@ -134,7 +134,7 @@ import Header_box_east from '../east/Box_menu_east.vue'
             หรือจะเอาโน้ตบุ้คมานั่งทำงานก็ได้ ปลั้กเพียบ เจ้าของร้านใจดี
             มีแมวน้อยตัวจิ๋วแวะมาเล่นเป็นเพื่อนไม่มีเหงาแน่นอน
           </p>
-          <a href=" https://www.facebook.com/3-of-H" class="btnLink_e"> แสดงข้อมูลเพิ่มเติม</a>
+          <a href="https://www.facebook.com/kin.kengg1" class="btnLink_e"> แสดงข้อมูลเพิ่มเติม</a>
         </div>
         <div class="Rimg_e">
           <img

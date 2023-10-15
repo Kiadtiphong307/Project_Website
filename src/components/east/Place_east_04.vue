@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-6.fna.fbcdn.net/v/t1.15752-9/387329025_1343532069883712_3092022503912891061_n.png?_nc_cat=109&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFf7k4W2A5r5acmicjt4MdOAoyfdhwxjHYCjJ92HDGMdg5SyfxKtrPt34SUUTQj3GggSOzJ4Dp-DXuNmFrUW-3W&_nc_ohc=Cd_JAHLE4r8AX8tTaw5&_nc_ht=scontent.fbkk29-6.fna&oh=03_AdRl1FCHQjAseWyg6FpicxBj_uVhg8xvXdodKkV076vMQg&oe=6553139B"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -52,8 +52,8 @@
               ที่อยากให้ผู้คนมาลิ้มลองด้วยตัวเอง นักท่องเที่ยวสามารถท่องเที่ยวได้ตลอดทั้งปี
               กิจกรรมพิเศษอย่างนั่งเรือลอดถ้ำ จะจัดขึ้นในช่วงฤดูฝน ตั้งแต่เดือนกรกฎาคม-พฤศจิกายน
             </p>
-            <a class="btn_cart_e4" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_e4" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1"
+        >อ่านเพิ่มเติม</a>
           </div>
           <img
             src="https://img.salehere.co.th/p/1200x0/2022/06/07/3eqtb380isly.jpg"

@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/387519680_874205577375019_4751885481233347889_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeH_nSXd_vYX9cdMrEi2XSK48kDu0gK9P73yQO7SAr0_vW9PdnnUxU7cPHRhYCpxfaYOQaO27DkPUNDyVaDhldnn&_nc_ohc=whj_SFVPOOkAX_t7bC8&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdSTlgyqZn1KBFpBFpIoevRPXaDf2bBcfyFNp14dNUptVQ&oe=6550915C"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -49,7 +49,7 @@
               ส่วนผู้ที่มาก็จะได้ซึมซับหลักธรรมแบบครบรส ทั้งตาดู หูฟัง สมองคิด และกายปฏิบัติ
               ถือเป็นธรรมะคอมมูนิตี้แบบครบวงจรอย่างแท้จริง
             </p>
-            <a class="btn_cart_c1" href="https://travel.trueid.net/detail/kW22p6w5JexW"
+            <a class="btn_cart_c1" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1"
         >อ่านเพิ่มเติม...</a
       >
           </div>

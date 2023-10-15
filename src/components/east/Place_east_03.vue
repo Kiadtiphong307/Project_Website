@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-9.fna.fbcdn.net/v/t1.15752-9/387512583_318542597541347_4731118519752174230_n.png?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeFFic1e4b95tBb8ebmGZJjkKRrI8GnCKLgpGsjwacIouB1fckkIAkU4pmqekkwjWQvhShFURaDfvdUMM2c-LRV2&_nc_ohc=khoiyq8T2j8AX-2nwcs&_nc_oc=AQmJSaTLrmpX_7IkJkTP1hNXSCBSE6IpvYhagLT5Ok2bFVIA-pyu7K7_4ggQvK1sVlw&_nc_ht=scontent.fbkk29-9.fna&oh=03_AdQ_yxxgJm-j0LxCjDZtKU-TDkMyeCnupmKm3Wt_6fHtZA&oe=6552F074"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -51,7 +51,7 @@
           นี่คือจุดชมพระอาทิตย์ตกทะเลแห่งใหม่ ที่เต็มไปด้วยความน่าประทับใจของเมืองแปดริ้ว วัดหงษ์ทอง
           เปิดทุกวัน เวลา 06.00-18.00 น.
         </p>
-        <a class="btn_cart_e3" href="https://travel.trueid.net/detail/kW22p6w5JexW">อ้างอิงมาจาก</a>
+        <a class="btn_cart_e3" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2709207?gallery_id=1">อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://apis.sawasdee.ai/microsite/images/post/ckeditor/image-20230201113610-4.png"

@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/387549372_3644979035771922_6084315774217730756_n.png?_nc_cat=102&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeF470lLJah9CON3rv3uqiI1y8TcxksfG8TLxNzGSx8bxKup_v7a-Tgr8jYv5Ynf9mjNUWIPCtL5cmWCU0G7Ir-R&_nc_ohc=iEXUXmv6HIkAX-DXg6x&_nc_ht=scontent.fbkk29-8.fna&oh=03_AdTyxC5qitnBznUCEsiuusgf1g36WtoEusxJRTKHpw_MMg&oe=65526D7E"
           class="d-block w-100"
           style="filter: brightness(88%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -51,8 +51,8 @@
               และตกแห่งเมืองประจวบ
               ซึ่งเราสามารถมองเห็นความสวยงามของชายหาดบ้านกรูดและทิวมะพร้าวได้ไกลสุดสายตา
             </p>
-            <a class="btn_cart_c5" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_c5" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1"
+        >อ่านเพิ่มเติม</a>
           </div>
           <img
             src="https://www.paiduaykan.com/travel/wp-content/uploads/2021/04/13-SON08053-768x512.jpg"

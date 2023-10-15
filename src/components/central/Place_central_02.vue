@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t1.15752-9/387506915_1715636725567765_7369844422724517203_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGsp7V0dAvO2Mg5E1-lKJJRq3MBPJj1SmyrcwE8mPVKbAXoWpGhYno9i_Ow4xJGyCI1E3VdYE4d1LjB4gq-ESDG&_nc_ohc=DtPett6dBsIAX9gsLKO&_nc_ht=scontent.fbkk29-1.fna&oh=03_AdSPMirtE-raOa3wfCjJIF8gLXpu2IV4TaIKMqR-isfIPQ&oe=6550820E"
           class="d-block w-100"
           style="filter: brightness(90%)"
-          :height="'450'"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -52,8 +52,8 @@
               (ไม่แนะนำให้เดินทางท่องเที่ยวในช่วงฤดูฝน เนื่องจากทางเดินขึ้นถ้ำมีความลาดชัน
               และทางเดินภายในถ้ำลื่น อาจเกิดอันตรายหรืออุบัติเหตุได้)
             </p>
-            <a class="btn_cart_c2" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_c2" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2705387?gallery_id=1"
+        >อ่านเพิ่มเติม</a>
           </div>
           <img
             src="https://f.ptcdn.info/130/073/000/qreblxjeaqierC93qtt-o.jpg"

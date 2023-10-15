@@ -7,7 +7,7 @@
           src="https://scontent.fbkk29-1.fna.fbcdn.net/v/t1.15752-9/370233718_627819136101384_3813810973368825864_n.png?_nc_cat=101&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeEEqmi6JyRR184cLnKfHur1qZER5Z6JX4ipkRHlnolfiDmh7ARp6-B50Zmjh40a7ta6uAPKUMFNCk08nJifMDoB&_nc_ohc=MMf0keR-5FUAX-uZYal&_nc_ht=scontent.fbkk29-1.fna&oh=03_AdSYKKe1CDajp6cVMD0vPQNrJsiW1WjO7LITlu4N517nxA&oe=6552F43C"
           class="d-block w-100"
           style="filter: brightness(75%)"
-          height="550"
+          maxheight="500px"
         />
       </div>
       <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
@@ -56,8 +56,8 @@
               ชุมชนจึงได้ขยายตัว มีการก่อตั้งวัด โรงเรียน สถานีอนามัย พัฒนาระบบสาธารณูปโภคขึ้น
               รวมถึงอุทยานธรรมที่สวยงาม สงบ และร่มรื่นแห่งนี้
             </p>
-            <a class="btn_cart_s1" href="https://travel.trueid.net/detail/kW22p6w5JexW"
-        >อ้างอิงมาจาก</a>
+            <a class="btn_cart_s1" href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2708365 "
+        >อ่านเพิ่มเติม...</a>
           </div>
           <div class="Rimg_s1">
           <img

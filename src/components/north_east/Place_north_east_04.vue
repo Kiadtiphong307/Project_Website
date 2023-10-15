@@ -44,7 +44,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
           OTOP ที่มีของดีน่าสนใจอยู่หลายอย่าง เช่น บ้านเรือนไทยโคราช อายุกว่า 100 ปี
           ที่ปัจจุบันยังมีคนพักอาศัยอยู่จริง
         </p>
-        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-ne4">อ้างอิงมาจาก</a>
+
       </div>
     </div>
     <!--box รูปขวา-->
@@ -57,6 +57,7 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
           ส่วนกิจกรรมพายเรืออีโปงกับชิมอาหารพื้นถิ่นก็ถือว่าน่าสนใจ จัดเป็นของดีสุดคลาสสิกแดนอีสาน
           ที่รักษาคุณค่าวัฒนธรรม ความเชื่อ ที่ไม่จำเป็นต้องจัดฉาก หรือปรุงแต่งใดๆ
         </p>
+        <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158?fbclid=IwAR3356QAvipXvkzqSUgrqKeF6hIL5rJUPkup_WlOEcK-n3myanYsqNhyAAA" class="btn_cart-ne4">อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://www.otoptravel.net/wp-content/uploads/2022/05/45105882_2212080682339742_4720658568611627008_n.jpg"

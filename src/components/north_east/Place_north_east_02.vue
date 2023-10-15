@@ -42,7 +42,7 @@ const item_advice_north_east_02_all = ref(item_advice_north_east_02.item_advice_
           ด้วยระยะทางที่ใกล้จากตัวเมือง จึงนับเป็น ‘หอชมทะเลหมอกใจกลางเมือง’ หนึ่งเดียวในประเทศไทย
           แถมยังเป็นขวัญใจของนักวิ่ง ในการเวียนมาฝึกซ้อมยามเช้ากันอยู่บ่อยๆ
         </p>
-        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-ne2">อ้างอิงมาจาก</a>
+        
       </div>
     </div>
     <!--box รูปขวา-->
@@ -53,6 +53,7 @@ const item_advice_north_east_02_all = ref(item_advice_north_east_02.item_advice_
           การพิชิตยอดภูบ่อบิดเพื่ออากาศบริสุทธิ์ พร้อมชมดวงอาทิตย์ท่ามกลางทะเลหมอกยามเช้า
           จัดว่าเป็นอะไรที่คุ้มค่าแก่การเดินทางมาสัมผัสหมอกกลางเมือง ณ ที่แห่งนี้
         </p>
+        <a href="https://www.thairath.co.th/lifestyle/travel/thaitravel/2707158?fbclid=IwAR3356QAvipXvkzqSUgrqKeF6hIL5rJUPkup_WlOEcK-n3myanYsqNhyAAA" class="btn_cart-ne4">อ่านเพิ่มเติม</a>
       </div>
       <img
         src="https://s.isanook.com/tr/0/ud/286/1434209/t2.jpg?ip/resize/w728/q80/jpg"
