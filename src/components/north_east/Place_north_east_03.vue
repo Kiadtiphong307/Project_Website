@@ -31,26 +31,26 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
   <Header_box_north_east></Header_box_north_east>
   <!-- แถบ เนื้อหา -->
   <!-- box รูปซ้าย -->
-  <div class="container">
-    <div class="LPage">
+  <div class="container-ne3">
+    <div class="LPage-ne3">
       <img
         src="https://img.wongnai.com/p/400x0/2023/01/02/e3524011ac7841cd83d115b0b2d91cf1.jpg"
         class="imgBow"
       />
-      <div class="container_text">
+      <div style="margin-block-end: 10px;">
         <h2 class="card-title">ผาพญากูปรี</h2>
-        <p class="textConten">
+        <p class="textConten-ne3">
           จุดชมวิวที่มีทิวทัศน์สวยตระการตา แถมมีความเป็นมาที่น่าสนใจ
           ที่ตั้งอยู่ในบริเวณที่เคยมีการค้นพบ 'กูปรี' สัตว์ป่าที่สูญพันธุ์ไปแล้วจากสารบบประเทศไทย
           'ผาพญากูปรี' ถือเป็นจุดชมวิวที่มีอากาศเย็นบริสุทธิ์จากแนวเทือกเขาพนมดงรัก
         </p>
-        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart">อ้างอิงมาจาก</a>
+        <a href="https://travel.trueid.net/detail/kW22p6w5JexW" class="btn_cart-ne3">อ้างอิงมาจาก</a>
       </div>
     </div>
     <!--box รูปขวา-->
-    <div class="RPage">
-      <div class="container_text">
-        <p class="card-text">
+    <div class="RPage-ne3">
+      <div>
+        <p class="textConten-ne3">
           ทั้งยังเป็นจุดชมธรรมชาติที่สวยงามของลำห้วยสำราญ แหล่งต้นน้ำสำคัญที่หล่อเลี้ยงชาวศรีสะเกษ
           และยังมีเส้นทางเดินลงไปชมภาพวาดพญากูปรี
           รวมถึงเที่ยวชมน้ำตกพญากูปรีในบริเวณเดียวกันได้อีกด้วย
@@ -63,8 +63,8 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
     </div>
     <!-- สิ่งของแนะนำขาย -->
     <h1 style="text-align: center">สิ่งที่ควรเตรียมไป</h1>
-    <div class="recomen">
-      <div class="re_conten" v-for="(i, index) in item_advice_north_east_01_all" :key="index">
+    <div class="recomen-ne3">
+      <div class="re_conten-ne3" v-for="(i, index) in item_advice_north_east_01_all" :key="index">
         <div>
           <div class="card">
             <img :src="i.img" />
@@ -79,79 +79,224 @@ const item_advice_north_east_01_all = ref(item_advice_north_east_01.item_advice_
   </div>
 </template>
 <style scoped>
-.imgTitle {
-  max-width: 100%;
-  background-position: left bottom;
-  background-size: cover;
-  padding-top: 200px;
-  padding-bottom: 100px;
-  background-image: url(https://i.pinimg.com/564x/a4/11/bf/a411bfbf71e49fc1a525fccf0bbc0d40.jpg);
+@media (min-width: 1030px) {
+  .container-ne3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: center;
+  }
+  .btn_cart-ne3 {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .btn_cart-ne3:hover {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(4, 60, 203);
+    border-radius: 5px;
+  }
+  .LPage-ne3 {
+    display: grid;
+    grid-template-columns: 400px auto;
+    column-gap: 10px;
+    justify-items: stretch;
+    align-items: center;
+    margin-inline: 170px;
+    margin-block: 5px;
+    width: 1000px;
+    border-bottom: 2px solid;
+  }
+  .RPage-ne3 {
+    display: grid;
+    grid-template-columns: auto 400px;
+    column-gap: 1px;
+    justify-items: stretch;
+    align-items: center;
+    margin-inline: 170px;
+    margin-block: 5px;
+    width: 1000px;
+    border-bottom: 2px solid;
+  }
+  .imgBow {
+    max-width: 880px;
+    margin: 10px;
+  }
+  .container_text {
+    padding: 5px;
+  }
+  .textConten {
+    padding: 20px;
+    width: 500px;
+  }
+  .recomen-ne3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    row-gap: 2px;
+    column-gap: 2px;
+    max-width: 1000px;
+    margin-inline: 200px;
+    margin-block: 10px;
+  }
+  .re_conten-ne3 {
+    display: grid;
+    grid-template-columns: 200px auto;
+    column-gap: 10px;
+    justify-items: stretch;
+    align-items: center;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+  }
 }
-.btn_cart {
-  padding: 5px;
-  color: white;
-  text-decoration: none;
-  background-color: black;
-  border-radius: 5px;
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container-ne3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: stretch;
+  }
+  .btn_cart-ne3 {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .btn_cart-ne3:hover {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(4, 60, 203);
+    border-radius: 5px;
+  }
+  .LPage-ne3 {
+    display: grid;
+    grid-template-columns: 300px auto;
+    column-gap: 10px;
+    justify-items: stretch;
+    align-items: center;
+    max-width: 800px;
+    border-bottom: 2px solid;
+  }
+  .RPage-ne3 {
+    display: grid;
+    grid-template-columns: auto 300px;
+    column-gap: 1px;
+    justify-items: stretch;
+    align-items: center;
+    max-width: 800px;
+    border-bottom: 2px solid;
+  }
+  .imgBow {
+    max-width: 880px;
+    margin: 10px;
+  }
+  .textConten-ne3 {
+    padding: 20px;
+    height: 100px;
+    width: 400px;
+    overflow: auto;
+  }
+  .recomen-ne3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    row-gap: 2px;
+    column-gap: 2px;
+    margin-block: 10px;
+    max-width: 900px;
+    max-height: 300px;
+  }
+  .re_conten-ne3 {
+    display: grid;
+    grid-template-columns: 100px auto;
+    column-gap: 10px;
+    justify-items: stretch;
+    align-items: center;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+    box-sizing: content-box;
+  }
 }
-.btn_cart:hover {
-  padding: 8px;
-  color: white;
-  text-decoration: none;
-  background-color: rgb(4, 60, 203);
-  border-radius: 5px;
-}
-.LPage {
-  display: grid;
-  grid-template-columns: 400px auto;
-  column-gap: 10px;
-  justify-items: stretch;
-  align-items: center;
-  margin-inline: 170px;
-  margin-block: 5px;
-  width: 1000px;
-  border-bottom: 2px solid;
-}
-.RPage {
-  display: grid;
-  grid-template-columns: auto 400px;
-  column-gap: 1px;
-  justify-items: stretch;
-  align-items: center;
-  margin-inline: 170px;
-  margin-block: 5px;
-  width: 1000px;
-  border-bottom: 2px solid;
-}
-.imgBow {
-  max-width: 880px;
-  margin: 10px;
-}
-.container_text {
-  padding: 5px;
-}
-.textConten {
-  padding: 20px;
-  width: 500px;
-}
-.recomen {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: stretch;
-  align-items: stretch;
-  row-gap: 2px;
-  column-gap: 2px;
-  max-width: 1000px;
-  margin-inline: 200px;
-  margin-block: 10px;
-}
-.re_conten {
-  display: grid;
-  grid-template-columns: 200px auto;
-  column-gap: 10px;
-  justify-items: stretch;
-  align-items: center;
-  box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
-  padding: 5px;
+@media (max-width: 767px) {
+  .container-ne3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+    justify-items: center;
+    align-items: stretch;
+  }
+  .btn_cart-ne3{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+  }
+  .btn_cart-ne3:hover {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(4, 60, 203);
+    border-radius: 5px;
+  }
+  .LPage-ne3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    border-bottom: 2px solid;
+    margin-block: 5px;
+    max-width: 300px;
+  }
+  .RPage-ne3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    align-items: stretch;
+    justify-items: stretch;
+    max-width: 300px;
+    margin-block: 5px;
+    border-bottom: 2px solid;
+  }
+  .imgBow {
+    max-width: 100%;
+    margin: 10px;
+  }
+  .textConten-ne3 {
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+    overflow: auto;
+  }
+  .recomen-ne3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: stretch;
+    align-items: stretch;
+    row-gap: 2px;
+    column-gap: 2px;
+    margin-block: 10px;
+    max-width: 600px;
+  }
+  .re_conten-ne3 {
+    display: grid;
+    grid-template-columns: 100px auto;
+    column-gap: 10px;
+    justify-items: stretch;
+    align-items: center;
+    box-sizing: content-box;
+    box-shadow: 0px 0px 1px 1px rgba(0, 0, 0, 0.1);
+    padding: 5px;
+  }
 }
 </style>
