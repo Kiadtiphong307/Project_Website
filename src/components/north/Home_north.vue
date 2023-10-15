@@ -3,12 +3,34 @@ import Header_box_north from '../north/box_menu_north.vue'
 </script>
 <template>
   <!-- แถบ ภาพ  -->
-  <div class="imgTitleN">
-    <div class="textTitle-n">
-      <h2>ภาคเหนือ</h2>
-      <p>ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์</p>
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel-image-container">
+                <img
+                  src="https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A"
+                  class="d-block w-100"
+                  style="filter: brightness(75%);"
+                  height="450"
+                />
+              </div>
+
+              <div class="carousel-caption d-none d-md-block" style="padding-bottom: 9rem">
+                <h5 class="display-3">ภาคเหนือ</h5>
+                <p class="h4">
+                  ดอยสุเทพเป็นศรี ประเพณีเป็นสง่า บุปผาชาติล้วนงามตา นามล้ำค่านครพิงค์
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+
   <!-- แถบ menu -->
   <Header_box_north></Header_box_north>
   <!--กิจกรรมที่น่าสนใจ-->
@@ -146,23 +168,16 @@ import Header_box_north from '../north/box_menu_north.vue'
   </div>
 </template>
 
-<style>
+<style scoped>
 @media (min-width: 1030px) {
   .container_all-n {
     display: grid;
     grid-template-columns: 1fr;
-    justify-items: stretch;
-    align-items: stretch;
+    justify-items: center;
+    align-items: center;
     row-gap: 1px;
   }
-  .imgTitleN {
-    max-width: 100%;
-    background-position: left bottom;
-    background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
-  }
+
   .textTitle-n {
     color: white;
     text-align: center;
@@ -197,7 +212,6 @@ import Header_box_north from '../north/box_menu_north.vue'
     grid-template-columns: 240px auto;
     column-gap: 50px;
     justify-items: stretch;
-    margin-inline: 170px;
     margin-block: 25px;
     width: 1000px;
     border-bottom: 2px solid;
@@ -207,7 +221,6 @@ import Header_box_north from '../north/box_menu_north.vue'
     grid-template-columns: auto 300px;
     column-gap: 20px;
     justify-items: stretch;
-    margin-inline: 170px;
     margin-block: 25px;
     width: 1000px;
     border-bottom: 2px solid;
@@ -225,13 +238,6 @@ import Header_box_north from '../north/box_menu_north.vue'
     color: white;
     padding: 5px;
   }
-  .container_all {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-items: stretch;
-    align-items: stretch;
-    row-gap: 1px;
-  }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .container_all-n {
@@ -241,14 +247,7 @@ import Header_box_north from '../north/box_menu_north.vue'
     align-items: center;
     row-gap: 1px;
   }
-  .imgTitleN {
-    max-width: 100%;
-    background-position: left bottom;
-    background-size: cover;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
-  }
+
   .textTitle-n {
     color: white;
     text-align: center;
@@ -301,7 +300,8 @@ import Header_box_north from '../north/box_menu_north.vue'
   }
   .card-text {
     padding: 20px;
-    height: 100px;
+    height: 150px;
+    width: auto;
     overflow: auto;
   }
   .btnLink {
@@ -318,20 +318,6 @@ import Header_box_north from '../north/box_menu_north.vue'
     justify-items: center;
     align-items: center;
     row-gap: 1px;
-  }
-  .imgTitleN {
-    max-width: 100%;
-    background-position: left bottom;
-    background-size: cover;
-    text-align: center;
-    padding-top: 200px;
-    padding-bottom: 100px;
-    background-image: url(https://scontent.fbkk29-8.fna.fbcdn.net/v/t1.15752-9/370076801_338465975340834_7604343998514706667_n.png?_nc_cat=105&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGC7wiDpzD1UAqaMJYFgLk4KG3xK8yQfQYobfErzJB9BiFbdjMVQs6v_4PAgqCml6GcBM82kCthXdVcxo6wPzZq&_nc_ohc=7GXm7RRaAjIAX-q-YIJ&_nc_ht=scontent.fbkk29-8.fna&_nc_e2o=f&oh=03_AdTbQ1YT_qFLtn0KMhdtBNTJTwn8YQwaxRuo2ZqqUhm7dg&oe=654DD82A);
-  }
-  .textTitle-n {
-    color: white;
-    text-align: center;
-    font-size: x-small;
   }
   .conTitle-n {
     text-align: center;
@@ -376,11 +362,12 @@ import Header_box_north from '../north/box_menu_north.vue'
     border-bottom: 2px solid;
   }
   .container_text {
-    padding: 40px;
+    padding: 10px;
   }
   .card-text {
-    padding: 20px;
+    padding: 10px;
     height: 100px;
+    width: auto;
     overflow: auto;
   }
   .btnLink {
@@ -389,16 +376,7 @@ import Header_box_north from '../north/box_menu_north.vue'
     color: white;
     padding: 5px;
   }
-  .textTitle {
-    color: white;
-    text-align: center;
-    font-size: x-large;
-  }
-  .conTitle {
-    text-align: center;
-    margin-inline: 300px;
-    border-bottom: 2px solid;
-  }
+
   .Limg {
     display: grid;
     grid-template-columns: 1fr;
@@ -419,7 +397,7 @@ import Header_box_north from '../north/box_menu_north.vue'
     margin: 10px;
   }
   .container_text {
-    padding: 40px;
+    padding: 10px;
   }
   .textConten {
     padding: 20px;
